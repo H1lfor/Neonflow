@@ -1,0 +1,7 @@
+{
+  "grace": 0.18, "sampleSpan": 0.12, "inferenceWait": 0.25,
+  "holdThreshold": 0.65, "perfect": 0.85, "good": 0.25,
+  "hp": 100, "damageBudget": 210, "robotError": 0.23,
+  "healingMin": 0.5, "healingMax": 10, "healingExponent": 1.5,
+  "fullAccuracy": 0.64
+}

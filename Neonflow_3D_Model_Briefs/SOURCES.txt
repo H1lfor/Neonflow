@@ -1,0 +1,14 @@
+﻿Техническая часть сверена с официальной документацией Unity 6.
+Дизайн и числовые бюджеты ниже не заимствованы из документации: это ТЗ проекта.
+
+Импорт humanoid-модели, Avatar и проверка T-позы:
+https://docs.unity.com/en-us/engine/6000.0/manual/assets-and-media/asset-types/models/importing/configuringthe-avatar
+
+Семантические кости тела и цепочки пальцев:
+https://docs.unity.com/en-us/engine/6000.0/script-reference/unityengine/humanbodybones
+
+Масштаб модели, единицы и конвертация осей:
+https://docs.unity.com/en-us/engine/6000.3/manual/assets-and-media/asset-types/models/importing/fbximporter-model
+
+URP Lit: Metallic, Smoothness, Normal и Emission:
+https://docs.unity.com/en-us/engine/6000.0/manual/materials-and-shaders/built-in/shaders-in-universalrp/reference/lit-shader

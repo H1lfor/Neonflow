@@ -1,0 +1,11 @@
+﻿asset,left,bottom,right,top
+Boxes/box_idle.png,48,48,48,48
+Boxes/box_current.png,48,48,48,48
+Boxes/box_next.png,48,48,48,48
+Boxes/box_success.png,48,48,48,48
+Boxes/box_miss.png,48,48,48,48
+Boxes/box_disabled.png,48,48,48,48
+Boxes/box_hold.png,48,48,48,48
+Boxes/box_focus.png,48,48,48,48
+Bars/hold_track.png,12,0,12,0
+Bars/hold_fill.png,12,0,12,0

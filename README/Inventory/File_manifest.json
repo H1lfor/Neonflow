@@ -1,0 +1,3441 @@
+{
+  "schemaVersion": 1,
+  "selfExcluded": true,
+  "files": [
+    {
+      "path": "AssetLibrary/AI_TUTORIAL_RU.txt",
+      "bytes": 2897,
+      "sha256": "7e8132e37f929d4e2912564d1f4d7381a984faaa4475e984a66ff4d15a21bd17"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_default_128.png",
+      "bytes": 6813,
+      "sha256": "8073779e9f0f1041ecf439b545daba09d66d9a2b6b32c629c24f2aaabab5ea8c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_default_128.png.meta",
+      "bytes": 3069,
+      "sha256": "703702931ae253125e506b4020687d1aae4ae812a64b6e2e6385906c8ecf1f42"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_default_32.png",
+      "bytes": 1521,
+      "sha256": "987e9254707c455a48ce72002dac349526c64ecbe2180bea8eca756aa8d33f6f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_default_32.png.meta",
+      "bytes": 3069,
+      "sha256": "58d208c323250518a2d343b035b89460073a6a33411916acc902db5fa3819b17"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_default_64.png",
+      "bytes": 3304,
+      "sha256": "9e9b78748eb13b4c9cd8c7bf8f4e81ea85fa237a4409153c0ceeba432c12c230"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_default_64.png.meta",
+      "bytes": 3069,
+      "sha256": "5922eaae938f073da1982a070aa076b4e8c092f9deb42ce2e9a25ddbf175ff02"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_hover_128.png",
+      "bytes": 7305,
+      "sha256": "d39d22b5ae5be37a97b4db836f74886b42a57b39d289180dec8d121164d655bf"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_hover_128.png.meta",
+      "bytes": 3069,
+      "sha256": "bc27d8614f022256b53b623dce6a34efc9d245a24125e18c3003af9735689bb0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_hover_32.png",
+      "bytes": 1607,
+      "sha256": "3e7aba2fe7cd8affb15305fb54be6e837296d56f5333b52fa0db3d5446091546"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_hover_32.png.meta",
+      "bytes": 3069,
+      "sha256": "521e5b8bbe50c0cd54cfec7918d5f38b5bab8b2a170af7d930ee6c27bf73464b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_hover_64.png",
+      "bytes": 3569,
+      "sha256": "3ac1d610662baea180695acad583d1066bdd695228547b514f59f9cdb70ef04c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_hover_64.png.meta",
+      "bytes": 3069,
+      "sha256": "58d66d9a63b4ac12e8e865aac8a57bafd7217711de15dc607e2ec7a917ea7ee3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_pressed_128.png",
+      "bytes": 6908,
+      "sha256": "6ae791c19f10614c5cd8a35ae709567beeada517dbebb7b3f2d08bf1ab7dd0f1"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_pressed_128.png.meta",
+      "bytes": 3069,
+      "sha256": "e2c057cdde37e3bbeb40f76d163070a77fe7ef967c23e440abf709382b48b107"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_pressed_32.png",
+      "bytes": 1618,
+      "sha256": "5d8abd39a54aecc98718554ab771cb1a1a146f1f6b10b43f3c0fdff4b8b45e4f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_pressed_32.png.meta",
+      "bytes": 3069,
+      "sha256": "c434ed6952dd1cb8b92676f6253f5d494012f05419e2337ecbeb164808ee75c2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_pressed_64.png",
+      "bytes": 3365,
+      "sha256": "732de78640bfe3cdd18eedd16960e68c1851c64ea2fa43c0704d36c4951034d5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/cursor_pressed_64.png.meta",
+      "bytes": 3069,
+      "sha256": "3babfb7a7bcb83bc96014bfb8971e027bee04828bcfb528d09b7cf0013f1a165"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/Editor/NeonflowCursorImport.cs",
+      "bytes": 734,
+      "sha256": "7ae585f3c6c912d6002d2ee6e093bc873f384d40644b2301ce80bc80e619998f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/Editor/NeonflowCursorImport.cs.meta",
+      "bytes": 59,
+      "sha256": "a43e583dd742ae917a482149837410b1ad2d8c5b1c96eb2bcb0bd1d8e59b25c3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/Editor.meta",
+      "bytes": 172,
+      "sha256": "b7b6822f15cb109dd6e407d822121ba0676dd1faa38172a4e3ae0d6af48c02a0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/NeonflowCursorController.cs",
+      "bytes": 799,
+      "sha256": "82808452688a2d7c0bce2cea726ea77a5394181287234d398c992de8ad01be6b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/NeonflowCursorController.cs.meta",
+      "bytes": 59,
+      "sha256": "4197065bdf6c713db52a979dee85285892803b3c8e86d714e9523d2181940cc5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/NF_Cursor.prefab",
+      "bytes": 1656,
+      "sha256": "90d327e0021dc77a707a8a5dced6fbd83242b50f1f1089e60743badc07c4c8f0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor/NF_Cursor.prefab.meta",
+      "bytes": 154,
+      "sha256": "3da09a416576c1abcf9e3695e644657ed1a29eeb2b617f9a195be7e4afdfbb6c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowCursor.meta",
+      "bytes": 172,
+      "sha256": "d96dd901c8e9e49bf6d6e19ccd81ad4f2afe38fd559d58bf86b07f28ee59ed59"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_down.png",
+      "bytes": 766,
+      "sha256": "bbca055f94f54a0b1c3be681072222b51fcc203e8418b8eb205910c38d901888"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_down.png.meta",
+      "bytes": 3665,
+      "sha256": "761ce5d481dbe5d3516572a45705d396d751ad195f726ba4ac62984cc335906d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_left.png",
+      "bytes": 611,
+      "sha256": "c2b18387ed69d6c16dedefbbb6002a0e0dca4743611a3a614560cd0da4adafd6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_left.png.meta",
+      "bytes": 3665,
+      "sha256": "21d2fd3dbe864dc6d1337cd94002a2a2946bfaa240ba617d7b72e2dda499f15c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_right.png",
+      "bytes": 666,
+      "sha256": "6061f98f95081e9f1b01484d25fceafbfdec5b275b5a973866adf1bac8572d54"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_right.png.meta",
+      "bytes": 3667,
+      "sha256": "75e93f5ab7092ba89a90422d020dccdb289bfdfc5366f9e1038e61f88adba601"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_up.png",
+      "bytes": 790,
+      "sha256": "05e4f0e0e99678d7ac97c4c053fe4fc6ec13ef147d1d46c02fc178601d4cd512"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows/arrow_up.png.meta",
+      "bytes": 3663,
+      "sha256": "cd1aeabd8ac098b2ae366831427876cfba13fb831c323d9201c7701f9164faee"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Arrows.meta",
+      "bytes": 172,
+      "sha256": "5465046a0bb2f2074c0eaf2c54b490d82cafb2f8dcb94ca1fd72bf5cb7575626"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Bars/hold_fill.png",
+      "bytes": 259,
+      "sha256": "8f3b158778d6fdb4a3c2155962a19bcf26109efddaca0ee5068dff8fab864d92"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Bars/hold_fill.png.meta",
+      "bytes": 3664,
+      "sha256": "49a9e8151cab40e31707dffd57fb8dbc9b1fb8ce3e88d5c832bafe03079069df"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Bars/hold_track.png",
+      "bytes": 258,
+      "sha256": "dcca2da075fa5c75af57ba786bf5c3f7389bacd07f07ece6b280e8ba1b4010d6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Bars/hold_track.png.meta",
+      "bytes": 3666,
+      "sha256": "5c86ec63937935fc94586aa3ccba8e14f38e8e338c72d1174f5615a344dfb260"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Bars.meta",
+      "bytes": 172,
+      "sha256": "bd46179fa949ec518bdbeb5bd0a83cb1bfcc6df7cd52848389fa4fcaa40f4024"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_current.png",
+      "bytes": 5632,
+      "sha256": "119a2aed8b5b2aa59560acf25cc1de5100327db4dce6f26122422054867e3900"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_current.png.meta",
+      "bytes": 3673,
+      "sha256": "534e452271e14474470d50d8e98d6b5ae37e9bf4d23e58dfeee5a3973b28369c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_disabled.png",
+      "bytes": 4620,
+      "sha256": "546c69d5d2e59ce1daa7a314ff937d67d9014ee0051ef79fec218fd3434c0c9b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_disabled.png.meta",
+      "bytes": 3673,
+      "sha256": "362e66f5caf704c2226e66b86c47a89f97f71bc0b8094410fbf7e0e01a764856"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_focus.png",
+      "bytes": 5792,
+      "sha256": "5de96a0e8881667d287f95087880de2f91fb4430010e8e1630103f0c39b6e08f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_focus.png.meta",
+      "bytes": 3669,
+      "sha256": "26397a94bfb08b9e2a643916a14b5490a5256ac3415739a031bfb5a5c362664f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_hold.png",
+      "bytes": 5369,
+      "sha256": "27f5a0ca197d0e63f5eef53d30df24372f444a2ad36859508179a0ab34afe284"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_hold.png.meta",
+      "bytes": 3665,
+      "sha256": "6d65ac9a42cc39a6e97e64e164d4f446dd72279b7a8f8a5cf9ee4fad02db5d40"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_idle.png",
+      "bytes": 5114,
+      "sha256": "7d8fab5d5227c420c4ff9ca2d347b89f3ec0154b6548c6ca44774dbd65a118a0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_idle.png.meta",
+      "bytes": 3665,
+      "sha256": "7419b6ef23e76731bf15b2e81e0d8f0b0ce74a73b4359144903c61b94aadd2af"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_miss.png",
+      "bytes": 5406,
+      "sha256": "ba815573ab4abf9b6437ec06b604579026bb788241be492c8492dbd517baf134"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_miss.png.meta",
+      "bytes": 3667,
+      "sha256": "460e98a1c7115d6972d5b3d4b533688970ef193b0a73f5a9f3d1028b85f66f04"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_next.png",
+      "bytes": 5442,
+      "sha256": "6da5485922ded8a424cf9a03812f459c858150cd8be0bdc6a828ab1abf5d5b34"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_next.png.meta",
+      "bytes": 3665,
+      "sha256": "a9abb083a7de63c84c3634200ac902c00997ca87a217bae4981eafaf4f2eddc5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_success.png",
+      "bytes": 5446,
+      "sha256": "04f7703cb902ece4fa80b964d7c53df9f25db3945a684f17bfd7c78117147ef4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes/box_success.png.meta",
+      "bytes": 3671,
+      "sha256": "99cc9240faf64297a45b258969affcb730b9c1b1aa342578035c3f6656f85a16"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Boxes.meta",
+      "bytes": 172,
+      "sha256": "dbc0bc356124bdd597598adb7bdc115bdccb6b1563aaca3b2f7e4b7252204d1e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Data/FingerCue_rules.json",
+      "bytes": 1873,
+      "sha256": "cf01b90af012ffe92b076b24565b01cb2157dc6654354d6f2f0f3ca62abc7661"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Data/FingerCue_rules.json.meta",
+      "bytes": 158,
+      "sha256": "2b55f23020563ee4caf25ebadb184a5c7922e7d00a500ce3f601a931721f6133"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Data.meta",
+      "bytes": 172,
+      "sha256": "961bf9b0390c46453209887ccf7c50fba177068812b2ddc653fd6a5ba820aec9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Documentation/AI_TUTORIAL_RU.txt",
+      "bytes": 2897,
+      "sha256": "7e8132e37f929d4e2912564d1f4d7381a984faaa4475e984a66ff4d15a21bd17"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Documentation/AI_TUTORIAL_RU.txt.meta",
+      "bytes": 158,
+      "sha256": "848b7aef32413fc11d49518b9fa6bd9adb19b6a6a760a4ca8ce651280df4a606"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Documentation.meta",
+      "bytes": 172,
+      "sha256": "4d5a45791f8740d486a2e959adf3b7b85d6ee14c193a962e96e7a56f33524d87"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Editor/NeonflowMovementBuilder.cs",
+      "bytes": 4832,
+      "sha256": "97a6b47dfca98a0c4603dd5a275eb18ce5bea08a0edd6ab65a57fbe7e2b7c9e5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Editor/NeonflowMovementBuilder.cs.meta",
+      "bytes": 59,
+      "sha256": "e9d9441e3a2803de67446bd0d88086e3018ea91ead21f5036be23fa280587625"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Editor/NeonflowMovementImport.cs",
+      "bytes": 2222,
+      "sha256": "fe08d75363ddd4e91705d9a6d65d6c848701b5a6a215e0260a247e6b2bb438e4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Editor/NeonflowMovementImport.cs.meta",
+      "bytes": 59,
+      "sha256": "d87062256e5cc63ec2bbdc3a95ddb906da66f7690303d0a6e07687c6a94ee800"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Editor.meta",
+      "bytes": 172,
+      "sha256": "284baa880e20f104ba7fc59b1dd6954be9fa97572d270b7dfb5b13fd80c96993"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Fonts/Exo2-OFL.txt",
+      "bytes": 4386,
+      "sha256": "7f95a8eeecc6904ffc81cd10cc8ebc7fcee72a67922924bf45f02dff03b88127"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Fonts/Exo2-OFL.txt.meta",
+      "bytes": 158,
+      "sha256": "d734e9f2f81c64db0f69cee797c1f5f0d12d06a513e69b4480e4289cf339cf24"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Fonts/Exo2-SemiBold.ttf",
+      "bytes": 151376,
+      "sha256": "f5c7fa4bbd8f1a9c4c96fd74ec6600cff90baf10f122c0f80402e2e179f72b3a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Fonts/Exo2-SemiBold.ttf.meta",
+      "bytes": 490,
+      "sha256": "89cc3e64afb637eba91701f39cb7bd50093ae000a056f2e45618ab99a6023ff4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Fonts.meta",
+      "bytes": 172,
+      "sha256": "0c377863d1c008b41164f129adf416b13ab0451faa4e4a19fff356c723d56554"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/fist.png",
+      "bytes": 8899,
+      "sha256": "b6c6fe36aa8c25031922bab52a98d3f13a71cfdf6abc22772a5b72ff1ef007ad"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/fist.png.meta",
+      "bytes": 3655,
+      "sha256": "cdfe6a6c4321b4fc374e6959b0ed1f4fbb85d023e57975a3712babaedd949173"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/four.png",
+      "bytes": 12673,
+      "sha256": "5dfde3f756636a253b3dd5417cdbc20cac47f30d35055b9cd05f379c23fe4327"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/four.png.meta",
+      "bytes": 3653,
+      "sha256": "fa05e9fc6280c3022ee5a5c1165d1470bca7980efd030cc01a97770def3f1327"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/l_shape.png",
+      "bytes": 9234,
+      "sha256": "4408bfe2005dcb1f8b35c3769248a5b60060e2334e01b010ff4dba67680fb015"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/l_shape.png.meta",
+      "bytes": 3659,
+      "sha256": "4cd0f64f0ed893ff2fcee9a846c2b0fc50e031ef6f59b3798c8e4bf1a60efea3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/open.png",
+      "bytes": 13223,
+      "sha256": "b17b39da37760ad31ba9104c317c46ec84f0ab2139120de34a166bdab25017e2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/open.png.meta",
+      "bytes": 3655,
+      "sha256": "b7ba9a653a8e1f0f53d6dd831cf5e4b850f5fc456c75a889e1b10d989d1649a8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/peace.png",
+      "bytes": 11787,
+      "sha256": "1339c472632800240670f3c52269e1a29f24e1dec64ea8454b375bc92894ca68"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/peace.png.meta",
+      "bytes": 3657,
+      "sha256": "115d8916bacd174b1e9b963a6c4b925182052eac696641ae5b24a7055e37048a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/point.png",
+      "bytes": 9293,
+      "sha256": "fc6a27634a705d9b2e336d14435210d7137460b407c89b369000b89923b3e065"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/point.png.meta",
+      "bytes": 3655,
+      "sha256": "f030cd9c47f81ed66d482897b0a9f76d5fc2de53e0636d2ac7ca52e6a13df55a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/point_side.png",
+      "bytes": 8503,
+      "sha256": "e625cdd3eeddeb99c5e42b802374b60482c57f6c7f32dd208cc5c3e7759f7b32"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/point_side.png.meta",
+      "bytes": 3667,
+      "sha256": "e7870ce0172e220a26c5e5459212af27d0505bcc423da15a4f0ff9bee5f2a220"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/rock.png",
+      "bytes": 11435,
+      "sha256": "be30f66bcd94787cdf4bba099de74be748be71662218004bb0dcf5aece349973"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/rock.png.meta",
+      "bytes": 3655,
+      "sha256": "26c8700bc9a623646ffee7ef60ca0a4a83c3dbe4b6c96c96076efeef23e85b8b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/three.png",
+      "bytes": 11569,
+      "sha256": "b6cc39bb1b902ac9750ecb9fd6e198e37586fdb50662d1f38711b47a3a8c322b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/three.png.meta",
+      "bytes": 3655,
+      "sha256": "eec7978f983e60ecf2c91af93ebdbb50eef1ebd2b1bbe8a78f7e16368fb6b3a0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/thumb_up.png",
+      "bytes": 7547,
+      "sha256": "33e4ed7ff3324ae98ad7a786b0889cfa69c303f75a42d90564430f10e4e64b3f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands/thumb_up.png.meta",
+      "bytes": 3661,
+      "sha256": "9e14141cf4af0147f7a0ad3c7dadedfbbf6857f7a53fbc67fb18005dce970561"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Hands.meta",
+      "bytes": 172,
+      "sha256": "c221f48f6870a957583b39701f8d9f9108e650c923264e2d9f212d46547c0446"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/manifest.json",
+      "bytes": 6197,
+      "sha256": "4ddcc165ba7b017339442bc2c81911b12bbc016f42810e489c5b9b3f6ca8b004"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/manifest.json.meta",
+      "bytes": 158,
+      "sha256": "c4fd7b8845e63aa2fbe7f0d5c5825f8998b84205d4be0687649c8262fead7b42"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/arms_t.png",
+      "bytes": 8343,
+      "sha256": "c6302b93d7b298ac9dfab46064d363acb4e0400af66ca5588f52474bd67bc373"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/arms_t.png.meta",
+      "bytes": 3659,
+      "sha256": "65b59cd2d047de1e2071270d456616a94c33b0e7abc3839f7e3199c22efd8989"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/arms_up.png",
+      "bytes": 10149,
+      "sha256": "0c0c14ce2481367aa5331c17079893a7f610725848049a20de81cb9d201f671e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/arms_up.png.meta",
+      "bytes": 3659,
+      "sha256": "36254a84e24dad2cf9038191318d7fd11144c3597ecdf2b01cbec060fa8b6ecf"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/arms_v.png",
+      "bytes": 11769,
+      "sha256": "a32ae930a1481d770d0b8fa6c0c1c1a9aa9a0a7607bec9c92483e95e7b0c9fe0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/arms_v.png.meta",
+      "bytes": 3659,
+      "sha256": "41c892b7763ecdf529ff7b84102c1328e04e17e3889d334027d610097fafc4e1"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/clap.png",
+      "bytes": 10525,
+      "sha256": "50e2c1a5b57e743c459fe02a6290a73842b987a54d3e1837710177acd51ed813"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/clap.png.meta",
+      "bytes": 3653,
+      "sha256": "a152353086af2c1c006a91ee9031134aa6611c0e1585adaeff92160322ffa8f6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/cross_chest.png",
+      "bytes": 10418,
+      "sha256": "04d18d417c33951b52517b1db86c540658d07adca80054c8dc63b13113bf8369"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/cross_chest.png.meta",
+      "bytes": 3669,
+      "sha256": "8324a8993f50e24bd15260a7fa0c530ef6cd17b6f05bfa2eba6372e9beb5991b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/diagonal_left.png",
+      "bytes": 12329,
+      "sha256": "ded45ed8290c177dd036b49dd864ae449ec1ffdfdf73be7da6cb3c67df0b4b09"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/diagonal_left.png.meta",
+      "bytes": 3673,
+      "sha256": "9575f395b8583ab1149253b50e49fc71dd4521f756ed895c1cde2b18657d95cc"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/diagonal_right.png",
+      "bytes": 12538,
+      "sha256": "3dcd5e16e877f15d40c3dde67db42e5b20bd9ff931f735b11639c0ad8f2505a0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/diagonal_right.png.meta",
+      "bytes": 3675,
+      "sha256": "c94b2c0f6b57c57be9b1b26e0f130381d8ea01ba398a70cee15ab8f1593adb0d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/elbows_up.png",
+      "bytes": 10762,
+      "sha256": "19bc95fd9c370e9585f1019def88b92599ced34f1a3bc121d50103fdc7d17ae3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/elbows_up.png.meta",
+      "bytes": 3663,
+      "sha256": "9e8f750a9a88941d44d361958d4d51f79d3e94148bc4458cadfb1cf76b52a76c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/reach_left.png",
+      "bytes": 9685,
+      "sha256": "2d0dcab6e9a0a70e1fd7f4cb27ceb9d0b5a344e65190632ea9f6089c15f758b7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/reach_left.png.meta",
+      "bytes": 3667,
+      "sha256": "5187929ac33c87c5160f0b6e214337ca47f8de5726bf83a43157b8d3e34bb4c2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/reach_right.png",
+      "bytes": 9711,
+      "sha256": "6fd2da5500bab331c969fdc63958d704dcd66cc5de62b9f9e5d7abb6912dcb90"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/reach_right.png.meta",
+      "bytes": 3669,
+      "sha256": "6900a00620de2c05cf8aaba1d864b318d5d2cf4b5e552e44e579d781cc1e3ef5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/shoulders_down.png",
+      "bytes": 8768,
+      "sha256": "5dd030e54915bef54ff6e9f689f1ac99441417f89766cfa514b63fb6e4f6967b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/shoulders_down.png.meta",
+      "bytes": 3675,
+      "sha256": "ea69a997d7fc27e6290807c51ee95f006c9ef60e7fc5023b081e306d4cea2f16"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/shoulders_up.png",
+      "bytes": 11098,
+      "sha256": "18d8c85af4a4726d96050e0a1f3e80eadf8a7a502cd1dab138d5b957992c567d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses/shoulders_up.png.meta",
+      "bytes": 3669,
+      "sha256": "f648b977f5c8972ba892203c9bc7b90a000453c6091ad60c9237cdc758446113"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Poses.meta",
+      "bytes": 172,
+      "sha256": "5b84b301ad063b691256c5ec8ab5b96004e6d1bb632ab18cbe10d1efd1f48039"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_HandCue.prefab",
+      "bytes": 12715,
+      "sha256": "71dd4785fa9de0ba1cd878c50c5038bff7adf74ce8b050e2590e15ef3dbe80b0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_HandCue.prefab.meta",
+      "bytes": 154,
+      "sha256": "b5b75d9d0a202843f7736bf1df07acad6d310c0195d9762bb8b514bd3230d32e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_MovementCard.prefab",
+      "bytes": 12712,
+      "sha256": "ab2ef797139a16ce5b9a1b778ba0dbbd110f384ada22d126522fb5ecc3608ad6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_MovementCard.prefab.meta",
+      "bytes": 154,
+      "sha256": "eae5332c1f23976cc87999b44c53be12da4271b8f568f477a5a25d6b06db953c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_MovementCard_Current.prefab",
+      "bytes": 12729,
+      "sha256": "9245cbdfc9a5fc99d65df9fa5ead5b0d89d5110aeff3c7bf3e8062deb50d0149"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_MovementCard_Current.prefab.meta",
+      "bytes": 154,
+      "sha256": "ad4e7eeb0847e2f8425f2ad539c77be6538451addcbbb53014d605ec95347c1a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_MovementStrip.prefab",
+      "bytes": 51892,
+      "sha256": "8cc46786c96c3c7ab7f371a5c00ac4d70cd230294a3ccd07d959859a8cd5b613"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs/NF_MovementStrip.prefab.meta",
+      "bytes": 154,
+      "sha256": "c270bb439e8a87f65d9e5c5058c38183aeb1f7c8bd4aa7fcc0c73629e86b3298"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Prefabs.meta",
+      "bytes": 172,
+      "sha256": "5f3325ac5c15e50e552701eed8a99837b91bc15486188a1461dfbf0c1c4a4b08"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Scripts/NeonflowMovementCard.cs",
+      "bytes": 1493,
+      "sha256": "2eb112c60c6433c2487f7c152c0de7dc36b61ff3ab93324a12a9517c0ffe9b98"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Scripts/NeonflowMovementCard.cs.meta",
+      "bytes": 59,
+      "sha256": "42cbabd4a9b8ad39b0738a947769c8c5c7cf6ef4c46cf2acd7cbb043f5b05c25"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact/Scripts.meta",
+      "bytes": 172,
+      "sha256": "58c741917180a5d927903b436869ea9ecacbe3938437972c408d0d038560dcb7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowMovementUICompact.meta",
+      "bytes": 172,
+      "sha256": "ae2671b53ce9b76876d234394d17384cb70cd97600f42dc9bd0715f5c576c2c8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Editor/NeonflowSkySetup.cs",
+      "bytes": 3674,
+      "sha256": "0fda6ef069be94eb6fe79384099229c772b696335c21a05e7f2605eaab912b3e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Editor/NeonflowSkySetup.cs.meta",
+      "bytes": 59,
+      "sha256": "ec44c62dbf357173b177fdcfa0da8277a4489458e48d0d354c8d687d9a789795"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Editor.meta",
+      "bytes": 172,
+      "sha256": "176e5b8bd56169042ec93104808fb221b7c7bcbe40b4307efddda0c66dde2649"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/01_Retro_Sunset.mat",
+      "bytes": 1340,
+      "sha256": "fd3eec55832dca165725f0a358b7b6f084dfbc9c8f8a0c49279d3d1dcc1b04a4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/01_Retro_Sunset.mat.meta",
+      "bytes": 188,
+      "sha256": "14c4bd8b5f5d823d86e5c3017b6a020cba44f177de4d0521e613e9104a7b1f3b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/02_Cyan_Midnight.mat",
+      "bytes": 1266,
+      "sha256": "afbd0c0267b6de3d8dc7de9e87a4986a2bdee09758d0d83f0a0337f956608653"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/02_Cyan_Midnight.mat.meta",
+      "bytes": 188,
+      "sha256": "88d54225646266e1d8cfff896626f55e10c0407311b80e20ceb1accdcf0714a2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/03_Magenta_Nebula.mat",
+      "bytes": 1265,
+      "sha256": "8da0ff85ca4cce0ff32f5b98f42aaa80037f618e537ffc40ace4db9d8de1acd2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/03_Magenta_Nebula.mat.meta",
+      "bytes": 188,
+      "sha256": "56fa55c32e6afd16ac7b9c5392a0891a0097b16dbcc6031e860ade4db71143f1"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/04_Neon_Rain_City.mat",
+      "bytes": 1247,
+      "sha256": "92bbb2a3208868574453cdbb95101164afd791af5c45895083c4d724754db9d1"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/04_Neon_Rain_City.mat.meta",
+      "bytes": 188,
+      "sha256": "af04b30811da4612091b21f99d68fb6d9406e17d488e86da2482df81a005158f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/05_Pastel_Dawn.mat",
+      "bytes": 1262,
+      "sha256": "6636cf415213eaacf64d0f070fc1cf27efd1dc237fc7e2a6b214be2b9eab36c9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/05_Pastel_Dawn.mat.meta",
+      "bytes": 188,
+      "sha256": "2bcd16217a7a4d3e72ba3aaf05d7f5d4b9c4936568675a006afb275d8bdd0f02"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/06_Twin_Moon_Night.mat",
+      "bytes": 1248,
+      "sha256": "5e846b18132eef28cb352a17fa3792990d8a514bfed528325376037e482dbd95"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials/06_Twin_Moon_Night.mat.meta",
+      "bytes": 188,
+      "sha256": "a598ccffb75d772542c2273d72846956abce2df67778a85d478221c7b1a8317e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Materials.meta",
+      "bytes": 172,
+      "sha256": "bbd7cd519dde719f119252342441a6ac92354a0c069f005076512be635a80801"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/01_Retro_Sunset.png",
+      "bytes": 182739,
+      "sha256": "889776f329a7da09e6f71d46cfee881cd5696e988b769f6d4b909f876297da9e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/01_Retro_Sunset.png.meta",
+      "bytes": 3069,
+      "sha256": "009f5cc54f0f952d488572ced4edccc0de2a507d34a1e1c9c24cc98c39e79d0f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/02_Cyan_Midnight.png",
+      "bytes": 1381215,
+      "sha256": "998221810d705f64042b9dedd04cbf3fc5050f6727f986da3be09ba305126587"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/02_Cyan_Midnight.png.meta",
+      "bytes": 3069,
+      "sha256": "b5808479bec86ab97aae8cfabd4a7461a1b1bcc6b934c65848467d8cc8b0ef36"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/03_Magenta_Nebula.png",
+      "bytes": 1526253,
+      "sha256": "0942eac7f9c61c6132ed8077209e6aba2028046bad62bc39e31d23c67a573234"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/03_Magenta_Nebula.png.meta",
+      "bytes": 3069,
+      "sha256": "4455ef034087a070b7537e9eebbb0d7736fe6e716a7c9dedfc9289d31031aa84"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/04_Neon_Rain_City.png",
+      "bytes": 1694489,
+      "sha256": "a2113d2953773af8c320000ebed66e5d4c20921683b4667fbc8afb2c8213db83"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/04_Neon_Rain_City.png.meta",
+      "bytes": 3069,
+      "sha256": "d60b53a8bb2781f2148598278dc39556173e98137681edc683005846d6b908d0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/05_Pastel_Dawn.png",
+      "bytes": 1551642,
+      "sha256": "9bd1cdf3f62941be9385e87a81302deb0e91b7c836243f7d025b445046baf492"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/05_Pastel_Dawn.png.meta",
+      "bytes": 3069,
+      "sha256": "012a47afbf1004bda0b19650efe17fc301de3a0b3874ae765b6818da8b76f4ae"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/06_Twin_Moon_Night.png",
+      "bytes": 1638748,
+      "sha256": "288136da7e6f7c642e290777fedc9600f42030767b565a6de601e7bfb3fc95fd"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas/06_Twin_Moon_Night.png.meta",
+      "bytes": 3069,
+      "sha256": "11ef1f56d6e9a77f0e9c35c866e15b874fa2da74db528d67634cf13b14bb8298"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Panoramas.meta",
+      "bytes": 172,
+      "sha256": "e606252b0da1efd6e067c1db4c21c421237b8c9ce053498401f008ac9b9d969d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Shaders/NeonflowPanorama.shader",
+      "bytes": 6813,
+      "sha256": "81b67e59246c4a15332f8d01e6dec41f548c8a4f2a476ce17ae7ce817ca0ccf2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Shaders/NeonflowPanorama.shader.meta",
+      "bytes": 204,
+      "sha256": "b8ef00152a9230a5cc12e5c88500c90bd4f2db06633023b2ee8bb4b9827af902"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies/Shaders.meta",
+      "bytes": 172,
+      "sha256": "d23ec779f71b3e2259b8241e32c9bd2766ec0eea64fef21b76bb065df4fbc39a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowSkies.meta",
+      "bytes": 172,
+      "sha256": "1c9cb33dc9aa7c4a55d5d74a593971b4bd17f7917533f8ebc4fb410b337514b2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/midnight_run.png",
+      "bytes": 43833,
+      "sha256": "ba463499378ca1df6dd5341ddcfc0946c5c7ff7fc1b49d0f8b1416ceed8f3870"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/midnight_run.png.meta",
+      "bytes": 3683,
+      "sha256": "69ad9cc4fc4b80aabeb8a1b16d4e5f7f858104c696133141944101381ad834e8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/pink_horizon.png",
+      "bytes": 44584,
+      "sha256": "fa33426e571b16aac0382de5a102107d3024131593e3c69a349bed8f72c5a78d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/pink_horizon.png.meta",
+      "bytes": 3683,
+      "sha256": "c0e27cb5621bcfde3988e4e97fd18cf311dfa37caaf2b9b1879f5f5b0e6bf36e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/solar_drive.png",
+      "bytes": 46622,
+      "sha256": "ab92f29c5de302eecf4f0076a86acc34342a9373d14e860f8fa1b4230ef79fb9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/solar_drive.png.meta",
+      "bytes": 3683,
+      "sha256": "ce17c9bc487f1019858bf9c69207db24e81c1df0902a5eb565ca30046b1f15dc"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/violet_pulse.png",
+      "bytes": 45821,
+      "sha256": "a94c17672af323b45ddaa53b9a4216bc53a7f000df5b55c31b5426491f4d55f9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt/violet_pulse.png.meta",
+      "bytes": 3683,
+      "sha256": "fc24fcb5837506ee60a3da52b6153674c44b94ff41528fda06234e2dcb73fec4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/AlbumArt.meta",
+      "bytes": 172,
+      "sha256": "5fb0ad3ebf46305780552e3ad7adc3e8b3840fcc07f5f72a074da9e133ed9ea3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/back.wav",
+      "bytes": 14156,
+      "sha256": "322bf5f581db64af40f252a938d7dfa4ecd784fc3542b65257875af8417c1e29"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/back.wav.meta",
+      "bytes": 485,
+      "sha256": "d3671e11c53fcea948d85dc4e006e0ec4b10da0dc7e54a1ade5253d297e97606"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/confirm.wav",
+      "bytes": 15920,
+      "sha256": "519dfdb56fc1f2b133b012ed50bb5fbc50d2c92017a696b3d7018a9977782e45"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/confirm.wav.meta",
+      "bytes": 485,
+      "sha256": "b52a425145cc61e6c865f948a968c4bf8b4f1f2892d4b99c4065fc39c9513519"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/countdown.wav",
+      "bytes": 14156,
+      "sha256": "8a510ea2284dce8a158588ea6e50011958e07c53d1f93d9858d8576b2d165eda"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/countdown.wav.meta",
+      "bytes": 485,
+      "sha256": "9c50fc49e4e3f12989c948bf9eb06236e4be4722ec81926c9a8ca91ddd566fc5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/hover.wav",
+      "bytes": 4894,
+      "sha256": "a842b5e5ec6595545053f4c56a8087f90e0b94133f6d0d6d5c1a118075043a2f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/hover.wav.meta",
+      "bytes": 485,
+      "sha256": "5e244414900a2c9144ab32c6d4e3f3219191dc637a7efe1842a5d1be82332b35"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/miss.wav",
+      "bytes": 15920,
+      "sha256": "31fbe5e8ca22d8dde6eacb7cd74d2eef90e4003da8be14843d7e6fb90fc2f54a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/miss.wav.meta",
+      "bytes": 485,
+      "sha256": "a13d1046e2f5db1212fee0e83969aa5a6a23142db73d928c2dbbaadf8f2e618d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/pause.wav",
+      "bytes": 17684,
+      "sha256": "99630cfb7694886e05881242407073fc891641d550dda237ce55b316178d437e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/pause.wav.meta",
+      "bytes": 485,
+      "sha256": "9fe9e6da8c7d36ef4cda75219dc6bf7ac7d39f7965896e1a4dcd422f6fd8a321"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/perfect.wav",
+      "bytes": 17684,
+      "sha256": "2be6fc3acff128ee7290fdd2cfb602403312786502a552acfed2d64648ceea9e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/perfect.wav.meta",
+      "bytes": 485,
+      "sha256": "351ef44c0756039fae17b70055ad24b0706787bd2eac0ad31eb02a3e5345c6c5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/select.wav",
+      "bytes": 11510,
+      "sha256": "28857896ed2de58ed3115fc7d735e4f4b906fdb6465ee64b32e4178a3fedb184"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/select.wav.meta",
+      "bytes": 485,
+      "sha256": "0b33c28ee02db2659cf9d9f799e665e0769b8bb3bb9ab9c160d824afd9e50a99"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/start.wav",
+      "bytes": 26504,
+      "sha256": "b4b80a59de713c8d07573f635c1297b03b7454d733a1e542b75156840c94a095"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio/start.wav.meta",
+      "bytes": 485,
+      "sha256": "389310784f28ca0efd0764a139f511e937645daaa4abe38109be2bed8d55ecc3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Audio.meta",
+      "bytes": 172,
+      "sha256": "abbdd0f35c8d74a3295c8ac86fae4ce8298c266d3df34a6728051b51610cc300"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Backgrounds/synthwave_sunset.png",
+      "bytes": 1409919,
+      "sha256": "df6c187aa78a35960fa951cd4fad244735cdca6549ab7a2ca0a85d513df0ce5b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Backgrounds/synthwave_sunset.png.meta",
+      "bytes": 3694,
+      "sha256": "b20053aea22adf059a439012632ce4a3dfc9243801e3a5f136d774e0cb57693d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Backgrounds.meta",
+      "bytes": 172,
+      "sha256": "fd4077915b657e4ab162b9aa29ca90f1e48dce0f1efefce50ea28ba90353e9a0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_amber.png",
+      "bytes": 708,
+      "sha256": "61c113fdae552212ab43e22c4731e136e50b91b0d412b12949288ad0739c7ae4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_amber.png.meta",
+      "bytes": 3684,
+      "sha256": "7423b4f7fef5f7c4c5dfef60d6ddd19e9eff2c918a4b709ed3846fe51c2aefa2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_cyan.png",
+      "bytes": 728,
+      "sha256": "df1f6c94d2dee75f483a364eca4d657702622fae6e8322701769a1ad5ef27f07"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_cyan.png.meta",
+      "bytes": 3682,
+      "sha256": "6fef78fe0bba05fe47c50531c8db7ad6dd06f9cd19739fa58154b788d69c614e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_pink.png",
+      "bytes": 677,
+      "sha256": "37032a6b887258904ca3311853c89c6130d5bc8ceedfc8de847857c51c341ff2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_pink.png.meta",
+      "bytes": 3682,
+      "sha256": "caf61be6e788fb61c899ea7f1dadc55be998a1ee1acf742be3594960489ec92b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_white.png",
+      "bytes": 684,
+      "sha256": "2ca308516a498daa1f6457d9326c92498aa714e5abe4aba66b121636112e691d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/fill_white.png.meta",
+      "bytes": 3684,
+      "sha256": "02e55aab78af4b274504e98fe35d101c297b5b94baa522b7cded8f6e4f09f417"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/thumb.png",
+      "bytes": 1753,
+      "sha256": "074900a9d12096df8529b8fd5cf73f5021050a4e46e4754280ebf56b4bd98bd6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/thumb.png.meta",
+      "bytes": 3669,
+      "sha256": "4ebef34635e8614a2b48979d286f1b86cd5be89eb6cd0efe9b50b77e81aad232"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/thumb_disabled.png",
+      "bytes": 1680,
+      "sha256": "d2ae6a91800a4176a94e97724149bf96f4357a9bb827c029166fb9dcd0efbdbe"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/thumb_disabled.png.meta",
+      "bytes": 3687,
+      "sha256": "ece7eb13b5a726218c13f5a906bdd7ed9145a97d20f1e8be832425575845b582"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/thumb_hover.png",
+      "bytes": 1617,
+      "sha256": "4ac1074509060ef307a37e77de8677f5c68eb67bfaf4e539293ac01f147cabfa"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/thumb_hover.png.meta",
+      "bytes": 3679,
+      "sha256": "3be83be08207d10edbeee6f9f5768dd16ebc5039a6e1bab0a18741351424539b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/track.png",
+      "bytes": 677,
+      "sha256": "572d319d6c3163cb6a480a0ee4c60327d504eaa55ae7c83db5ff96c8f7229187"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars/track.png.meta",
+      "bytes": 3672,
+      "sha256": "14bf1a84972987e77026e69a18369d4455cbcd4aec5a6a9ce9aa91ffd0dfd1e7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Bars.meta",
+      "bytes": 172,
+      "sha256": "093188a9e278a4a69cd974043751115e16393b3aab3155a78b960f438d74d82d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_disabled.png",
+      "bytes": 1508,
+      "sha256": "b1e3c8a6d0ae0da7fbfd543f81678cc2c105ca26713502dfba324a9f663f67c0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_disabled.png.meta",
+      "bytes": 3693,
+      "sha256": "7ff25b646a58fdf314af751c232d06281190ccf46fd60c1e8688ae64f289d74c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_focus.png",
+      "bytes": 3005,
+      "sha256": "35a19f5d7b89b681f20ac36667ddf5ab0e1ab600465625be2cfbb9f46bbb1ccf"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_focus.png.meta",
+      "bytes": 3687,
+      "sha256": "1e2d321112fdf2148baccb50cc2cb9b9b41a234dae75d78a9758c84799964e61"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_hover.png",
+      "bytes": 2702,
+      "sha256": "2cb046d22011c8951159752c6449e0016316c7ee09654c100a770bb76f0a108f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_hover.png.meta",
+      "bytes": 3689,
+      "sha256": "1d3f0b4e5e8375f4a458452fbd3e8f18ca6793ed4ae4e4d26ed2df025fc0cfb7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_normal.png",
+      "bytes": 2719,
+      "sha256": "2ca916b0c1fb85f882a817a62cea8ea430d24e9d3eafe9de61fc908f81639b68"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_normal.png.meta",
+      "bytes": 3689,
+      "sha256": "2bba9a58f30f84fc31aa38fa6b50819bc70474e0643eae6989421606f061d9f4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_pressed.png",
+      "bytes": 2723,
+      "sha256": "2729a746d99cf1ed74a68d8e3ed10a3dd6e9850647ff73062b86a1b7b19f06e7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/danger_pressed.png.meta",
+      "bytes": 3693,
+      "sha256": "9e3715ceee24ad0fed695a48223065a5bfe2d03fb552782b72ef3fd8297f5b38"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_disabled.png",
+      "bytes": 1508,
+      "sha256": "b1e3c8a6d0ae0da7fbfd543f81678cc2c105ca26713502dfba324a9f663f67c0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_disabled.png.meta",
+      "bytes": 3695,
+      "sha256": "853b36f729c564d9f3cfac4eecf4feed75af70237ce295acbe081b2ae1130b54"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_focus.png",
+      "bytes": 2973,
+      "sha256": "1d9a53d06b9e4167f87bbd782bc898a23b1ccfe283dd6b01879c816a90abc564"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_focus.png.meta",
+      "bytes": 3691,
+      "sha256": "08ffe29afa254dc01085944da6e044da7b5babe90f7bc19ddf7d16e7e4a1d12c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_hover.png",
+      "bytes": 2651,
+      "sha256": "618c9b8bea6c79210942561803ef8f75867ce0022acdbc42dab1c73641b8981c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_hover.png.meta",
+      "bytes": 3689,
+      "sha256": "e03ab5d1b46a26c7679f8fe87ba53b8fdbbd2988df4c0e85a291e5e4ffa418ba"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_normal.png",
+      "bytes": 2628,
+      "sha256": "364aa72e6953814ceb199381835cec443547cfed38a9670b3f675850e467b834"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_normal.png.meta",
+      "bytes": 3693,
+      "sha256": "26aaaada20574ca92045780d54cf83e6909cb515dc086b47f22b0dc703d501ec"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_pressed.png",
+      "bytes": 2652,
+      "sha256": "f156a2f895851743b95c11eddad8c07aef850dce347e6e9c679c3b1dd6348efb"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/primary_pressed.png.meta",
+      "bytes": 3695,
+      "sha256": "bac7e9d5ec495d4e257944251cfde1a51068d6126b21438a86fbeaf28a06a33e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_disabled.png",
+      "bytes": 1508,
+      "sha256": "b1e3c8a6d0ae0da7fbfd543f81678cc2c105ca26713502dfba324a9f663f67c0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_disabled.png.meta",
+      "bytes": 3691,
+      "sha256": "ea92b39cfd29eed47e5aa9352caa419bbcfbda04ae9afd6fc898baeac2e774bd"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_focus.png",
+      "bytes": 3086,
+      "sha256": "ac7030d325b170d230a32c9686829d187f0fd26ed56f0b4f941eff74505702d2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_focus.png.meta",
+      "bytes": 3687,
+      "sha256": "b6e80b90b10e1ed0c56f1989b45250e92c0a96e83708fad660db2234260e8ff7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_hover.png",
+      "bytes": 2772,
+      "sha256": "0ffd453405cb5cbd7a3b9bb5ee2facfa11a689abf06ce3a78803d132542be0ab"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_hover.png.meta",
+      "bytes": 3683,
+      "sha256": "06d3993ff61da2d264d707473274b79d2cc3a45e2e38fad141cccbb2f1e84482"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_normal.png",
+      "bytes": 2770,
+      "sha256": "4a1952fc87eac376283fe37c00706033a0cd3e0a13938eaee5e0bcaa7a6c3491"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_normal.png.meta",
+      "bytes": 3687,
+      "sha256": "b106d289e177c18f976a3753f0d29b20e205e4e505e1ffcda839c5f8f85defc0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_pressed.png",
+      "bytes": 2766,
+      "sha256": "944239a28233a4c99cf434b516068fd84f1821a14aba87563c3b0ef36365968d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/quiet_pressed.png.meta",
+      "bytes": 3689,
+      "sha256": "f3d61e2438cb9796163d9ba0dd373d1780aa741fa33465dbfee40ede8f0f218f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_disabled.png",
+      "bytes": 1508,
+      "sha256": "b1e3c8a6d0ae0da7fbfd543f81678cc2c105ca26713502dfba324a9f663f67c0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_disabled.png.meta",
+      "bytes": 3697,
+      "sha256": "ab7f5b418c53a203ded278d7b3d6d2a44da13df3714b2b8af8626610e7e99d8f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_focus.png",
+      "bytes": 3038,
+      "sha256": "ad6b09812080e72d3672f3f40ac46f85c0bd06214ed49e7cda99a93032c4c136"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_focus.png.meta",
+      "bytes": 3693,
+      "sha256": "c3d38f2910d221040946597cee0325486e51f1f8282112952f0317ff1dba982f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_hover.png",
+      "bytes": 2729,
+      "sha256": "d9e89959c7434048bc9016e946e8ff87b8057566c72ad6cbd0d006b91c88fa88"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_hover.png.meta",
+      "bytes": 3695,
+      "sha256": "414411c32626ada813c785530fda070468b5aad86bd56fbaef5719882264b3fd"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_normal.png",
+      "bytes": 2754,
+      "sha256": "bcf74e1f336e41938affed974fdfbd955f336a259bd595d7a0850830e9221914"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_normal.png.meta",
+      "bytes": 3695,
+      "sha256": "3a5bc8208bf9864af66458af4677fef68bc12aac4051f5f57c5e2c121ad556da"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_pressed.png",
+      "bytes": 2743,
+      "sha256": "6e6fb9c5e3e97b24381fdae4faeead3e6f5686837381e34c4881e71bdf160603"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons/secondary_pressed.png.meta",
+      "bytes": 3697,
+      "sha256": "349034108412246553ba8300dff03dd551533b87a339fdfb423a1e979485d188"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Buttons.meta",
+      "bytes": 172,
+      "sha256": "620f3d2cd866bcd3d83f402483e670ed806e28e2954450663d80ffdbf0737445"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Editor/NeonflowUIEditor.cs",
+      "bytes": 13267,
+      "sha256": "73943578cdbacbf41ef827e3c4220d47b4c91136b0156925c9edb4194173b752"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Editor/NeonflowUIEditor.cs.meta",
+      "bytes": 59,
+      "sha256": "efafa92244cd52c40d2e7e65b33f73ccb5946e3856e75e7629a966489e0b2f48"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Editor.meta",
+      "bytes": 172,
+      "sha256": "a57932bbc7876639b8c311e408720ec61b727b34c3279e7ccb2020da321f816f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/flow_plate.png",
+      "bytes": 2696,
+      "sha256": "1c5786017293fa877cf9ad94f21326b51bf622b470e04e772b0be20a08c094a2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/flow_plate.png.meta",
+      "bytes": 3683,
+      "sha256": "7cecde7f4e765f8f2e535c732069878bd097543359d0fb397df66aa93966b456"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/good_plate.png",
+      "bytes": 2751,
+      "sha256": "8c61a9e2e296615e135f8ad276b2e96cc721a33482ef6e543a1c8b96365c093c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/good_plate.png.meta",
+      "bytes": 3681,
+      "sha256": "df4349616568994d5d2c33b2c1ab200e18d1c96435183cdae0cf69374f0c4c1f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/great_plate.png",
+      "bytes": 2677,
+      "sha256": "8dbd0009c02e133a6b5f1ef76bda9eb37f60c82b211605e3e45d29379d1a9141"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/great_plate.png.meta",
+      "bytes": 3683,
+      "sha256": "1523ef5edb7de0f566d8efbe8e56f3bbc563c731113f0f6103a23fb33e34d0fe"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/miss_plate.png",
+      "bytes": 2643,
+      "sha256": "81ceb11ca3e64668324695c28098228901dad16f6330ff9091758363a0150365"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/miss_plate.png.meta",
+      "bytes": 3683,
+      "sha256": "cd404133c43e378c88497fb81f7ba019cd1325037678333ceefdd8bee0a6fe1a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/perfect_plate.png",
+      "bytes": 2556,
+      "sha256": "351512ccdb7ef7a4729d99279750bbd558bd598c8f800b029fc4c27743078a78"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback/perfect_plate.png.meta",
+      "bytes": 3691,
+      "sha256": "5b20c12cb5c5f925fa0f2bc0aad738f1f5696a8a6c70de2548029eef4ae9fdd7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Feedback.meta",
+      "bytes": 172,
+      "sha256": "f725ba0e1ee9c57d3011d649d45af671912c948d6810fb24d3db051a954283fe"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-ExtraBold.ttf",
+      "bytes": 151396,
+      "sha256": "cbbbca3580c6651cd11e76631b98ced1a9d1289c4ae4917d2b96d4098a95d373"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-ExtraBold.ttf.meta",
+      "bytes": 490,
+      "sha256": "26f8cfed5f41d63878e60830a098ab7e5f9fd77906c96f930dc87f681c249022"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-OFL.txt",
+      "bytes": 4386,
+      "sha256": "7f95a8eeecc6904ffc81cd10cc8ebc7fcee72a67922924bf45f02dff03b88127"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-OFL.txt.meta",
+      "bytes": 158,
+      "sha256": "ff4048f74090ad85299d670d2557b4987849a3babadbf4883a6eaddbde5fc53e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-Regular.ttf",
+      "bytes": 151264,
+      "sha256": "b165a31f835096fbd2cd806a8c89dc7a39e7517f605e351127aae6707525053f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-Regular.ttf.meta",
+      "bytes": 490,
+      "sha256": "601b90c74ff1347fa83f14d83b4a5e6efb22d2661fc14ec600ca9e3c57a099e5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-SemiBold.ttf",
+      "bytes": 151376,
+      "sha256": "f5c7fa4bbd8f1a9c4c96fd74ec6600cff90baf10f122c0f80402e2e179f72b3a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts/Exo2-SemiBold.ttf.meta",
+      "bytes": 490,
+      "sha256": "9c0f361c0e074df3d6ba28790b7b24f1e94eb574136aac777701124f0b518475"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Fonts.meta",
+      "bytes": 172,
+      "sha256": "d2d1cb2a4c3ddf98aa9212ba4562eee1544716a8a3e0ea71c4be7d133acf94a9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_00.png",
+      "bytes": 6527,
+      "sha256": "d0b977b27fbb63f933354609950a827686b82d2b9bf273af9f9e116b9fc73f6f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_00.png.meta",
+      "bytes": 3685,
+      "sha256": "32876bca913dcb046a67a145bedd41fe60981b2b233991c0316853de13606819"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_01.png",
+      "bytes": 7231,
+      "sha256": "24c8a21bcaee569ebe48b2d75f11487d82877dcd72dd0dc9e5261df478fdd477"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_01.png.meta",
+      "bytes": 3683,
+      "sha256": "fbf4879d0f9f1f95ed7ef309322c01219d7870b2871cd8cbcc7862c42ea86ed8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_02.png",
+      "bytes": 8773,
+      "sha256": "52257b914b9fe4e1719d191c6eacfedaa285d28f579da9db443654ff81d1d263"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_02.png.meta",
+      "bytes": 3683,
+      "sha256": "aca9bdcf079bcd3692be35c65a6cfa65dfb09b39c25b4f4dfb3fd3d85f7da1b2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_03.png",
+      "bytes": 9598,
+      "sha256": "c975d055c1394041961e74fc05390591e6b8349743838ce8c6b160e91b4d67b4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_03.png.meta",
+      "bytes": 3683,
+      "sha256": "6a480f2c0ae980d6fd73d56db30a69fcf8fe9275a629e55f6503c6946b738356"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_04.png",
+      "bytes": 9672,
+      "sha256": "a77370db89e595df7a8fda085f3277f2bcca3045dc783fb57fff44f82dc8c68f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_04.png.meta",
+      "bytes": 3685,
+      "sha256": "051c3f37d1054125aaca9c044ead3140c5d25a0cb0bf821566d8c8f7ebdbbaca"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_05.png",
+      "bytes": 9891,
+      "sha256": "151548fbe9f54b92553dfa458924746534cb8a9dcdbe90daa0728a24279382c8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_05.png.meta",
+      "bytes": 3683,
+      "sha256": "63332a66c5d9800a9d4b4e170978c92342b7dadf35529054ec5a73abea5f434b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_06.png",
+      "bytes": 9330,
+      "sha256": "21d44f09728ee9069111ca730139db7d01fdd7667d686aca6f3d054c3376001a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_06.png.meta",
+      "bytes": 3683,
+      "sha256": "b4a2c42fa9704cec809bb6bd3ad3f1abb9e483365d2f47dd5a0dad96bccfcf9a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_07.png",
+      "bytes": 8532,
+      "sha256": "2e1b2471fdb6cdb9e97ba820e2d2392f8a0072827b6d457cee634cd6b3794932"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX/hit_burst_07.png.meta",
+      "bytes": 3683,
+      "sha256": "88002a8b5e613f7762af737f05d1dd3ac9e0ca0089da0ed4240a63cf0ecc7e2d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/FX.meta",
+      "bytes": 172,
+      "sha256": "0b7791d96bf6c39ef6aed1475508d4f713c94bbe11784817a72283590473342d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay/hit_ring.png",
+      "bytes": 17917,
+      "sha256": "bde7eafdfec989bb7e7aa0b92a0cd90fa5f44aea120d6837f012e5574e940ab7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay/hit_ring.png.meta",
+      "bytes": 3677,
+      "sha256": "a5cc37e902b3f2146b5800c6b17bc7f18101ea2ec5e06c37e8170701d25e6e46"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay/target_ring.png",
+      "bytes": 15759,
+      "sha256": "382eca4bc965134f72730e0748957eebdcb0662b91447d156bc0b6eaa4b556d3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay/target_ring.png.meta",
+      "bytes": 3681,
+      "sha256": "6dc3230b1dec055714aa5749296c20a67a8a046950d254a86a901641af28ccc6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay/timing_ring.png",
+      "bytes": 18076,
+      "sha256": "d6fff65fd0afba2ab57507cc690e2cfd1fd6aaf63abecf31cbcc43c4116b9038"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay/timing_ring.png.meta",
+      "bytes": 3683,
+      "sha256": "579ef5ba682ae2a8732d3ff45d958b78c159a3921a55ed741827c802e8718cb6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Gameplay.meta",
+      "bytes": 172,
+      "sha256": "0149f00f7fe6edfcc22fa147fc159886cbdd62ef5e7b87cae3cb517567650eb4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/back.png",
+      "bytes": 803,
+      "sha256": "90f19d9a1bd95f674eab728387a8a7f2aa850605eecf64134bdb37b9ace051b1"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/back.png.meta",
+      "bytes": 3669,
+      "sha256": "ae9a53857d4beaeb9dc2619fecbc85dbb82966583b476ce28da282acc678018a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/bolt.png",
+      "bytes": 4474,
+      "sha256": "f082cf4b48a90ac4d83c3b33c94aaf214f2b7bd5a30b159a0848f235e7811deb"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/bolt.png.meta",
+      "bytes": 3669,
+      "sha256": "eb092cdb74b64a7f118fb46f8fc30fadb4f1e646bf0075571ff510b2f72c75b8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/calibrate.png",
+      "bytes": 3817,
+      "sha256": "65738f8793eb832a994f2274eb718b8b6808f224848d2bff7f5d4687285a2745"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/calibrate.png.meta",
+      "bytes": 3677,
+      "sha256": "7a21e69136ac71a0367940070077afe6415373f55a459ca7b12718f94f8904ad"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/camera.png",
+      "bytes": 4440,
+      "sha256": "a633622af1ce4c130422211c2b5b1d1e322254625ae9f7e315c19a601bab73ae"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/camera.png.meta",
+      "bytes": 3673,
+      "sha256": "67f8b7a07d37caa143a1509f8631ad48bd358057aca366f888c2748ce6ab16db"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/camera_off.png",
+      "bytes": 5158,
+      "sha256": "68fd9086e0f77c570dcfdbf0786ee0c0b9287d23525d4fbc1e9ee89a88a4d7a5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/camera_off.png.meta",
+      "bytes": 3681,
+      "sha256": "dcb858fdd5aedbaf39257582c05c98c504c2d1129f3d92d7b881286109df90f6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/check.png",
+      "bytes": 1475,
+      "sha256": "8447af95dbf2dfc63acf2f8523df41496c311a20f4e072113de2d5f440077ac7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/check.png.meta",
+      "bytes": 3669,
+      "sha256": "05dfa16e1396a807786ef9b5ac0dce3db44b5b44bc7bc511e794407b439a53a0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/clock.png",
+      "bytes": 6012,
+      "sha256": "2e6d637495b01be1e44ac5190808cbc0dbf1edf2d4baf8379886e4a48c5f1008"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/clock.png.meta",
+      "bytes": 3669,
+      "sha256": "faba474513b822f85af442d5a5601f0b1b55238762a4fcc288978d5ff50997dd"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/close.png",
+      "bytes": 993,
+      "sha256": "e4653c2900df409d98140b69112396de17c744a63cdbf86d32158d87e1e7b5d2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/close.png.meta",
+      "bytes": 3671,
+      "sha256": "b1e19d9d59a262484347f784b7dfffa4260e597cdba6ffe8bbe400df146bc210"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/down.png",
+      "bytes": 684,
+      "sha256": "efc6b345c4893c9e0f47fa66f0da51330eb8241ac970a1002c5b559baefa0218"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/down.png.meta",
+      "bytes": 3665,
+      "sha256": "b15463043e797b94fd39fe88d8f4a97bba0c7aca3d6c5b2b36e6650c5d3a153c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/exit.png",
+      "bytes": 1827,
+      "sha256": "ff046b09ef0da785f92469d20ae11701bd58b8a64dd81a5ae5008c1c1124a587"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/exit.png.meta",
+      "bytes": 3669,
+      "sha256": "079b3f1c8a018218a84fbb9bcd13b3e3e344523e861e5cd1f61d143fde16c2fa"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/filter.png",
+      "bytes": 1716,
+      "sha256": "757b4f197f68c7ff476774ac364ecb1697ec19e1d6325b727425d629590a56ff"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/filter.png.meta",
+      "bytes": 3671,
+      "sha256": "824e55e6a352dcb8f45484f5943e429135d356b79eacb89f2f2816ad3965a22a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/fullscreen.png",
+      "bytes": 1604,
+      "sha256": "fb0e3100c5caf9d6c8b30e67aa4905b1f16de567cec762555fd6b7edb8dc62b9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/fullscreen.png.meta",
+      "bytes": 3681,
+      "sha256": "fcc660c826d3a94fec21b9d1dd59d31b80fbc2d8286b64efe625b4b76141db84"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/heart.png",
+      "bytes": 2467,
+      "sha256": "c461f7ae1a9a751af5912d85931a3f586c0174df2d99228494f97336656f4c28"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/heart.png.meta",
+      "bytes": 3669,
+      "sha256": "b04bd4b41fadf17e10436ce901555ff35725349bdf890f50e68d1fa612b28ac5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/home.png",
+      "bytes": 2538,
+      "sha256": "d743a181f5a9de69cd7d4817e77b5f753388bfba370bd0051aff30f2eea69252"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/home.png.meta",
+      "bytes": 3667,
+      "sha256": "7cfd531f0899bfd0295e7829ccfc261a9dbeacc3bde538572aa34ce2d48075f2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/info.png",
+      "bytes": 5799,
+      "sha256": "d9930150e023c0a2e6d0acdfb5d8d44f13bdf4f214ef9850f46aaef42d07570b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/info.png.meta",
+      "bytes": 3669,
+      "sha256": "ab45bb5e1d1b835ec0c0bcf0ea7c883cd46e31cbe7dfc0b83a6f338355b7810c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/link.png",
+      "bytes": 2435,
+      "sha256": "7dac2d1201502e387d31ebcbc3c69e5a7c98573c7aa4d6e13434dfcfd79dafad"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/link.png.meta",
+      "bytes": 3667,
+      "sha256": "fc3cd414a091c1e91b7a2103d74267fd0623b0dcea24872fb1a50b5f41d58b1c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/lock.png",
+      "bytes": 2363,
+      "sha256": "ed8289038f44cb6105cb87c6f1fed237e7776d8061fff96fbab4efa81aea7c54"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/lock.png.meta",
+      "bytes": 3669,
+      "sha256": "3c87c3a4df73d8f856468489bac99da4b7693b59d824a83bf4ad8646a0b03ebe"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/loop.png",
+      "bytes": 3453,
+      "sha256": "c714047e2761ea503d384b0093a2e002b41fd0d6d4dd5dd6f2fa22c940f654f1"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/loop.png.meta",
+      "bytes": 3667,
+      "sha256": "4dff220af3bcc4dd97e93a49eb39fd68df8adf9fc50c2fbbd3c33377c12cd2b0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/minus.png",
+      "bytes": 407,
+      "sha256": "348fc88567fea53fee235babee499a8061b622aa496ede79474e878d97e19492"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/minus.png.meta",
+      "bytes": 3669,
+      "sha256": "5ae384ae37152d6bae01344b3065aabf504b968d32e6be09f892f9a137f102f5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/music.png",
+      "bytes": 3367,
+      "sha256": "87da675b8f3ebe459ca358a499af8c7c5bf3eb4418e5e076ebb1aee3b4a48d6d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/music.png.meta",
+      "bytes": 3669,
+      "sha256": "7e7c53510b767d6fa83803e1a8fa594166452f27ec13b5c94c0804985c0e49df"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/mute.png",
+      "bytes": 4293,
+      "sha256": "4a71ad3f14169639ccb90a62f5279476ad0ea06b4d1e8ede4cd0a06eac03e5dd"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/mute.png.meta",
+      "bytes": 3669,
+      "sha256": "cf2fa5e6bf03a5063238b5736668b06dc1efedbe84752fbc292a67f69dd09e8e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/next.png",
+      "bytes": 737,
+      "sha256": "885d6737366191d9c4f587bfda96d71aecb5eba8179b9c8e556f4bf85579600f"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/next.png.meta",
+      "bytes": 3667,
+      "sha256": "7212d63d133a281a724cd5c54331b6dfb6fb8f6cc7084cc5380dedfeb2c46ff8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/pause.png",
+      "bytes": 573,
+      "sha256": "0bcf688f5d55829094d18d8097d2e1eb95f83d4f956f9c7f7a5d0f92d0a113fa"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/pause.png.meta",
+      "bytes": 3671,
+      "sha256": "ea397bced2243492dbed2b1316ca213f0b2d0d6c78dfafb020940aceabbeadc5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/person.png",
+      "bytes": 3573,
+      "sha256": "98be9dd7088c9c4f4239e26b736e1276092fae57cf0a3a37fc9230fa86649fd0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/person.png.meta",
+      "bytes": 3671,
+      "sha256": "0f780a0c9d889720edb8cbae86953b39445c82183783edd4cf17090d129cbaf5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/play.png",
+      "bytes": 1328,
+      "sha256": "bb89036f18f9a2488d809d2b662db04cf2da99c3999d40b24418c5f14eb4e3f8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/play.png.meta",
+      "bytes": 3667,
+      "sha256": "e94281a7b7fd0bb80521c97d3785e0e9156e0ae13e2668ca0ba2a78b98c27fcf"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/plus.png",
+      "bytes": 946,
+      "sha256": "0fa390194b7d3595bfa746720a8c5b6ccf61250209e2eba650776c230d9659ea"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/plus.png.meta",
+      "bytes": 3667,
+      "sha256": "ae91f8fc49b305ee47de93b6e14489285e800ce8bda693c96aee91c5449a7bdf"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/restart.png",
+      "bytes": 5263,
+      "sha256": "4a343346aa09693638d6c7d797650de2bf1dfc684d4d568cf9d3f255c88b1544"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/restart.png.meta",
+      "bytes": 3675,
+      "sha256": "df830046a359a77abd51b6c4b1dafbf150f69d0ce8819d351c2e3341447a0c36"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/search.png",
+      "bytes": 3975,
+      "sha256": "204a8d01e45f1f85ae29459f9c8b2d4899de854a86ad10a1ad17359329aa44ba"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/search.png.meta",
+      "bytes": 3671,
+      "sha256": "c95ddc4d948add90b5c025aee442449951417f16033a59034773f37a06f83367"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/settings.png",
+      "bytes": 5380,
+      "sha256": "ef435657adbf506d9204a27fc16b467fed161c87ac0af8bb28589604f482c2fe"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/settings.png.meta",
+      "bytes": 3677,
+      "sha256": "c9444e86024c95639a785a66287b8df3d2afc7654db26ec1b6c239ce3150b955"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/sort.png",
+      "bytes": 1826,
+      "sha256": "c394d8ad6f5ede7e2d0abce5cdf51b8056d751ca9763cc6582184ecbd02a4bd7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/sort.png.meta",
+      "bytes": 3669,
+      "sha256": "908f59093aaef48b05e54acf7e2290998073371058f2fa99cd17ae22475f0812"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/star.png",
+      "bytes": 4830,
+      "sha256": "7d31fc3297c3411abd1f49e1cc4b11716f27bb0d537163efbd9128cd8f5c3cdc"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/star.png.meta",
+      "bytes": 3667,
+      "sha256": "63ab941a188f81627721df240a3b21ecceef2bad41349eecbd598ce801ecc659"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/stop.png",
+      "bytes": 541,
+      "sha256": "17fdaeccc7c4871689876d776301bba7d8a26fce7920269910f4bf16f7cbbc85"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/stop.png.meta",
+      "bytes": 3667,
+      "sha256": "72fdc2e90548b66e37dd752ad0837f481b0eff1f17a7a2f2201e478b9779ea25"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/trophy.png",
+      "bytes": 4913,
+      "sha256": "61f3f1d208f685b0d64bcae876eb50d4deef140dd04dbe72390dcb7682a21f4c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/trophy.png.meta",
+      "bytes": 3673,
+      "sha256": "88045515ad36a6e146dffdaf61310bed007ffc308de3a0c1284c8b6a9093b191"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/up.png",
+      "bytes": 711,
+      "sha256": "03dd361092a51e9670d7913289b6ba2b2beebcee3154cad0d0ceb8dbba0e6559"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/up.png.meta",
+      "bytes": 3663,
+      "sha256": "04da7eed6f48e8b81421f3f352d28c16cca591f3e838b39d7597abed24f32781"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/volume.png",
+      "bytes": 5203,
+      "sha256": "df35d43388e5700366246018d95503d1360e17dfc0e4c22a84903e73660ce02b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/volume.png.meta",
+      "bytes": 3673,
+      "sha256": "67201c7fd6a6725fb6fdb1d81f73dec6c493f3ed94e1470d1a3e8260df9a9c5b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/warning.png",
+      "bytes": 3417,
+      "sha256": "eea00ae09723e23f75de3f7e311df5684eef19b571a44ae38d30d72aff55b5cd"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons/warning.png.meta",
+      "bytes": 3673,
+      "sha256": "67bda29d98150acfed4c2f94c5e366ae70a27ebcdc760da3f00cd6d96783c293"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Icons.meta",
+      "bytes": 172,
+      "sha256": "5b096f1c8eadd41760c0a13041529c54c156ac0f2e48aa11dcbaff6949eaca7e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/checkbox_off.png",
+      "bytes": 990,
+      "sha256": "8ea9d9129c95fb50c8862005f30fdb9e0e96fb32c4346beba73ee64ea9986e4d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/checkbox_off.png.meta",
+      "bytes": 3683,
+      "sha256": "61d8ec842cd1b2a534e4aeb283cf7266cca46933df3ae8c94d5e04722e78e802"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/checkbox_on.png",
+      "bytes": 1867,
+      "sha256": "fbf20745e21f86f8b24609be01e722caebe7c1d7f572de94ee74f8d3203b6491"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/checkbox_on.png.meta",
+      "bytes": 3681,
+      "sha256": "a19b5389e92e561f53bb6c085fb2909b3861bc90627729893dda819c05b9ead5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_disabled.png",
+      "bytes": 1508,
+      "sha256": "b1e3c8a6d0ae0da7fbfd543f81678cc2c105ca26713502dfba324a9f663f67c0"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_disabled.png.meta",
+      "bytes": 3693,
+      "sha256": "053cab00ece30c51348bd74f2181d4d52ae3ff008623ca47e536c21322ba60ee"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_focus.png",
+      "bytes": 2973,
+      "sha256": "1d9a53d06b9e4167f87bbd782bc898a23b1ccfe283dd6b01879c816a90abc564"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_focus.png.meta",
+      "bytes": 3687,
+      "sha256": "732efba5a8773cc0e53ed1ad7c4826cf7e566694c6d977fa83370bb871792da9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_hover.png",
+      "bytes": 2651,
+      "sha256": "618c9b8bea6c79210942561803ef8f75867ce0022acdbc42dab1c73641b8981c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_hover.png.meta",
+      "bytes": 3685,
+      "sha256": "e482b45cf5ace24b24af4cac3e0b600d78a6d612c7ccc09fc6371e6c1a173daa"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_normal.png",
+      "bytes": 2628,
+      "sha256": "364aa72e6953814ceb199381835cec443547cfed38a9670b3f675850e467b834"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/field_normal.png.meta",
+      "bytes": 3687,
+      "sha256": "06a648adcf34ba4bbbf6c4041d3b27a5e7ef024f5aad263ae03e4da6b0a749ab"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/radio_off.png",
+      "bytes": 3000,
+      "sha256": "03e371388d8b77142568ff755e54727b61ae71123586825cd3aee53740ff48ee"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/radio_off.png.meta",
+      "bytes": 3677,
+      "sha256": "cf662d820292f786d108b0fe35aa5b535f1701a98b50dd9ab2d0d71d6af9a7f5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/radio_on.png",
+      "bytes": 3709,
+      "sha256": "992560b9571229a55e48717591eb0c7a06078e87251c65dfd4445b7fd830b38a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/radio_on.png.meta",
+      "bytes": 3675,
+      "sha256": "2c0f32c9b9d84d43f20b146b0a1c8e0f8ad81a6572110680f064e9b087f40a58"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/tab.png",
+      "bytes": 2408,
+      "sha256": "ef499ab7c4a4eac2c2006f70b137ddd42674f4ef708199a64903ffbd5918019e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/tab.png.meta",
+      "bytes": 3670,
+      "sha256": "39fb10ba8012f58cbd5f23d75989d86a664a36607f344f6b70e43e710547ea64"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/tab_selected.png",
+      "bytes": 2277,
+      "sha256": "cbb6dc426fd2f62653318fbe1e696ca84c4367765e9be2a972add00a95c60e46"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/tab_selected.png.meta",
+      "bytes": 3688,
+      "sha256": "530e21111dc5804da73bc2378542e44043dd3193f4093b123530d65bed31923e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/toggle_off.png",
+      "bytes": 2284,
+      "sha256": "17e1deb6fe81961cd0bbc2555870dd802aee7667a366067fd04c4f429bb306ab"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/toggle_off.png.meta",
+      "bytes": 3678,
+      "sha256": "c6111f8b072bbbd423771194d6f7ba504a550d75705d3b2e42aaf2ef0f5a3978"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/toggle_on.png",
+      "bytes": 2364,
+      "sha256": "0b0b470dba25c730115ea03bc264bd17cd9a1fa1ce852427e657dfb5534c6146"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs/toggle_on.png.meta",
+      "bytes": 3676,
+      "sha256": "3d53b1a775546189da9830419ef10cd72812bbfedd61169a4d0ed192f94dade3"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Inputs.meta",
+      "bytes": 172,
+      "sha256": "d3129c3b6a132d10705f0ccaf608ddb87800d13a4aec84edbfac33606e0ac3b4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/manifest.json",
+      "bytes": 28043,
+      "sha256": "e233ed32cbb9b1c99db6172ffe558e9609eaf1fbacca8ce35d8f9301d6edbe05"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/manifest.json.meta",
+      "bytes": 158,
+      "sha256": "668eaaf592713503d087751694bdf2cf2ed82531413851c34983a7567b3149f6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Movement.meta",
+      "bytes": 172,
+      "sha256": "763c2c50b3ae999992d8c3ce0d177834e73243f5dc17d96b479d90eeb7f4ba72"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/camera.png",
+      "bytes": 3785,
+      "sha256": "934f99b869f7b055ad09d48a615ff4e1869ef3df8b5ac36878e4272e071ca458"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/camera.png.meta",
+      "bytes": 3677,
+      "sha256": "9277214408278361cc22b2158929fccb775e4244840c16c6ec34091b717deb9e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/card.png",
+      "bytes": 3872,
+      "sha256": "3e44201a6afb3538183844008be0f47867f6bd9412b4caf40bc5062a26dbbcc8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/card.png.meta",
+      "bytes": 3671,
+      "sha256": "1ddc46d14fddff2caa84c6c53c16f51a61a28b9c09e1385e59a8cc713901f55b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/hud.png",
+      "bytes": 3785,
+      "sha256": "934f99b869f7b055ad09d48a615ff4e1869ef3df8b5ac36878e4272e071ca458"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/hud.png.meta",
+      "bytes": 3671,
+      "sha256": "925aa10f950955e8d2a11837202b50282ef3dfaada1a5e434b0cb7e25cd4cbec"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/modal.png",
+      "bytes": 3785,
+      "sha256": "934f99b869f7b055ad09d48a615ff4e1869ef3df8b5ac36878e4272e071ca458"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/modal.png.meta",
+      "bytes": 3675,
+      "sha256": "f68a15d605bc268db2936cfbce1bec765f03a3321ca2bea33e38a2045651c9c6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/notification.png",
+      "bytes": 3982,
+      "sha256": "d3957e8ee39c2dbbea5c71d5f20ad919282c9cd0a18c4735cfd2c43a821e6d27"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/notification.png.meta",
+      "bytes": 3687,
+      "sha256": "f2e2424a32edc24b2a04302357902daf77a6736dd2ba8cacc370323ad1fae483"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/tooltip.png",
+      "bytes": 3931,
+      "sha256": "442851d790ddb69efc8482214e2eb49e2ce540389757350347884aac62c3b960"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/tooltip.png.meta",
+      "bytes": 3677,
+      "sha256": "4ce2068ca0ad046bb4b806be6b75d30afb04bc1425bddd5f64e266f9f7399e07"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/window.png",
+      "bytes": 3931,
+      "sha256": "442851d790ddb69efc8482214e2eb49e2ce540389757350347884aac62c3b960"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels/window.png.meta",
+      "bytes": 3677,
+      "sha256": "8e5bfccad92196ec5356c1514e9606f421568251dbd8042ed1569cb53ac23af2"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Panels.meta",
+      "bytes": 172,
+      "sha256": "4ca54a48694661eceb5c3958f4e04efae09bbc3fad2bfcbdff4be5642286fe3e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Calibration.prefab",
+      "bytes": 36794,
+      "sha256": "260a41f7d8cd4e12b762f306c166b58d596b7f08a1ad00c78224f99ceeaff196"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Calibration.prefab.meta",
+      "bytes": 154,
+      "sha256": "20b28382c6c00c40442806b7e1cac71a67b1db8d3b445204483fb1101d18df53"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Gameplay.prefab",
+      "bytes": 41435,
+      "sha256": "454ec1485a19ede55fdb5b636b30b579fe9f38ee2da2756b8eef11baf53ae000"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Gameplay.prefab.meta",
+      "bytes": 154,
+      "sha256": "bf1798009879e4e920c6ed776f8e77020076cfb6d5e7e211fda6d12ade6164d7"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_MainMenu.prefab",
+      "bytes": 35187,
+      "sha256": "a1c4dfef75b76bdc0553c30131c4ae98b166135367e3868e65f8518372dbe7e6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_MainMenu.prefab.meta",
+      "bytes": 154,
+      "sha256": "377feca3ab368f6a5a410e9d7695bb427f4738aa665abbbf3e07dbf251b1567a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Pause.prefab",
+      "bytes": 35011,
+      "sha256": "8312c1eb16dae90f297f4cfce92e81a63e615a498209cf0ba90af20afab016d8"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Pause.prefab.meta",
+      "bytes": 154,
+      "sha256": "a0ad7e2ad64bed75ca22c06ca572c34a6ed3da750c72d57f0a467d385c946f4e"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Results.prefab",
+      "bytes": 38399,
+      "sha256": "197b33916e0b8ad8fe1f4c253a60167de72450f46db1a70ecc9fac1b686a8859"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Results.prefab.meta",
+      "bytes": 154,
+      "sha256": "a03bc1d40119bd2037161c399b973a1f47c788302ffdcae26748f04ce0ed14f6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Settings.prefab",
+      "bytes": 64783,
+      "sha256": "4a6b45f69e5a9d9fb218aa43d32ad8c4d4386956e368c0bd0f6393282b0be5ce"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Settings.prefab.meta",
+      "bytes": 154,
+      "sha256": "09872d23a779df481a27be7647a78bade94d7842e408eceeaf277df10437f7b6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_TrackSelect.prefab",
+      "bytes": 107679,
+      "sha256": "4f5b00dc7d57cb616c6b2ea5e5bca144f7284b70a0d2822c00ecbb03bafec82c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_TrackSelect.prefab.meta",
+      "bytes": 154,
+      "sha256": "9e4d5136809b1b660be95000b4b5ae8a26e9d28872b02a8b2c2d1ed54107a133"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/Prefabs.meta",
+      "bytes": 172,
+      "sha256": "d6216cc79e68a8cdada72f93163b4fa0d42ca3be4eb54b6fb08ea752f2039fee"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_disabled.png",
+      "bytes": 1309,
+      "sha256": "0f27c60c813a7acc686ef3d7127db6cd3fbdf7a83989d32f21a55ccd0fe77f97"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_disabled.png.meta",
+      "bytes": 3702,
+      "sha256": "a0c4ee30f7bb63bebc6cfba1278727348d4a338f89894dac9b7aad7b97e106ab"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_focus.png",
+      "bytes": 2860,
+      "sha256": "49eca328d37e086fbe7adc85ed9f06bad76aac34223612956933f9d8975ac58a"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_focus.png.meta",
+      "bytes": 3696,
+      "sha256": "5a970414b14563af8b76faa2471bf61719fb3355d03dfb2af21ef8fe3e322bb6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_hover.png",
+      "bytes": 2485,
+      "sha256": "2f0fcbd1c61c402e4dc317beaf00573a6cab9eaf3c681185b334be3f43bf4b92"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_hover.png.meta",
+      "bytes": 3694,
+      "sha256": "cca4455cb12e5e69a9f1f64e866ddd79bd18db11fb9a80e890971a3c179ec17d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_normal.png",
+      "bytes": 2484,
+      "sha256": "8005c57662f074d1b09948405e7f767f0dad699810211d07acdb3e0f2629e368"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_normal.png.meta",
+      "bytes": 3696,
+      "sha256": "076b0235e9f4b58a2b38ba2a1590e551958ed8b360b51ee08db31817228038cf"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_selected.png",
+      "bytes": 2422,
+      "sha256": "ef5587f5e2eeab4077f3f97029ba1eb6b4f17a7c2e0b2641171ba96ceb71abd4"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/difficulty_selected.png.meta",
+      "bytes": 3700,
+      "sha256": "e0e9558d19f8dceffead0c34567dc00353edf995e9110c736786b846b0b942e6"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_disabled.png",
+      "bytes": 1941,
+      "sha256": "bfdfa7e74b3aceba7b2c8b0fa8b2d07b2f22f0336962194215f49dfb9f668f4b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_disabled.png.meta",
+      "bytes": 3697,
+      "sha256": "85f4fe49a3d6265ab7876ab4c2c7e6655a3f9f289dbecf9f04c1b13d2ab65a8d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_focus.png",
+      "bytes": 3582,
+      "sha256": "cc9322fd07e61f678d4e80ddb9123196989bc3f6e765cd78b99d94e8e2e4c9df"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_focus.png.meta",
+      "bytes": 3693,
+      "sha256": "14d4b36097c65ddf3e9768913de26ed153417f60057912578ce4823bb852a37b"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_hover.png",
+      "bytes": 3220,
+      "sha256": "25dc727800e046f8ca30feac0536fc9b8d63f85fa613f32f696bede2a3dad987"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_hover.png.meta",
+      "bytes": 3691,
+      "sha256": "47ae8ae1938b3ac9ff4a69cdb12694e63affa38de1cfb6354a423a93ddb1150d"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_normal.png",
+      "bytes": 3199,
+      "sha256": "1483ff07b10de271efd403a87c18d2234e113c4457b9e21ea101a67c998322a5"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_normal.png.meta",
+      "bytes": 3695,
+      "sha256": "6ae625fa759615504e28966afe847d6d6c26741a2fc3f53acb34599f6c267794"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_selected.png",
+      "bytes": 3232,
+      "sha256": "b1e69ef376f0f3a33024be68d87197b2222cd6aca6057e23bf2f88b2b2088a3c"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect/song_row_selected.png.meta",
+      "bytes": 3699,
+      "sha256": "254630f25c9f4cce32c9325eb5daf93753447ac74fd9fde3d09718506d2b86f9"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI/SongSelect.meta",
+      "bytes": 172,
+      "sha256": "9cff2dd6167446aef3de60ceb895cbae6db6de93d90bd7c9fa78229183a0c053"
+    },
+    {
+      "path": "AssetLibrary/Assets/NeonflowUI.meta",
+      "bytes": 172,
+      "sha256": "5093c41cbb41efe9c98b8684ee650ae6e10a71ea1db188f3843780bdb81530b0"
+    },
+    {
+      "path": "AssetLibrary/Documentation/Cursor_hotspots.json",
+      "bytes": 1491,
+      "sha256": "842b50762b9b7e8b906d6325ebc9b6f66e6141cecb4b90cf3a97637ea3e0c6df"
+    },
+    {
+      "path": "AssetLibrary/Documentation/Movement_NineSlice.csv",
+      "bytes": 360,
+      "sha256": "07023d6c4ffef6a885fb90644b0961eb1d902feb7194a87537623e66b2daeae2"
+    },
+    {
+      "path": "AssetLibrary/Documentation/NineSlice.csv",
+      "bytes": 2860,
+      "sha256": "f3ad6c12007d6d3ed7ab1d6657809671381e1e6fb94002ed1cd17083457018d9"
+    },
+    {
+      "path": "AssetLibrary/Documentation/Palette.json",
+      "bytes": 206,
+      "sha256": "950462dd07d3d88fb5edfa7af5bcc17bb780b08802e7fe3865b5110780e8adac"
+    },
+    {
+      "path": "AssetLibrary/Documentation/Sky_generation_prompts.json",
+      "bytes": 8456,
+      "sha256": "2efcdddd82e4674454fcabcc642702c86cf57cf347c6e227c656e95d9bc0066f"
+    },
+    {
+      "path": "AssetLibrary/Documentation/UI_background_prompt.txt",
+      "bytes": 1000,
+      "sha256": "b61f4c49719ed2c66c3005049b39b686449579278e31715dd18767a262c40fdb"
+    },
+    {
+      "path": "AssetLibrary/Documentation/UI_licenses.txt",
+      "bytes": 1341,
+      "sha256": "446e2116c520d97f3a42deed045fe39f6e4ce7d8c527be2b7ac889c68d3982cb"
+    },
+    {
+      "path": "AssetLibrary/FingerCue_rules.json",
+      "bytes": 1873,
+      "sha256": "cf01b90af012ffe92b076b24565b01cb2157dc6654354d6f2f0f3ca62abc7661"
+    },
+    {
+      "path": "AssetLibrary/History/AI_TUTORIAL_RU.txt",
+      "bytes": 5910,
+      "sha256": "d2f4e91224f1bb78b4b6384218b44d804ffbf2758077688e3caaa0e67be7212c"
+    },
+    {
+      "path": "AssetLibrary/History/Documentation/Movement_UI_Guide_RU.txt",
+      "bytes": 5198,
+      "sha256": "011cb756fbc0dd08a31ed5a3175fde1c57c7f85dcba0465e4957d7140c47216e"
+    },
+    {
+      "path": "AssetLibrary/History/Documentation/Movement_validation.json",
+      "bytes": 1434,
+      "sha256": "904b305b643afc884fbbeb985f7af9c9031ddf7ecea27b60426e7970818c31d7"
+    },
+    {
+      "path": "AssetLibrary/History/Documentation/Validation.json",
+      "bytes": 405,
+      "sha256": "14aff1e01a17841b3b5bb433313e8ce1696cc635f111705026fdbc27e1cbaae1"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/00_Pack_Overview.jpg",
+      "bytes": 867291,
+      "sha256": "92e46568ee9a209751138380ffd43ad95fb254f0d215060a71f323f91e18b26d"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/01_MainMenu.jpg",
+      "bytes": 288400,
+      "sha256": "b0d0b911c8a7092c6f66f9e2eb392d867f9a009ce603588d67d7f7bfc2eeed74"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/02_TrackSelect.jpg",
+      "bytes": 328102,
+      "sha256": "3c9a248a69a692716eb6c68d9127653f6f4047b604da3140e2d97e795ac45c9d"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/03_Gameplay.jpg",
+      "bytes": 285902,
+      "sha256": "5ec8b6f82960c95a3c3e66922cbd967070dd08b24ee804d6f1c6a93212630e9c"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/04_Calibration.jpg",
+      "bytes": 187751,
+      "sha256": "2c9557ecad033af607ba59227c11327b400bea3e3dbae94aa01e3208b04140c4"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/05_Pause.jpg",
+      "bytes": 233296,
+      "sha256": "222244fa307815e312b2b220f7e74aafbd37b50675305c7ea85c7f46487c7ff1"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/06_Results.jpg",
+      "bytes": 211857,
+      "sha256": "0936ff1b7cba6736da0d3fd71697d159b033b98b08ed20e6314e9dfbf202c912"
+    },
+    {
+      "path": "AssetLibrary/History/Previews/UI/07_Settings.jpg",
+      "bytes": 204295,
+      "sha256": "47185f35a0f12e2dc5edc2a61a7123d535ec69b61198c6a2c6e6a2f0c7689c1e"
+    },
+    {
+      "path": "AssetLibrary/History/READ_ME_FIRST.txt",
+      "bytes": 563,
+      "sha256": "1cb326bbf39ba49b8eb3a46b49bc21887c6292191b052b33aa83de862e3bf262"
+    },
+    {
+      "path": "AssetLibrary/History/START_HERE_RU.txt",
+      "bytes": 7460,
+      "sha256": "7f9548d85e3abbbaecf46c0ce4df1200fe58432d8eb77672fdf6826a7302487a"
+    },
+    {
+      "path": "AssetLibrary/History/Validation.json",
+      "bytes": 405,
+      "sha256": "14aff1e01a17841b3b5bb433313e8ce1696cc635f111705026fdbc27e1cbaae1"
+    },
+    {
+      "path": "AssetLibrary/Movements_catalog.json",
+      "bytes": 10111,
+      "sha256": "41425615dd7c5745f7f3439d55b7a1acef27cbaa8be808f359133ef734fd328a"
+    },
+    {
+      "path": "AssetLibrary/Neonflow_Assets_Current.unitypackage",
+      "bytes": 9301591,
+      "sha256": "1ba7dd3c4b727a3fdef0280131b9f9005400f71bbb76ca98d0791e53a3578ecb"
+    },
+    {
+      "path": "AssetLibrary/Preview.html",
+      "bytes": 56021,
+      "sha256": "104bbd8965f0b8e040b3c9071855e3b84e6aa3f1ec40306cf201eeef699b1e06"
+    },
+    {
+      "path": "AssetLibrary/Previews/All_Cursors.png",
+      "bytes": 51962,
+      "sha256": "8220b474de5eb7f08f79a3cd3261bc4c9cf9a6201e2b00947a5e4b5ace2a7800"
+    },
+    {
+      "path": "AssetLibrary/Previews/All_UI_Sprites.png",
+      "bytes": 424031,
+      "sha256": "060a5bbbbab0c6f52e618649abdfef47b13bb1c3a7e6ea3d40c54db00ecb9828"
+    },
+    {
+      "path": "AssetLibrary/Previews/Cursor.png",
+      "bytes": 20336,
+      "sha256": "8caa111084d51e0c1151b44617f71eb54e440a05aff681570070594484a6df10"
+    },
+    {
+      "path": "AssetLibrary/Previews/Movements/00_Complete_Preview.png",
+      "bytes": 369268,
+      "sha256": "b3a631650350e37877eb6c4bed07e1c1e895fbd8f7ab6cdad112bae67bbdee37"
+    },
+    {
+      "path": "AssetLibrary/Previews/Movements/01_All_12_Poses.png",
+      "bytes": 86203,
+      "sha256": "4a97e7ce4b559430933209fb0d807d54f7a9bd0922889cfe2f998bfb2641d028"
+    },
+    {
+      "path": "AssetLibrary/Previews/Movements/02_All_10_Hand_Gestures.png",
+      "bytes": 74265,
+      "sha256": "a1c0e8810efb5cd05918097a122c012ea5ea5aef84d35bb110a6a6f33bad601b"
+    },
+    {
+      "path": "AssetLibrary/Previews/Movements/03_All_Boxes_And_Controls.png",
+      "bytes": 63075,
+      "sha256": "e2e4c56f67df71d036f0c8357b83855293085b87fb4038d47f907b98aade40d2"
+    },
+    {
+      "path": "AssetLibrary/Previews/Movements/Unity_prefabs.png",
+      "bytes": 122077,
+      "sha256": "6f6ae140821c8e379a6fdf5339fb95ed328d312d8a8530bf1b9861705f37ec9f"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/01_Retro_Sunset.jpg",
+      "bytes": 113674,
+      "sha256": "fa8ee03d7bd09a405cdb96c45426066d58e283159f6bee9bd67b8ec14c036c72"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/02_Cyan_Midnight.jpg",
+      "bytes": 134272,
+      "sha256": "ac5886f2f47a19b01892a8f2e88eb717111c00dc02f15871adf8f6764399831f"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/03_Magenta_Nebula.jpg",
+      "bytes": 132461,
+      "sha256": "06fb81e947c8cf48e52b3703a9ec4e9973d87725a69618949d644eefa879cc65"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/04_Neon_Rain_City.jpg",
+      "bytes": 179443,
+      "sha256": "fd785ec2ed1c62ba556a238047aed2048108130d8f96d5d0299031fbd930dcc7"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/05_Pastel_Dawn.jpg",
+      "bytes": 122619,
+      "sha256": "ca41b6700a56c771bb24c262bf4486e9b2a7bba1aafce13e13ac0a253aace9af"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/06_Twin_Moon_Night.jpg",
+      "bytes": 177732,
+      "sha256": "5137b23e6c64fe9f9e565e8d8f21296e5c65087651730b6a42aabb781e0edeae"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/RetroSunset_fixed.png",
+      "bytes": 181969,
+      "sha256": "714017f3252c2e13cfe1d5eee2097c670a83a5cb1943de63cb1edb6c0c328348"
+    },
+    {
+      "path": "AssetLibrary/Previews/Skyboxes/Skyboxes_overview_v2.jpg",
+      "bytes": 356676,
+      "sha256": "0a305b52d9cb6281bf64c5d20271464bed365fe59f128632648edb715a1ae951"
+    },
+    {
+      "path": "AssetLibrary/Sources/Cursor_SVG/cursor_default.svg",
+      "bytes": 238,
+      "sha256": "d4595a80895b7737222c65b475fd9179a3f970b80389fb5632d950c0a42b9774"
+    },
+    {
+      "path": "AssetLibrary/Sources/Cursor_SVG/cursor_hover.svg",
+      "bytes": 333,
+      "sha256": "a489754ac186899838b4f569eff097725134fde2372f89a2f6d72a672a9d173b"
+    },
+    {
+      "path": "AssetLibrary/Sources/Cursor_SVG/cursor_pressed.svg",
+      "bytes": 238,
+      "sha256": "b21c2e415cfb5d6e6b3a2a3e1c4a3663f962d875f76d245e4c306a0c866d7382"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Arrows/arrow_down.svg",
+      "bytes": 214,
+      "sha256": "9d7945cefe91491618cd531fba9f1fd25dc6677f2ab484c8987c72a72b50c23f"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Arrows/arrow_left.svg",
+      "bytes": 214,
+      "sha256": "398252bb621b94aad9e7a6aa8dd9e63464a3f79427644a57e2ac79890902d878"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Arrows/arrow_right.svg",
+      "bytes": 213,
+      "sha256": "bc8c995da4eff05271dd10373e4ea346d249f68405331d953e29295d0f8d27bd"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Arrows/arrow_up.svg",
+      "bytes": 212,
+      "sha256": "1e840243dad5ce7feb2da51572ae97383680f27aecf0a6983dceaf27afa89a2b"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Bars/hold_fill.svg",
+      "bytes": 124,
+      "sha256": "f280193ab31e664258741de4fdfa49f06466e7ce9c49e85a7b82dcfb928a4f91"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Bars/hold_track.svg",
+      "bytes": 124,
+      "sha256": "03809e966c4aadee55b36010ea5c97ac413b1cc51674d0036d2200703151c861"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_current.svg",
+      "bytes": 307,
+      "sha256": "05052935903d9babd2fc35844046a74ede1abbd9813b3e110bb3569d96575a66"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_disabled.svg",
+      "bytes": 307,
+      "sha256": "99b0bba184010355f4764b641e829545038b22c9709290ed82c50e49c70d7382"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_focus.svg",
+      "bytes": 307,
+      "sha256": "75a4da89713feb9c1ffe85e839dae018e526f1b1bf61a905e07f44ca0cd88064"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_hold.svg",
+      "bytes": 307,
+      "sha256": "7f909e3bee4ccec2323e1447ffbac1050a1789ea66124d1123797661d10a72a6"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_idle.svg",
+      "bytes": 307,
+      "sha256": "48153603ef81846d661dd885edc7598412347727249eec7899f9c51c045d46c1"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_miss.svg",
+      "bytes": 307,
+      "sha256": "bc6d8092763fbd7d7264f29b832f796d9be565e5eab97846a33bd30d899af20c"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_next.svg",
+      "bytes": 307,
+      "sha256": "0c3904e1c93af130d9c4e974af5beeb23c4db5d8f483d053ceaf09f7c727cadf"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Boxes/box_success.svg",
+      "bytes": 307,
+      "sha256": "7d5cdc72016f5aca4485a5dd223b53607a29d52fa9df5533fc2b323f11353bf1"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/fist.svg",
+      "bytes": 1340,
+      "sha256": "79df95b712d084d4825d425b25ce7daae22b1f7ba82650f10b997bf07dea82ca"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/four.svg",
+      "bytes": 1488,
+      "sha256": "13c1c2d9a2b9bf4b6d5dd8b54deb2047541ea4092fbcfdf463956935d58e6c92"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/l_shape.svg",
+      "bytes": 1187,
+      "sha256": "067f0314a47131bbf43bef753c602ef2d8131ffd208577564d171b07ab38b5a5"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/open.svg",
+      "bytes": 1372,
+      "sha256": "9498c7fa86035f66b5aee11c449cf9eff119f956bc4808ef9104fdd94c92a798"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/peace.svg",
+      "bytes": 1389,
+      "sha256": "6dc446045d752ae8046e2d48a85a1baa7d87ba30829c12a83581c4937c010ff4"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/point.svg",
+      "bytes": 1341,
+      "sha256": "626c024725b0f80d4c07708006d88d53fba9c30ce0b6680e8ee2022e1c6066c8"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/point_side.svg",
+      "bytes": 1360,
+      "sha256": "90550a145a543afd2d49a4b0d8544cbb569d7b022001b57ef2f48405473dd801"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/rock.svg",
+      "bytes": 1391,
+      "sha256": "86dc59cda1742ec9627407a1beb7cea8f055bf38ff68e4a1393084d2d5d3edd2"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/three.svg",
+      "bytes": 1439,
+      "sha256": "2f53b6829cf4525acc16e567faba71410a9655acbf456fda135f211b96f81885"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Hands/thumb_up.svg",
+      "bytes": 1167,
+      "sha256": "09a1225804f8591c26f4209c3b517482428e3038f1a2184e644a11be8701270d"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/arms_t.svg",
+      "bytes": 987,
+      "sha256": "f74b7cf956f0228a0e7907d452063ab4484a1d01853b20fd93d151a10556c7df"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/arms_up.svg",
+      "bytes": 1036,
+      "sha256": "e3d6b7ca6ed4af36e20205b573f4549ed6d2f21f98cd48fa32708b65e1524ca0"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/arms_v.svg",
+      "bytes": 1036,
+      "sha256": "db0237ff2994898d5737fc4aacd70ab80e2db1271f7b903de4d3de55a47e9927"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/clap.svg",
+      "bytes": 1187,
+      "sha256": "9dcc4298252e46f3df009c3133c5005bc43657c5a68da90a0ce97b92aa9862f7"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/cross_chest.svg",
+      "bytes": 1186,
+      "sha256": "488928cca419350cbf06cbb617904ede67cfbbfefffd0fc74636fb1e0157814e"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/diagonal_left.svg",
+      "bytes": 1037,
+      "sha256": "8f081d19d792115db6c54d29677f85fbff6835c37fdb27eb0c43db39694c0583"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/diagonal_right.svg",
+      "bytes": 1037,
+      "sha256": "83ef9f486cb7e833725b43507371c00db1b7c081847fc7a05920743dae5f6521"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/elbows_up.svg",
+      "bytes": 1041,
+      "sha256": "f5ab6ec800a25c90ce35887707a852d47ea8d4a8c484295baae29bb7f7173756"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/reach_left.svg",
+      "bytes": 1039,
+      "sha256": "5a7c327de74ad503002b3de1cdc35cbd861783422376f63321e8b788501efd88"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/reach_right.svg",
+      "bytes": 1039,
+      "sha256": "b1bc946363f57944ff7a45337afa932b25dc1b659bcd4fa038d03475b3eaad3b"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/shoulders_down.svg",
+      "bytes": 989,
+      "sha256": "b788ec049e6870c1b9c82632379b3ba6de4f74f8bcfcb3e9dcc8ed97c35e193e"
+    },
+    {
+      "path": "AssetLibrary/Sources/Movements_SVG/Poses/shoulders_up.svg",
+      "bytes": 1039,
+      "sha256": "745bf0495c7d7ce635a95e64e7b4cf5f7dddd05881c0155bd177d77c71f5863e"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/AlbumArt/midnight_run.svg",
+      "bytes": 5250,
+      "sha256": "f8ddb2a318d94938de736c81771f5ced2882acdf92420147889aa38e3b2b4dc1"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/AlbumArt/pink_horizon.svg",
+      "bytes": 5250,
+      "sha256": "7e0a82046472a4dc4a692ca8df2d506873d1c3cc3af03176eb7af9b697ac1588"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/AlbumArt/solar_drive.svg",
+      "bytes": 5250,
+      "sha256": "805c6f6aaa7426fef939f5d9285284d36507558680c42200656476e3fb186629"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/AlbumArt/violet_pulse.svg",
+      "bytes": 5250,
+      "sha256": "8bb3a89ca980ba975b02c0cf536201650c5690ce99fcb051987b2e8625c5065f"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/fill_amber.svg",
+      "bytes": 441,
+      "sha256": "b2eb6159d12d7da740ab2226fb845c75629099afa1867069770d38a7b00bb9c2"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/fill_cyan.svg",
+      "bytes": 441,
+      "sha256": "740c93c81eb9bee7bb3864b466d8c55476061df64b4e9743a8601776b3f79ead"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/fill_pink.svg",
+      "bytes": 441,
+      "sha256": "c36f82f66596b9ff606f246caee68149e3b8752f1452c20fd5708188ea29891a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/fill_white.svg",
+      "bytes": 441,
+      "sha256": "3a4168c0bf1b2baf4d764f99fa4c0377511b7bba0309bd0b49ba05acffb34a3c"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/thumb.svg",
+      "bytes": 608,
+      "sha256": "20db9c98f89ebb3875149768e1410a12c5e834506963845d60142558c3066ca5"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/thumb_disabled.svg",
+      "bytes": 608,
+      "sha256": "49a7756dab651c88bebab06f212edd4bde98825a81345e3f757ccedd52aec0a4"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/thumb_hover.svg",
+      "bytes": 608,
+      "sha256": "a2f457de43665010283ac1d44c41dac12c4c322883782cf6734dd8998fe0b291"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Bars/track.svg",
+      "bytes": 441,
+      "sha256": "f08c9d981b6d53bf8cc19e6c8a29fbbc3fb84cfad17b409e7deb76f441d8eba8"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/danger_disabled.svg",
+      "bytes": 776,
+      "sha256": "a610ba2c60bc1f36221aaf2048e7781284a97936345f64d6cd4e9fdf05021823"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/danger_focus.svg",
+      "bytes": 1147,
+      "sha256": "f8897a6106add3497abffdad4d716000c65997127b4b5a9fc6b06e25f3bc899a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/danger_hover.svg",
+      "bytes": 972,
+      "sha256": "f136fc89b1748d195e2a4e4ff052ee61408ecad26db9bc2d86b3f15a333b3306"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/danger_normal.svg",
+      "bytes": 972,
+      "sha256": "e905cef26f82537367fd30c7dbba0fd31e2a1cce91492d0b0f10e79d6db7313f"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/danger_pressed.svg",
+      "bytes": 972,
+      "sha256": "a2cfeea319420ed4907e3aefffb4e4390d5c14cbd4827f5f1b0acb02187f001e"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/primary_disabled.svg",
+      "bytes": 776,
+      "sha256": "a610ba2c60bc1f36221aaf2048e7781284a97936345f64d6cd4e9fdf05021823"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/primary_focus.svg",
+      "bytes": 1147,
+      "sha256": "5df969426aaa5ee17bae827bc4e6c327df78f199cd0ebb8bdcc1f1b40b502f23"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/primary_hover.svg",
+      "bytes": 972,
+      "sha256": "334b70abfb079ecb880ddfb59891c46779f1c6108bb3b17e5165fdaa9e0cc2b9"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/primary_normal.svg",
+      "bytes": 972,
+      "sha256": "9d92342959ae9abd07b849c7409e599a049b22fb20e7d15d61debc2531e5bdb9"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/primary_pressed.svg",
+      "bytes": 972,
+      "sha256": "f83bcfd0fbdd828827a6fda89ce98b47a5ff7db6a1404a0fd72c1bd5debc650d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/quiet_disabled.svg",
+      "bytes": 776,
+      "sha256": "a610ba2c60bc1f36221aaf2048e7781284a97936345f64d6cd4e9fdf05021823"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/quiet_focus.svg",
+      "bytes": 1147,
+      "sha256": "8ab5d57738d96a3a082e57ed91c572ed3ac674774935779ba162de325e5f9a1f"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/quiet_hover.svg",
+      "bytes": 972,
+      "sha256": "4c601bf72cd38417782ba2bd861a0057c9b465077fa81b30157b14e32cc36ba5"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/quiet_normal.svg",
+      "bytes": 972,
+      "sha256": "63b62e6e9468a07090db4b4cc4170b25b6e121b995b996bba6cee902deffd716"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/quiet_pressed.svg",
+      "bytes": 972,
+      "sha256": "a6f686fbee2a1ac7a35961979621382cd7a1dfab73cc38d1a9843c45e43fcb47"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/secondary_disabled.svg",
+      "bytes": 776,
+      "sha256": "a610ba2c60bc1f36221aaf2048e7781284a97936345f64d6cd4e9fdf05021823"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/secondary_focus.svg",
+      "bytes": 1147,
+      "sha256": "0ea24e1e0cde248382f7bba55fd71ce8066c1ec9947f6a3a967de3a697ce98ae"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/secondary_hover.svg",
+      "bytes": 972,
+      "sha256": "bbfb8e3241fc53e2ac550669bd32ab3beb4614fa77ee102a742adea1dce021f1"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/secondary_normal.svg",
+      "bytes": 972,
+      "sha256": "8a0f1d7b09661aa5c25ad4b20552a7493eb468c646ffc719d22af10643e2f3fe"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Buttons/secondary_pressed.svg",
+      "bytes": 972,
+      "sha256": "89945e100113f350a8ca4eaf57e4d7ccdfa1af01ab8abd8d9c3297c833a1f514"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Feedback/flow_plate.svg",
+      "bytes": 972,
+      "sha256": "6d26946a753d3d3681bd73f3afcd1bf6213fccf5221f2d86d983d35c5650c263"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Feedback/good_plate.svg",
+      "bytes": 972,
+      "sha256": "bba062437da275bb6bbeb736c2d992ecfb071f786a8e52b1019793ac52ae942e"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Feedback/great_plate.svg",
+      "bytes": 972,
+      "sha256": "448817d89e4237d658c54595d6a3cf99800ef0607e8aa2e63b3af71d6b7f7ade"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Feedback/miss_plate.svg",
+      "bytes": 972,
+      "sha256": "508c15081a2ef79e0f7d02c01ca7c3b18c7413ac6161d9fc80d59aaccaac0015"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Feedback/perfect_plate.svg",
+      "bytes": 972,
+      "sha256": "6c77b05ff34d626944cc33ca2a15ebad7bd6c5ef1dd255d3ae9d953ae3e78169"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_00.svg",
+      "bytes": 2049,
+      "sha256": "4e49668603c85fbfc4b770308acd9f6d238a6c62b0ddfffb26f8d5ce61f7bd06"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_01.svg",
+      "bytes": 2194,
+      "sha256": "362645d03dc5c6aa1c12b1919fd575b9dee5d841cb87a3df4c0b07feb01e6eb9"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_02.svg",
+      "bytes": 2191,
+      "sha256": "6e9f44065fe2a649654522bfae4f92369c3a79760a5ca76a1dc2482c6d372d83"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_03.svg",
+      "bytes": 2188,
+      "sha256": "a0d686c8adf99cee6dd0995b26bd507703e6be2c3e765fa3253fa689203210fd"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_04.svg",
+      "bytes": 2191,
+      "sha256": "825a7b77b0a5a046d7875c6437689ee3af11f084c3b8266c7419fe75362ce848"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_05.svg",
+      "bytes": 2203,
+      "sha256": "fcbdd7b42ddcca2beb5f1d31d4f5a55e807dc81074e5fc9ff0c368ae7be1f6da"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_06.svg",
+      "bytes": 2194,
+      "sha256": "d6cfe5d125c09622ea6db181738f30af436d206ae26c5002ae806efc75cc9821"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/FX/hit_burst_07.svg",
+      "bytes": 2204,
+      "sha256": "18c03a4f5e52d8a5a0af4a7fd984586b1c1aa2721062bf0a915e07a496f3495e"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Gameplay/hit_ring.svg",
+      "bytes": 1342,
+      "sha256": "dec3dae08824d94034eec8c6de1954582f9caaecc769865310d80533803d28a5"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Gameplay/target_ring.svg",
+      "bytes": 1342,
+      "sha256": "2cdfa729d53d627401b31891c6c574cd549e9bf5bc06ba024cf23a3a4b8780de"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Gameplay/timing_ring.svg",
+      "bytes": 1342,
+      "sha256": "e9d7f411da7e066c8ebaf5c77a701b4b9baf9a4d62dd4e6c9f7fca11db39d96d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/back.svg",
+      "bytes": 435,
+      "sha256": "4db2359606c2b6a6b474c91a3c90e9ca780ba090dece1481241f11d38799866e"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/bolt.svg",
+      "bytes": 441,
+      "sha256": "283ccc060e7ee16cc8da8f11122942c1db7d79ece5b43a80b845249d898e74d2"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/calibrate.svg",
+      "bytes": 1445,
+      "sha256": "ccfb72d3884dd62a1a40ba1c72d8820e8bff453350d53a21efbcbdfd430af296"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/camera.svg",
+      "bytes": 635,
+      "sha256": "334bfaaeb08412fc4f6ab5659721f4b746312c6932c7c7be9d3fa2a9277f12ea"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/camera_off.svg",
+      "bytes": 800,
+      "sha256": "05700f9dcd4768d965ec396e4f1a6ab910b44fa6be0390f9d7a69328785ee7cc"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/check.svg",
+      "bytes": 424,
+      "sha256": "2009837b2beb9c3f09c95f07785f5ebe02d3466e215525789d32286e93203a82"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/clock.svg",
+      "bytes": 604,
+      "sha256": "2e7b2ef6059ecb913df0416c601a1a29b3c1cc94564ae933dc8bb0e2b18b36a6"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/close.svg",
+      "bytes": 580,
+      "sha256": "3e5eb55831946e71dce255f454164c18fd5b3fe2c65d084bc7609efb30eb2507"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/down.svg",
+      "bytes": 435,
+      "sha256": "1703cd0ec73ff18142fe0ad58af9821f08ad94f470d20ecdc826654fcc027ec8"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/exit.svg",
+      "bytes": 765,
+      "sha256": "58f826a3bfc0ea085a3a3f7b1d32f11785273917333ae7d6c869cab59966552c"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/filter.svg",
+      "bytes": 1298,
+      "sha256": "833c237b0efdddf4e1a8a8c9b9c21306f3cdf63ddb559c00f42b0287f59e1b7a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/fullscreen.svg",
+      "bytes": 938,
+      "sha256": "c9e4d4c36a3b1787f131b095aa57b9ea939895943026677a30f3bfcac8307821"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/heart.svg",
+      "bytes": 475,
+      "sha256": "4c8b408f034e7109e7044e6767ef522ce5560cfbe0f5046cef0de0d93a4055cc"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/home.svg",
+      "bytes": 627,
+      "sha256": "de0544ac308d9889366f084fe39b895a77840bc19d44fdb09ae3b347594925dc"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/info.svg",
+      "bytes": 777,
+      "sha256": "40e874f7594a7f6778bf45f28583a0ce993636fd6d394bcf2018b1fee3debb7d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/link.svg",
+      "bytes": 795,
+      "sha256": "47bc42c9c1bfdb73286f95a7d002387543ac79514b8a47743c8f283f34ecddc6"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/lock.svg",
+      "bytes": 796,
+      "sha256": "5d01ab6bc56cba4959e8b800b5c3b513ea3a2c2b54bdb193779e5d1bac002d39"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/loop.svg",
+      "bytes": 947,
+      "sha256": "32c4bada5883ac81a647e84e9952e201051e5f95ced1da15940183b59238e237"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/minus.svg",
+      "bytes": 417,
+      "sha256": "bb0c348eee0159856db23f722b925928e0c99f132ce9929916e91e5d394e9648"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/music.svg",
+      "bytes": 954,
+      "sha256": "f29fcb420ff559f9644b7f52ac3529a7240202c04ed78d4696499f4d85fed0b7"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/mute.svg",
+      "bytes": 768,
+      "sha256": "57ec5213a298c6ebe5fa4e30e783753c11146784d3da0cc2cc3cbe6065e1bd73"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/next.svg",
+      "bytes": 461,
+      "sha256": "ab096fc70cea2173305b8ad6a086eaf87aa0aa3d59a20a0f0ce63dd259d41b93"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/pause.svg",
+      "bytes": 602,
+      "sha256": "b5145637e513275bf7d346c95c264f868a50a5df9a38b29fac3f3de50dcd827b"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/person.svg",
+      "bytes": 938,
+      "sha256": "5429ddfd31e999705d40f4a68fa38f1fb3b053e93bd5964153a33b4e7004e244"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/play.svg",
+      "bytes": 422,
+      "sha256": "0731ad288e80d27cb41f9cdc78495e53aeb07e371fb45dacb7d88659901bf79a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/plus.svg",
+      "bytes": 580,
+      "sha256": "cb5a1d5c9acce7f2511c629911948170821b5aaf8537620312836e7922b96041"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/restart.svg",
+      "bytes": 4331,
+      "sha256": "a38432f390acb1443e7a7a9b2b54d982771bf5f67c6783c5cf85f23482d8ca75"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/search.svg",
+      "bytes": 600,
+      "sha256": "b55aefcea79aa5daac9a1583ca943d879f2604fd77da5742ba43d4329ec6ecc6"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/settings.svg",
+      "bytes": 2210,
+      "sha256": "b93f76eccf219e4052bfd837b91ff76ef7e1f090387e64ee3d4cea609a05c280"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/sort.svg",
+      "bytes": 922,
+      "sha256": "a4bd100e9032caa64cff898a2a34210ac3cfb14fd870d40c57ab90ab105545e4"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/star.svg",
+      "bytes": 714,
+      "sha256": "cf99769331dfaf9808a8893ef5bf31ac2c8c544610e7d8eec210f118e9add8e0"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/stop.svg",
+      "bytes": 428,
+      "sha256": "d7debc8e9b792e853ae1b64c88b4fff059d8938bf030425cbc1f7826ab582c37"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/trophy.svg",
+      "bytes": 1128,
+      "sha256": "5591efe72c9adbcff5955012e7857c028c2bc61766b3ac1e32269a8d5d76afd6"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/up.svg",
+      "bytes": 435,
+      "sha256": "8521df1b993407026f66a620a95e749eda1e0c7e41101ac451a56f02193d0ae7"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/volume.svg",
+      "bytes": 3215,
+      "sha256": "ebc6af1186576ff5bd38d5e25148106ba89fd3a25c6f47ab9a8ed0ba09800b3a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Icons/warning.svg",
+      "bytes": 767,
+      "sha256": "dcb485b4396aa226a91ab3bcff0c0e1886111e7fb5a582a53aea8e81d481a19d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/checkbox_off.svg",
+      "bytes": 441,
+      "sha256": "a84c0530934738cd52b01a846693dae35a490e08e08016490d6bd5b517a87bcc"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/checkbox_on.svg",
+      "bytes": 610,
+      "sha256": "2e2172e81ead8b2d42aa3c6640ed46610aacc2aeaa86c4f416b4407d60707d33"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/field_disabled.svg",
+      "bytes": 776,
+      "sha256": "a610ba2c60bc1f36221aaf2048e7781284a97936345f64d6cd4e9fdf05021823"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/field_focus.svg",
+      "bytes": 1147,
+      "sha256": "5df969426aaa5ee17bae827bc4e6c327df78f199cd0ebb8bdcc1f1b40b502f23"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/field_hover.svg",
+      "bytes": 972,
+      "sha256": "334b70abfb079ecb880ddfb59891c46779f1c6108bb3b17e5165fdaa9e0cc2b9"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/field_normal.svg",
+      "bytes": 972,
+      "sha256": "9d92342959ae9abd07b849c7409e599a049b22fb20e7d15d61debc2531e5bdb9"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/radio_off.svg",
+      "bytes": 436,
+      "sha256": "c72097542c75e23226960c66e2d47de81e98ef26b9d263035ed8bd218a866cbe"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/radio_on.svg",
+      "bytes": 617,
+      "sha256": "e5db98fb29805a53edba4434f42b3fc9b5200cf56d4bbfcc93ffa1fba489a5d0"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/tab.svg",
+      "bytes": 970,
+      "sha256": "6fbe05392207246389f5bd023f6690befb8f31b913c74f3a72f7f20abd883a1d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/tab_selected.svg",
+      "bytes": 970,
+      "sha256": "69457ecf84b76ced488897950fc7d26d4fe6b8d6596ac2a0c992158ca34d0f9d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/toggle_off.svg",
+      "bytes": 640,
+      "sha256": "067eed8c2a75be82f514b5e5ea6ba16565170b588a63a91b8e2fc290701831e1"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Inputs/toggle_on.svg",
+      "bytes": 640,
+      "sha256": "25469bcf79079936eb0913f7ba67746e47401e3240e93dd20fad8f8b7883c3ce"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/camera.svg",
+      "bytes": 980,
+      "sha256": "78d6295aebe6bdf35d6a5815512667d9f2c9b79ec034c8d0a81ef7b325e9153d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/card.svg",
+      "bytes": 980,
+      "sha256": "3a354ac0d3671a03ce12da90968798b28c49da2c1ae821ec3ffb806e82b936ae"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/hud.svg",
+      "bytes": 980,
+      "sha256": "78d6295aebe6bdf35d6a5815512667d9f2c9b79ec034c8d0a81ef7b325e9153d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/modal.svg",
+      "bytes": 980,
+      "sha256": "78d6295aebe6bdf35d6a5815512667d9f2c9b79ec034c8d0a81ef7b325e9153d"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/notification.svg",
+      "bytes": 980,
+      "sha256": "2be8abc85fddc0b7f78400ce698d2d21fcab9365be02805e412d30712e427bed"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/tooltip.svg",
+      "bytes": 980,
+      "sha256": "1c83ebb41ef17d28b6ad62e56eeb4fe0940b9d755cf6248370722ff745be122a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/Panels/window.svg",
+      "bytes": 980,
+      "sha256": "1c83ebb41ef17d28b6ad62e56eeb4fe0940b9d755cf6248370722ff745be122a"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/difficulty_disabled.svg",
+      "bytes": 774,
+      "sha256": "454d9fd7f29538ba387717f3c602ae331ca95661d7c9cd1dc771ec5a577c9a35"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/difficulty_focus.svg",
+      "bytes": 1145,
+      "sha256": "7d1116b9df81482d79180ee707c709d7926934e23ea0e0b51135ab50945b7024"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/difficulty_hover.svg",
+      "bytes": 970,
+      "sha256": "88a55a8d35e9b29503bdc439389142bff6a32cf316fc9678ebbde77f0120b9c2"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/difficulty_normal.svg",
+      "bytes": 970,
+      "sha256": "8dd48184ba974be3aa0bc587282f9ce198e39b7d7e620aec6a842d33b05668e1"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/difficulty_selected.svg",
+      "bytes": 970,
+      "sha256": "0ad68b71eaae2fa03bd4c833467008493e8f46a027e747104524863168883443"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/song_row_disabled.svg",
+      "bytes": 780,
+      "sha256": "0de6f5d1db1905a12192736606aa71d75fee9ddd0f33a4076f12d201b7bf1740"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/song_row_focus.svg",
+      "bytes": 1153,
+      "sha256": "ffb2c679c04a229f472aeb24cbdd5857a703071bf100b43354fc10fe9697253e"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/song_row_hover.svg",
+      "bytes": 978,
+      "sha256": "3d917aa337c87ecef7a9992b8c5d62f9d7cb3cb7cc018316f0406bdd334446a9"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/song_row_normal.svg",
+      "bytes": 978,
+      "sha256": "ec3d38e54b270dee5e7aa4422bdfc2db7ed5106cf6cf499465c0902eebca4cf0"
+    },
+    {
+      "path": "AssetLibrary/Sources/UI_SVG/SongSelect/song_row_selected.svg",
+      "bytes": 978,
+      "sha256": "fe8b0ccb96f430fc58433cec9eba735e8bf0baad908b1dd444ae957d484d00df"
+    },
+    {
+      "path": "AssetLibrary/START_HERE_RU.txt",
+      "bytes": 539,
+      "sha256": "5b760257a029e283a976bda4112355a2d359840b516b2c6721d825f0ddf503e4"
+    },
+    {
+      "path": "AssetLibrary/Windows_Cursors/cursor_default.cur",
+      "bytes": 11692,
+      "sha256": "fda5d598a5da8aadca0d0892217c3720964104d4e620105fe1fef0b197065d06"
+    },
+    {
+      "path": "AssetLibrary/Windows_Cursors/cursor_hover.cur",
+      "bytes": 12535,
+      "sha256": "fd7f66a3a680c0d5fa54220b4fea022f4113e564faec4bab02a55a95c0e996ca"
+    },
+    {
+      "path": "AssetLibrary/Windows_Cursors/cursor_pressed.cur",
+      "bytes": 11945,
+      "sha256": "66f632763a3f4811fdb23223d705d06c1c418546d9f17f0b2aee58ffe490410d"
+    },
+    {
+      "path": "Data/FingerCue_rules.json",
+      "bytes": 1873,
+      "sha256": "cf01b90af012ffe92b076b24565b01cb2157dc6654354d6f2f0f3ca62abc7661"
+    },
+    {
+      "path": "Data/Movements_catalog.json",
+      "bytes": 10111,
+      "sha256": "41425615dd7c5745f7f3439d55b7a1acef27cbaa8be808f359133ef734fd328a"
+    },
+    {
+      "path": "Data/TrackTiming.json",
+      "bytes": 11173,
+      "sha256": "794067ba1d7408ece7d452bc3b9b6942e68b83d47cbac51bc6f8c825d107d134"
+    },
+    {
+      "path": "Data/UI_TEXTS_RU.json",
+      "bytes": 17778,
+      "sha256": "656f18596fd3e5f0b810857d8bb5026c1392f1711a7bb93732243baeb3064d92"
+    },
+    {
+      "path": "Inventory/Validation.json",
+      "bytes": 2398,
+      "sha256": "35431325eac763a592c075194aeba32aaf1675c6d606ef38fe9a1a47bf0c98e8"
+    },
+    {
+      "path": "Inventory/Validation_RU.txt",
+      "bytes": 974,
+      "sha256": "ab143fddccfbbead71d288b268e729fc0a630abd9cac99ce714012d5c3e07d1b"
+    },
+    {
+      "path": "Music/Amaksi - Visibility (Synthwave).mp3",
+      "bytes": 2980608,
+      "sha256": "2554ebffbbbcf26d94f46f3f964e0aacf7ea637289f2e5e7150dd678ff0c18aa"
+    },
+    {
+      "path": "Music/Grand_Project - A Hero of the 80s_v3_60sec.mp3",
+      "bytes": 1922612,
+      "sha256": "060dd77a37c249c17f90c022996330481c1f52fb0608613ffce4141734f0685e"
+    },
+    {
+      "path": "Music/Grand_Project - Lady of the 80's.mp3",
+      "bytes": 5880685,
+      "sha256": "06e7ae996e781cdd5d1fbbd5ad2ebf78fc3494a805dbadf0b71d8eb8c9657e54"
+    },
+    {
+      "path": "Music/Grand_Project - Neon Odyssey.mp3",
+      "bytes": 5379134,
+      "sha256": "3385fe11daa0acfd48cbdb03112d7c755ba5b38e56cd20828e91e7ecf8b057ae"
+    },
+    {
+      "path": "Music/Grand_Project - On The Road To The Eighties_59sec.mp3",
+      "bytes": 1895862,
+      "sha256": "fee52c6940a7c4cb33edc14b429f303730efade2f5c44e99d5d27847779352f6"
+    },
+    {
+      "path": "Music/imageaudioteam - 80s Synth.mp3",
+      "bytes": 5328979,
+      "sha256": "eb783fd12f7f356f1111d33fed5789dfc47b27efc103317ca4ca3c0461cce008"
+    },
+    {
+      "path": "Music/imageaudioteam - 80s Synthwave Chill.mp3",
+      "bytes": 3380453,
+      "sha256": "94234c68d5944d565d438472d84e3a80aa6decad15ea7628586819afbcd25ba5"
+    },
+    {
+      "path": "Music/imageaudioteam - 80s.mp3",
+      "bytes": 3265097,
+      "sha256": "2231d8b522023ea3efe1181b5c9f53dd7a6ae0bf0dc7372458ce09fd6c16aa03"
+    },
+    {
+      "path": "Music/Universfield - Futuristic Pulse.mp3",
+      "bytes": 3194112,
+      "sha256": "d4c97dd93d5d89fef45c7d0db4371620b47a4902ab82a60527ad3634f521ac93"
+    },
+    {
+      "path": "Music/VasilYatsevich - Brain Implant (Cyberpunk Sci-Fi Trailer Action Intro).mp3",
+      "bytes": 1556480,
+      "sha256": "957ff3d84018315538f90573bb0dab9134bb2bd9ceabe71312bc119c7dff4dc6"
+    },
+    {
+      "path": "Music/White_Records - Synthetic drive. Synth-House version 1 minute.mp3",
+      "bytes": 1846543,
+      "sha256": "53629196b8a76d7b32df714d157cf4c57fa6e5bedc64d1bfb30c5f5bfd478f52"
+    },
+    {
+      "path": "MusicReports/BPM_report.csv",
+      "bytes": 10985,
+      "sha256": "e3caede28f3d0776071c60c285dc9ff237f03c014eacf9e09750625083cd6b49"
+    },
+    {
+      "path": "MusicReports/BPM_report.json",
+      "bytes": 17344,
+      "sha256": "333136c0278a29fdeeda278925d923c9c64400ff1cafd2efbb40a35695771228"
+    },
+    {
+      "path": "MusicReports/First_Beat_Offsets.txt",
+      "bytes": 4526,
+      "sha256": "994ffc8cdcbcacdcc8becdb6514cd22df326ff76aae590e7175d1de85d86b70d"
+    },
+    {
+      "path": "MusicReports/READ_ME_FIRST.txt",
+      "bytes": 547,
+      "sha256": "0bed2549f83c0da79cdef2eb382ee6540e1a7cac19d93f228297fe17d6f2df99"
+    },
+    {
+      "path": "MusicReports/README_Timing.txt",
+      "bytes": 4620,
+      "sha256": "4b0e16430256df0cbcb40fe8b15cc68eb296da2b64b034eba8d4f95eeb3932f2"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 9308,
+      "sha256": "09d3103b582ef5d75ccc3bf2c2fc050149befdb91121cb2057a34dac097f9583"
+    },
+    {
+      "path": "References/01_Duel_HP.png",
+      "bytes": 14753,
+      "sha256": "4904c0099baef93279013cbf8802fdb0914f7418a222dba08fc725bfcd37c314"
+    },
+    {
+      "path": "References/02_Gameplay_Layout.png",
+      "bytes": 22234,
+      "sha256": "5852badc3ffaa7f4b767001588bbee9260269d9991ddf5b34f1a2ed2f71e3bb2"
+    },
+    {
+      "path": "References/03_Gesture_Result.png",
+      "bytes": 2166,
+      "sha256": "e42da82edb5edf1308e3e8fcc7dcbbf1bb1b170eb6136d79b6b3f68f77597032"
+    },
+    {
+      "path": "Requirements/01_GAME_DESIGN.txt",
+      "bytes": 52788,
+      "sha256": "1aa244cb4ce19f6a27987290b102cf7a0996b2548031b8a7030ea71a6d6f8418"
+    },
+    {
+      "path": "Requirements/02_INTERFACE_AND_TEXT.txt",
+      "bytes": 15805,
+      "sha256": "ced4e79235b70f0e1fb2d3c0b7c890923c9a1b7c21af3bc44ebdbb587c5f2f0f"
+    },
+    {
+      "path": "Requirements/03_TIMING_AND_RECOGNITION.txt",
+      "bytes": 16550,
+      "sha256": "0b8c7b6738ade1deaac0b61c77892f9dd18c9c3fbdb5d9cd212555adcaeeac44"
+    },
+    {
+      "path": "Requirements/04_ACCEPTANCE.txt",
+      "bytes": 9072,
+      "sha256": "fb440893fc107bfefa8a2b415c85ef55e31c1c55f2b8adf25409260fd2ea0f89"
+    },
+    {
+      "path": "Requirements/05_ASSET_GUIDE.txt",
+      "bytes": 8463,
+      "sha256": "8bae283485e2ee80791613b050cb0a9708c0b85bd7c4abf03a80dc809970e0a2"
+    },
+    {
+      "path": "START_FOR_AI.txt",
+      "bytes": 4560,
+      "sha256": "d16e09f1675b1dab5c1a7477bd393767a25728c00eb14ac9752e8d9a16cdae8b"
+    }
+  ]
+}

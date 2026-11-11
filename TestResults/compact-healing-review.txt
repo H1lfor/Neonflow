@@ -1,0 +1,26 @@
+2026-11-11 — Compact Vector UI and healing review
+Actual Unity Play Mode: TestResults/unity-compact-checks.log, PASS 98 checks.
+Core checks after final health guard: PASS 1333 (core-checks.txt).
+Camera and voice stopped before screenshots; these are synthetic checks, not
+acceptance of live human poses, fingers, voice or calibrated physical mirroring.
+Synthetic shoulders + both hand landmark arrays completed calibration with no
+Ready click. Pure hold tests verify full 3 s, reset on loss and single completion.
+Health tests: 49.9% damages; 50% +0.5; 80% about +4.92; 100% +10; monotonic curve;
+100 HP cap; no robot damage from player success; one heal per target; no revival
+by a later target processed after fatal damage in a delayed frame.
+Reviewed PNGs from actual Unity: vector-menu (1920, 1280x720), vector-settings,
+vector-control-settings, vector-calibration-countdown, vector-tracks-long-title,
+vector-tracks-selected, vector-pause, vector-confirm-exit, vector-results-victory,
+vector-tutorial. Spacing, smaller controls and selected-row edge fit checked.
+VectorChecks also captured menu/HUD at 2560x1440 and 1920x1200; full sensor test
+frames at 4:3 and 16:9, including landmark layer alignment, were checked again.
+At y390 on the 1280x720 menu: left button edge has intermediate RGB 247,152,223
+between backdrop 244,85,220 and fill 255,242,225, confirming alpha edge coverage.
+Extra focused Unity pass: unity-healing-visual.log. Viewed tutorial-healing.png
+(all text fits; preferredHeight <= rect.height asserted), camera-missing.png
+(dark readable status), hud-healing.png (+4.9 HP actual gain label asserted).
+The HUD healing screenshot injects an evaluation for presentation review;
+it is not a successful live camera session. Separate test-save files used.
+21:9 excluded by the author. Live hardware, physical keyboard, full listening
+verification and macOS acceptance remain deferred/unavailable as previously logged.
+Final build 05:12:13: Succeeded errors=0; Unity exited 0. Repeated CoreChecks 1333. Package verifier passed (16 hashes, Python, player, worker). New standalone was built and packaged; this review does not claim a fresh interactive standalone session.

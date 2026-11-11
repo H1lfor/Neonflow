@@ -1,0 +1,77 @@
+{
+  "edition": 3,
+  "date": "2026-11-11",
+  "structuralValidation": "PASS",
+  "counts": {
+    "png": 165,
+    "svg": 152,
+    "prefabs": 12,
+    "skyboxMaterials": 6,
+    "uiSounds": 9,
+    "bodyPoses": 12,
+    "handGestures": 10,
+    "musicTracks": 11,
+    "uiStrings": 114
+  },
+  "checks": [
+    "PNG decoding",
+    "SVG XML parsing",
+    "WAV headers",
+    "Exo 2 Cyrillic coverage including Ё/ё",
+    "All JSON syntax",
+    "11 unique MP3 SHA-256 against TrackTiming",
+    "Beat grid arithmetic",
+    "Removed songs and gestures absent",
+    "Original THUMBS UP preserved",
+    "9-slice borders vs .meta",
+    "No duplicate GUIDs",
+    "Prefab/material GUIDs resolve to included assets or installed Unity package assets",
+    "Current visible prefab strings sanitized",
+    "Editor generator strings sanitized",
+    "Preview relative links exist",
+    "Round sun enabled",
+    "Native Unity package byte-equivalent to loose Assets"
+  ],
+  "nativePackageAssetEntries": 246,
+  "prefabTextChanges": [
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Calibration.prefab",
+      "changedVisibleTexts": 5
+    },
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Gameplay.prefab",
+      "changedVisibleTexts": 7
+    },
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_MainMenu.prefab",
+      "changedVisibleTexts": 6
+    },
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Pause.prefab",
+      "changedVisibleTexts": 5
+    },
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Results.prefab",
+      "changedVisibleTexts": 8
+    },
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_Settings.prefab",
+      "changedVisibleTexts": 7
+    },
+    {
+      "file": "AssetLibrary/Assets/NeonflowUI/Prefabs/NF_TrackSelect.prefab",
+      "changedVisibleTexts": 19
+    }
+  ],
+  "unityRuntimeTestThisEdition": false,
+  "updatedPrefabsRenderedThisEdition": false,
+  "historicalUnityValidation": "See AssetLibrary/History; previous Built-in/DX12 asset verification only.",
+  "urpRenderVerified": false,
+  "macOSVerified": false,
+  "musicTimingListeningVerified": false,
+  "gameImplementationIncluded": false,
+  "robotModelIncluded": false,
+  "cameraOrVoiceModelsIncluded": false,
+  "bpmCheckingAppIncluded": false,
+  "originalUserProjectModified": false
+}

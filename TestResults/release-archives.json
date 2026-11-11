@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "Builds\\Neonflow-Windows.zip",
+    "bytes": 410274004,
+    "files": 8200,
+    "uncompressedBytes": 1245481024,
+    "sha256": "cbd3886b0128b8621ef6c3daae1503e8dcf2ce2a5bffe5f87a8c00e574c7b52a",
+    "crcAllFiles": "PASS",
+    "requiredFiles": "PASS",
+    "currentDocumentation": "PASS",
+    "unixExecuteBits": null,
+    "testedOnAnotherComputer": false
+  },
+  {
+    "archive": "Builds\\Neonflow-macOS.zip",
+    "bytes": 769141163,
+    "files": 16460,
+    "uncompressedBytes": 2411944523,
+    "sha256": "59ebc6f36dd0c3df4f0ee25ac51d45498bd8bc26795b662c0865d4fd051d77ba",
+    "crcAllFiles": "PASS",
+    "requiredFiles": "PASS",
+    "currentDocumentation": "PASS",
+    "unixExecuteBits": "PASS",
+    "testedOnAnotherComputer": false
+  }
+]

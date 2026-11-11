@@ -1,0 +1,2 @@
+PASS: 99 UI/gameplay checks. Real prefabs, 11 tracks/search, volume/reduced-motion persistence, camera unavailable, tab/calibration navigation, 60-second practice, pause/settings/resume, single judgments, early defeat/fade, tutorial, confirm-exit. Hardware recognition not tested.
+Max sample/DSP drift: 0.000023 seconds.

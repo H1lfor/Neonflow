@@ -1,0 +1,159 @@
+ДВА ПЕРСОНАЖА И ПЕРЕНОСИМЫЕ СБОРКИ — 2026-11-11
+CharacterCatalog: 2 профиля, каждый 6 Poses + 5 Hands; все 22 движения покрыты
+ровно один раз. Генератор получает профильный подкаталог; BPM, окна,
+допустимость кистей и мягкая точность 0.64 остаются общими.
+Маршрут: Menu/Play → Characters → Camera (если нужно) → Songs.
+Settings.characterId — последний выбор; RunRecord.characterId — персонаж попытки.
+Добавочные поля совместимы с прежним JSON; старые записи не переименовываются.
+Light/Solid различаются геометрией, пропорциями, головой и материалами.
+Unity prefab + действительный Humanoid + rigid skin + 5×3 суставов каждой кисти.
+Исходник, GLB, 46 клипов удержания и листы тестов описаны в Models/README.txt.
+Бюджет 6640/7072 треугольника вместо ориентировочного 25–45k из briefs.
+Фиктивные .blend/FBX и пустые клипы не создавались. GLB вне Unity не импортировался.
+AvatarBuilder: https://docs.unity.com/en-us/engine/6000.0/script-reference/unityengine/avatarbuilder/buildhumanavatar
+
+Mac: официальный Mac Mono Support 6000.6.6f1 установлен после подтверждения UAC.
+В Unity 6000.6 архитектура задаётся строкой x64ARM64 через
+EditorUserBuildSettings.SetPlatformSettings("OSXUniversal", "Architecture", ...).
+Итоговый Mach-O проверен по CPU slices: arm64 и x86_64. Одного числового
+PlayerSettings.SetArchitecture недостаточно: пробная сборка оказалась ARM64-only.
+Unity Universal + Python 3.11.18 arm64/x86_64 + нативные wheels, без системного Python.
+Vosk 0.3.43 выбран для Mac: у Windows-версии 0.3.45 нет macOS-wheel.
+Статический анализ Mach-O показывает минимумы 14.5/14.6; общий минимум macOS 14.6.
+Три неимпортируемых варианта MediaPipe в namespace-папках не используются:
+CPython загружает соседние tagged extensions с нужными архитектурами.
+Используемые ARM64 binaries имеют LC_CODE_SIGNATURE; наличие подписи не заменяет
+проверку Gatekeeper/notarization. Developer ID и notarization не выполнялись.
+Окружения добавляются через BuildPlayerContext до финализации .app:
+https://docs.unity3d.com/ja/6000.0/ScriptReference/Build.BuildPlayerContext.AddAdditionalPathToStreamingAssets.html
+ZIP сохраняет Unix execute bits. Запуск на Mac и живая камера/голос не объявляются
+проверенными. Windows требует передачи всей папки с Recognition и Neonflow_Data.
+
+Повторная генерация Mesh обновляет вершины, нормали, UV, skin, bindposes и индексы
+явно после Clear. CopySerialized при изменении размера сохранял старый vertex buffer;
+это исправлено и проверяется соответствием индексов фактическому числу вершин.
+Итоговые Unity meshes и GLB используют одну актуальную геометрию.
+
+ПРЕДЫДУЩИЕ РЕШЕНИЯ — исторические сведения о недоступности Mac-модуля устарели
+2026-11-11 — Further relaxation of LIVE gesture percentage (author clarification)
+The target is the live 'Совпадение' label below the camera, not only end-of-window
+judgements or result-screen accuracy. Balance.fullAccuracy is now 0.64 instead
+of 0.8, another x1.25 on the previous visible scale, capped at 100 percent.
+Both HUD and observations still share EvaluateCue. Required tracking visibility
+caps the result by the fraction of available weighted components; the boost must
+not turn a missing required wrist/hand into a perfect match. Downward target wrist
+exceptions remain unchanged. Fully visible pose/hand comparisons receive the gain.
+Historical scores and robot evaluation remain unchanged.
+2026-11-11 — Easier recognition and panel reflow (latest author request)
+Balance.fullAccuracy=0.8. PoseEvaluator returns clamp01(raw/fullAccuracy).
+Game.Frame and HUD share EvaluateCue, so observations, hold, score, combo,
+judgements and healing use the same adjusted accuracy once. Early invalid tracking
+returns zero. Robot errors and saved historical records are not recalculated.
+Calibration Ready prefab is hidden. Plain status + three-second progress replace
+it; Retry is an active pink button contained within the slanted instruction panel.
+All four button corners are checked against the actual slanted polygon in Unity.
+Track detail title reserves space for full wrapped text. Artist/BPM/difficulty
+follow it without the previous fixed gap. Result history uses separate rank,
+score, accuracy, combo and date fields; the highest score is highlighted.
+History accepts pointer scrolling through a transparent raycast surface. Its
+height fits complete rows at rest. Result count makes hidden history discoverable.
+Only existing completed non-practice records are displayed. Editor visual tests
+use isolated in-memory fixture runs, never the player's save or production data.
+2026-11-11 — User changes: menu size, edge quality, automatic calibration, healing
+Runtime menu content uses 0.8 scale (tracks 0.82; pause 0.75; exit 0.72),
+with reflowed panels and main buttons. Gameplay and wide camera fit are retained.
+Menu cuts use tan(15 degrees); width changes do not change their angle.
+VectorCutGraphic adds a 1.25 screen-pixel alpha fringe (stencil masks stay hard).
+VectorSafeRoot adds contentScale. Original WOW source and prefab GUIDs retained;
+these two imported runtime components are intentionally amended.
+Track viewport reserves the 80px selected offset and 14px hover offset plus margin.
+Calibration requires CanCalibrate continuously for 3 unscaled seconds after the
+transition. Loss resets the timer; completion happens once, without Ready click.
+Player healing overrides the original damage-only rule by explicit user request:
+accuracy a >= 0.5 => healing 0.5 + 9.5 * ((a-0.5)/0.5)^1.5, cap at 100 HP.
+Below 0.5 retain existing damage. Healing occurs once when a target is scored;
+there is no continuous healing for holding a pose. Robot calculation unchanged.
+HealingMin/Max/Exponent are Balance.json settings; HUD displays actual gained HP.
+2026-11-11 — Vector integration decision
+Author explicitly selected the ORIGINAL LIGHT Vector palette supplied in WOW,
+superseding the previous dark theme. Follow Layouts.json and actual screen prefabs.
+Import Assets/NeonflowVector with GUIDs; never rebuild/overwrite the pack templates.
+Runtime adapts instantiated Layout children under a single Canvas and safe root.
+Original timing/finger rules match exactly; preserve the tested battle/DSP model.
+Use frame references via supplied effect prefabs, not duplicate atlas loading.
+Menu effects use unscaled time; gameplay effects and sky use the song clock.
+Presentation values are removed and bound to actual tracks/runs/tracking state.
+Full-screen wipe commits once at elapsed >= 8/30 seconds, with input shielding.
+User excluded 21:9 QA; validate 16:9 and 16:10 only.
+User requested a wider camera view. HUD frame is now 660 x 372 (was 595 x 340),
+calibration frame 1040 x 585 (was 960 x 540). Both show the FULL sensor image
+with aspect preserved and a small inset clearing the slanted mask. No crop/zoom.
+Landmarks share the exact same rect; 4:3/16:9 feeds can have side/top padding.
+This changes the display, not the physical camera lens field of view.
+Preserve the existing HUD while opening settings from Pause; hide it and reactivate
+the same instance, keeping cue/HP/window display and the paused song clock intact.
+VectorButtonMotion resets its cached position on disable: retain the configured
+rect before replacing it. Clear inherited Selectable tint when custom visuals take over.
+Use Unity object truth checks rather than null-coalescing for missing components.
+Robot height is derived from tan(FOV radians / 2); viewport placement follows safe root.
+Mirror hand pictograms around their center so they stay within the supplied cards.
+Track list truncates long rows; the detail/result panels show complete titles.
+Star rating stays with track BPM above the results header; records contain only runs.
+
+Earlier developer choices (historical appearance decisions below are superseded)
+Keep Unity/package versions. One boot scene with explicit UI states.
+MediaPipe Tasks CPU pose+hands; Vosk small Russian 0.22, local child process.
+Unity sends camera frames with song capture time and session epoch through stdin;
+results echo those values. No network service or saved camera recordings.
+Windows bundled Python 3.11.9; macOS packaging must run on Mac, not claimed tested.
+First target = offset, first show = offset - 480/BPM; music starts at sample zero.
+DSP clock frozen using AudioListener.pause; no duplicate pause offset correction.
+Grace 0.18 s; observation hold cap 0.12 s; bounded inference wait 0.25 s.
+Perfect >= .85, Great >= .50, Good >= .25, Miss below .25. Combo reset strictly <.50.
+Hold threshold .65. Score 1000 * accuracy * (.25+.75*holdFraction) * multiplier.
+Multiplier 1 + min(combo/10,3). HP 100; total miss damage budget 210 divided by
+number of complete windows; damage scales linearly below .85 accuracy.
+Pose body weight 2; each assigned hand weight 1. Missing required joints retain
+their weight. Lowered target wrists may be outside frame; their visible elbows
+are still evaluated. Shoulder poses compare nose/shoulder spacing to neutral.
+Generator omits fingers on clasp/cross poses to avoid mutual occlusion.
+Robot independent seeded errors, probability .23, max two successive errors,
+force error after seven clean windows. No damage from player success.
+Stars = clamp(1 + (BPM-100)*4/50,1,5).
+Sources: https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker/python
+https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker/python
+https://github.com/google-ai-edge/mediapipe/blob/master/LICENSE (Apache-2.0)
+https://alphacephei.com/vosk/install (Windows and macOS listed)
+https://alphacephei.com/vosk/models (small-ru-0.22, Apache-2.0)
+Timing JSON stays unmodified and listeningVerified remains false.
+Python was moved outside Assets to Tools/Recognition/python so Unity does not
+import ~25k runtime/cache entries. package_windows.py copies it alongside player.
+Runtime creates custom rounded armor meshes with articulated finger chains.
+URP Lit must be referenced by Resources/RobotSurface.mat, not only Shader.Find,
+otherwise Unity strips it from the standalone build. Caught in actual player.
+AUTHOR UPDATE during implementation: user requested DARK THEME, superseding
+the original light theme requirement. Use original dark 9-sliced panels,
+light text, cyan/pink accents and slightly reduced sky exposure. Keep robot
+porcelain armor for contrast. Pictograms/text remain separate and undistorted.
+Light UI material retained as unused development artifact, not assigned to UI.
+UI viewport scales to width for 16:9 and 16:10. Exo 2 Cyrillic coverage checked.
+Camera frame timestamp is taken on Unity retrieval of the newest WebCamTexture
+frame, before encoding/inference. Sensor-driver buffering still needs hardware
+latency measurement; no claim of hardware exposure timestamps.
+Model tests use official public image fixtures, never simulated webcam results.
+Human testing postponed by user. Mac not available. No listening verification.
+Final validation: 1316 core assertions including variable frame cadence/stalls,
+upper-body-only evaluator boundaries, required wrist/finger loss and backup recovery.
+Actual 60-second audio scene: maximum sampled DSP/audio-position difference
+0.000023 seconds. This does not measure output-device or camera-driver latency.
+Model lock is checked by verify_models.py during setup and packaging; packaging
+does not silently regenerate hashes. Source worker.py is not a model artifact.
+Worker generations isolate callbacks/writes across device restarts. UI device and
+voice labels refresh as asynchronous initialization completes.
+Dark screenshots inspected at 1600x900 and 1600x1000 on two skyboxes; scoreboard
+height, fractional stars, slider anchors and default microphone label corrected.
+Windows packaging must include Recognition/python beside the executable;
+Python's embedded isolated mode needs an explicit tools-directory import path
+for package_windows.py, added and kept outside the player's runtime module search.
+
+2026-11-11 final validation: CoreChecks 1333; VectorChecks 98; focused healing UI render passed. Advance stops on fatal normal-mode damage so a delayed later target cannot revive the player. Practice still continues at zero HP. Final Windows build at 05:12 succeeded, errors=0; package verification passed.

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "poseLandmarks": 33,
+  "leftHandLandmarks": 21,
+  "rightHandLandmarks": 21,
+  "timestampEcho": 12.345,
+  "epochEcho": 7,
+  "fixture": "https://storage.googleapis.com/mediapipe-assets/woman_hands.jpg",
+  "scope": "Public image inference only. Not webcam acceptance."
+}

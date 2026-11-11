@@ -1,0 +1,1 @@
+Maximum observed sample/DSP difference: 0.000023 seconds. Checked during real playback, not listening verification.

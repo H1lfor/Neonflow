@@ -1,0 +1,45 @@
+Neonflow dependency and asset provenance
+
+Current UI: user-supplied WOW/Neonflow_Vector_AssetPack. Source geometry,
+screen/component prefabs, 198 animation frames, fonts, nine UI sounds,
+cursors and procedural skyboxes are retained in Assets/NeonflowVector.
+Provenance: WOW/Neonflow_Vector_AssetPack/Documentation/07_CONTENT_AND_RIGHTS.txt.
+The font OFL and pack provenance are copied to ThirdParty/Vector in the player.
+This pack supplies no music licenses, 3D robot or recognition software.
+
+MediaPipe 0.10.21: Apache-2.0, https://github.com/google-ai-edge/mediapipe
+Pose Landmarker Lite float16 revision 1 and Hand Landmarker float16 revision 1:
+https://ai.google.dev/edge/mediapipe/solutions/vision/pose_landmarker
+https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker
+Downloaded from Google storage mediapipe-models, hashes in models-lock.json.
+Vosk 0.3.45: Apache-2.0, https://github.com/alphacep/vosk-api
+vosk-model-small-ru-0.22: Apache-2.0 per https://alphacephei.com/vosk/models
+Python 3.11.9 embeddable Windows runtime: PSF license in runtime LICENSE.txt.
+NumPy, OpenCV, sounddevice and transitive notices are retained in runtime
+dist-info and copied to Builds/Windows/ThirdParty by package_windows.py.
+
+Exo 2: SIL OFL, supplied license retained with fonts and in build notices.
+Prepared graphics/audio: README/AssetLibrary/Documentation/UI_licenses.txt.
+Music: eleven original user-supplied MP3 files, unchanged; metadata and source
+links retained in README/MusicReports and copied to build notices.
+The music report is provenance, not a replacement for the tracks' licenses.
+Before public redistribution the distributor must retain the relevant source
+licenses/permissions for the supplied music; no additional rights are asserted.
+
+No camera frames or speech are sent to online services. Package/model downloads
+are developer setup operations only; game processing runs on the local computer.
+
+
+MACOS NATIVE RUNTIMES
+CPython 3.11.18, python-build-standalone 20261110 (Astral):
+https://github.com/astral-sh/python-build-standalone/releases/tag/20261110
+Download URLs/SHA-256: Tools/Recognition/mac-runtime/{arm64,x86_64}/SOURCE.json.
+PSF/Python license is included in ThirdParty/Python-*-LICENSE.txt.
+MediaPipe 0.10.21 and numpy 1.26.4 retain the game's Windows versions.
+Vosk macOS uses 0.3.43 (Apache-2.0), because 0.3.45 has no macOS wheel:
+https://pypi.org/project/vosk/0.3.43/
+SoundDevice 0.5.1 includes native PortAudio in its macOS wheel.
+Full resolved package URLs, versions and hashes:
+Tools/Recognition/macos-arm64-packages.json and macos-x86_64-packages.json.
+Package licenses are also included under ThirdParty/arm64 and ThirdParty/x86_64.
+These runtimes were cross-packaged on Windows; execution on macOS is unverified.

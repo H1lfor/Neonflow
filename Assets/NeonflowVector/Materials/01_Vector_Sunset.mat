@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 01_Vector_Sunset
+  m_Shader: {fileID: 4800000, guid: 9dd247a6e2db2424891047b7d4346eec, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BeatPulse: 0
+    - _GridScale: 7
+    - _Rotation: 18
+    - _Scroll: 0
+    - _SunHeight: 16
+    - _SunRadius: 19
+    m_Colors:
+    - _GridColor: {r: 1, g: 0, b: 0.54901963, a: 1}
+    - _GroundColor: {r: 0.14509805, g: 0.02745098, b: 0.2, a: 1}
+    - _Horizon: {r: 1, g: 0.34901962, b: 0.70980394, a: 1}
+    - _MountainColor: {r: 0.3254902, g: 0.0627451, b: 0.47058824, a: 1}
+    - _SunColor: {r: 1, g: 0, b: 0.54901963, a: 1}
+    - _Zenith: {r: 0.63529414, g: 0.3372549, b: 0.972549, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

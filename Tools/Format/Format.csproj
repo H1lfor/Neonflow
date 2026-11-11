@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeAnalysis"><HintPath>C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/Microsoft.CodeAnalysis.dll</HintPath></Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp"><HintPath>C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/DotNetSdk/sdk/8.0.318/Roslyn/bincore/Microsoft.CodeAnalysis.CSharp.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

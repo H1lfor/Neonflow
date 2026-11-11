@@ -1,0 +1,29 @@
+{
+  "unityPlayer": "Universal arm64+x86_64",
+  "runtimes": [
+    {
+      "architecture": "arm64",
+      "nativeFiles": 311,
+      "minimumOS": "14.5.0",
+      "unsignedArm64": [],
+      "unusedUpstreamVariants": [
+        "python\\lib\\python3.11\\site-packages\\mediapipe\\tasks\\python\\metadata\\flatbuffers_lib\\_pywrap_flatbuffers\\arm64.cpython-311-darwin.so",
+        "python\\lib\\python3.11\\site-packages\\mediapipe\\tasks\\cc\\metadata\\python\\_pywrap_metadata_version\\arm64.cpython-311-darwin.so",
+        "python\\lib\\python3.11\\site-packages\\mediapipe\\python\\_framework_bindings\\arm64.cpython-311-darwin.so"
+      ],
+      "executedOnMac": false
+    },
+    {
+      "architecture": "x86_64",
+      "nativeFiles": 312,
+      "minimumOS": "14.6.0",
+      "unsignedArm64": [],
+      "unusedUpstreamVariants": [],
+      "executedOnMac": false
+    }
+  ],
+  "modelHashes": 16,
+  "cameraMicrophoneUsageStrings": true,
+  "executedOnMac": false,
+  "developerIdNotarized": false
+}

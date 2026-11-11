@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 1,
+  "locale": "ru-RU",
+  "font": "Exo 2",
+  "status": "Approved vocabulary based on author requirements; runtime binding still required.",
+  "formatting": {
+    "decimalSeparator": ",",
+    "scoreGrouping": "space",
+    "timer": "m:ss",
+    "percent": "73%",
+    "movementCaption": "upper-right"
+  },
+  "voiceCommands": [
+    "пауза",
+    "продолжить",
+    "повторить",
+    "назад",
+    "играть"
+  ],
+  "strings": [
+    {
+      "id": "title.logo",
+      "text": "NEONFLOW",
+      "context": "title",
+      "placeholders": []
+    },
+    {
+      "id": "title.continue",
+      "text": "Нажмите любую кнопку, чтобы продолжить",
+      "context": "title",
+      "placeholders": []
+    },
+    {
+      "id": "common.play",
+      "text": "Играть",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.settings",
+      "text": "Настройки",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.tutorial",
+      "text": "Обучение",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.exit",
+      "text": "Выйти",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.back",
+      "text": "Назад",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.next",
+      "text": "Далее",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.done",
+      "text": "Готово",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.cancel",
+      "text": "Отмена",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.apply",
+      "text": "Применить",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.retry",
+      "text": "Повторить попытку",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "common.continue",
+      "text": "Продолжить",
+      "context": "common",
+      "placeholders": []
+    },
+    {
+      "id": "songs.title",
+      "text": "Выбор песни",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.search",
+      "text": "Название или автор",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.results",
+      "text": "Результаты",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.no_results",
+      "text": "Результатов пока нет.",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.no_matches",
+      "text": "Ничего не найдено.",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.empty",
+      "text": "Песни не найдены.",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.practice",
+      "text": "Practice Mode",
+      "context": "songs",
+      "placeholders": []
+    },
+    {
+      "id": "songs.bpm",
+      "text": "{bpm} BPM",
+      "context": "songs",
+      "placeholders": [
+        "bpm"
+      ]
+    },
+    {
+      "id": "songs.duration",
+      "text": "{minutes}:{seconds}",
+      "context": "songs",
+      "placeholders": [
+        "minutes",
+        "seconds"
+      ]
+    },
+    {
+      "id": "songs.stars",
+      "text": "{stars}",
+      "context": "songs",
+      "placeholders": [
+        "stars"
+      ]
+    },
+    {
+      "id": "stats.rank",
+      "text": "Ранг",
+      "context": "stats",
+      "placeholders": []
+    },
+    {
+      "id": "stats.score",
+      "text": "Очки",
+      "context": "stats",
+      "placeholders": []
+    },
+    {
+      "id": "stats.accuracy",
+      "text": "Точность",
+      "context": "stats",
+      "placeholders": []
+    },
+    {
+      "id": "stats.max_combo",
+      "text": "Макс. комбо",
+      "context": "stats",
+      "placeholders": []
+    },
+    {
+      "id": "stats.combo",
+      "text": "Комбо",
+      "context": "stats",
+      "placeholders": []
+    },
+    {
+      "id": "stats.date",
+      "text": "Дата",
+      "context": "stats",
+      "placeholders": []
+    },
+    {
+      "id": "camera.title",
+      "text": "Проверка камеры",
+      "context": "camera",
+      "placeholders": []
+    },
+    {
+      "id": "camera.position",
+      "text": "Сядьте или встаньте перед камерой.",
+      "context": "camera",
+      "placeholders": []
+    },
+    {
+      "id": "camera.framing",
+      "text": "В кадре должны быть плечи и кисти.",
+      "context": "camera",
+      "placeholders": []
+    },
+    {
+      "id": "camera.device",
+      "text": "Камера",
+      "context": "camera",
+      "placeholders": []
+    },
+    {
+      "id": "camera.microphone",
+      "text": "Микрофон",
+      "context": "camera",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.title",
+      "text": "Обучение",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.window",
+      "text": "Поза меняется каждые 8 ударов.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.hold",
+      "text": "Примите позу заранее и удерживайте до конца шкалы.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.score",
+      "text": "Чем точнее и дольше удержание, тем больше очков.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.sides",
+      "text": "Повторяйте движения с той же стороны экрана.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.lowered",
+      "text": "На опущенной руке жест пальцами не требуется.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.survive",
+      "text": "Доживите до конца песни, чтобы победить.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "tutorial.voice",
+      "text": "Скажите «пауза», чтобы остановить игру.",
+      "context": "tutorial",
+      "placeholders": []
+    },
+    {
+      "id": "hud.player",
+      "text": "Вы",
+      "context": "hud",
+      "placeholders": []
+    },
+    {
+      "id": "hud.robot",
+      "text": "Робот",
+      "context": "hud",
+      "placeholders": []
+    },
+    {
+      "id": "hud.next",
+      "text": "Далее",
+      "context": "hud",
+      "placeholders": []
+    },
+    {
+      "id": "hud.percent",
+      "text": "{accuracy}%",
+      "context": "hud",
+      "placeholders": [
+        "accuracy"
+      ]
+    },
+    {
+      "id": "hud.assessment",
+      "text": "{judgement} {accuracy}%",
+      "context": "hud",
+      "placeholders": [
+        "judgement",
+        "accuracy"
+      ]
+    },
+    {
+      "id": "hud.combo",
+      "text": "{combo}",
+      "context": "hud",
+      "placeholders": [
+        "combo"
+      ]
+    },
+    {
+      "id": "hud.score",
+      "text": "{score}",
+      "context": "hud",
+      "placeholders": [
+        "score"
+      ]
+    },
+    {
+      "id": "hud.timer",
+      "text": "{minutes}:{seconds}",
+      "context": "hud",
+      "placeholders": [
+        "minutes",
+        "seconds"
+      ]
+    },
+    {
+      "id": "hud.countdown",
+      "text": "{count}",
+      "context": "hud",
+      "placeholders": [
+        "count"
+      ]
+    },
+    {
+      "id": "judgement.perfect",
+      "text": "Perfect",
+      "context": "judgement",
+      "placeholders": []
+    },
+    {
+      "id": "judgement.great",
+      "text": "Great",
+      "context": "judgement",
+      "placeholders": []
+    },
+    {
+      "id": "judgement.good",
+      "text": "Good",
+      "context": "judgement",
+      "placeholders": []
+    },
+    {
+      "id": "judgement.miss",
+      "text": "Miss",
+      "context": "judgement",
+      "placeholders": []
+    },
+    {
+      "id": "pause.title",
+      "text": "Пауза",
+      "context": "pause",
+      "placeholders": []
+    },
+    {
+      "id": "pause.resume",
+      "text": "Продолжить",
+      "context": "pause",
+      "placeholders": []
+    },
+    {
+      "id": "pause.retry",
+      "text": "Повторить",
+      "context": "pause",
+      "placeholders": []
+    },
+    {
+      "id": "pause.songs",
+      "text": "Выбор песни",
+      "context": "pause",
+      "placeholders": []
+    },
+    {
+      "id": "results.victory",
+      "text": "Victory",
+      "context": "results",
+      "placeholders": []
+    },
+    {
+      "id": "results.defeat",
+      "text": "Defeat",
+      "context": "results",
+      "placeholders": []
+    },
+    {
+      "id": "results.practice",
+      "text": "Practice Mode",
+      "context": "results",
+      "placeholders": []
+    },
+    {
+      "id": "results.retry",
+      "text": "Повторить",
+      "context": "results",
+      "placeholders": []
+    },
+    {
+      "id": "results.songs",
+      "text": "Выбор песни",
+      "context": "results",
+      "placeholders": []
+    },
+    {
+      "id": "settings.title",
+      "text": "Настройки",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "settings.music",
+      "text": "Музыка",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "settings.interface",
+      "text": "Интерфейс",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "settings.effects",
+      "text": "Эффекты",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "settings.camera",
+      "text": "Камера",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "settings.microphone",
+      "text": "Микрофон",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "settings.voice",
+      "text": "Голосовое управление",
+      "context": "settings",
+      "placeholders": []
+    },
+    {
+      "id": "status.loading",
+      "text": "Загрузка…",
+      "context": "status",
+      "placeholders": []
+    },
+    {
+      "id": "status.tracking_lost",
+      "text": "Отслеживание потеряно.",
+      "context": "status",
+      "placeholders": []
+    },
+    {
+      "id": "status.hand_missing",
+      "text": "Не видно кисти.",
+      "context": "status",
+      "placeholders": []
+    },
+    {
+      "id": "status.voice_unavailable",
+      "text": "Голосовое управление недоступно.",
+      "context": "status",
+      "placeholders": []
+    },
+    {
+      "id": "error.camera_missing",
+      "text": "Камера не найдена.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.camera_connect",
+      "text": "Подключите камеру и повторите попытку.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.camera_permission",
+      "text": "Нет доступа к камере.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.camera_allow",
+      "text": "Разрешите доступ к камере в настройках системы.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.microphone_missing",
+      "text": "Микрофон не найден.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.microphone_permission",
+      "text": "Нет доступа к микрофону.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.microphone_allow",
+      "text": "Разрешите доступ к микрофону в настройках системы.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.song_load",
+      "text": "Не удалось загрузить песню.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "error.result_save",
+      "text": "Не удалось сохранить результат.",
+      "context": "error",
+      "placeholders": []
+    },
+    {
+      "id": "dialog.leave_song",
+      "text": "Выйти из песни?",
+      "context": "dialog",
+      "placeholders": []
+    },
+    {
+      "id": "movement.arms_up",
+      "text": "ARMS UP",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.arms_v",
+      "text": "ARMS V",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.arms_t",
+      "text": "ARMS OUT",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.elbows_up",
+      "text": "ELBOWS UP",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.cross_chest",
+      "text": "CROSS ARMS",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.clap",
+      "text": "CLAP",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.reach_left",
+      "text": "REACH LEFT",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.reach_right",
+      "text": "REACH RIGHT",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.diagonal_left",
+      "text": "DIAGONAL LEFT",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.diagonal_right",
+      "text": "DIAGONAL RIGHT",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.shoulders_up",
+      "text": "SHRUG UP",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.shoulders_down",
+      "text": "SHOULDERS DOWN",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.open",
+      "text": "OPEN PALM",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.fist",
+      "text": "FIST",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.point",
+      "text": "POINT UP",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.peace",
+      "text": "TWO FINGERS",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.three",
+      "text": "THREE FINGERS",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.four",
+      "text": "FOUR FINGERS",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.thumb_up",
+      "text": "THUMBS UP",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.rock",
+      "text": "ROCK",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.l_shape",
+      "text": "L SIGN",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "movement.point_side",
+      "text": "POINT",
+      "context": "English caption, top right of movement card",
+      "placeholders": []
+    },
+    {
+      "id": "rank.E",
+      "text": "E",
+      "context": "Result rank",
+      "placeholders": []
+    },
+    {
+      "id": "rank.D",
+      "text": "D",
+      "context": "Result rank",
+      "placeholders": []
+    },
+    {
+      "id": "rank.C",
+      "text": "C",
+      "context": "Result rank",
+      "placeholders": []
+    },
+    {
+      "id": "rank.B",
+      "text": "B",
+      "context": "Result rank",
+      "placeholders": []
+    },
+    {
+      "id": "rank.A",
+      "text": "A",
+      "context": "Result rank",
+      "placeholders": []
+    },
+    {
+      "id": "rank.S",
+      "text": "S",
+      "context": "Result rank",
+      "placeholders": []
+    },
+    {
+      "id": "rank.Splus",
+      "text": "S+",
+      "context": "Result rank",
+      "placeholders": []
+    }
+  ]
+}

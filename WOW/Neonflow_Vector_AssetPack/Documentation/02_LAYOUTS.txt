@@ -1,0 +1,248 @@
+﻿РАСПОЛОЖЕНИЕ ЭКРАНОВ / ТОЧНЫЕ ПАРАМЕТРЫ
+Координаты от левого верхнего угла; база 1920×1080; X вправо, Y вниз.
+У RectTransform anchor=(0,1), pivot=(0,1), anchoredPosition=(x,-y).
+У корневого Layout pivot=(0.5,0.5), размер 1920×1080, масштаб min(W/1920,H/1080).
+VectorSafeRoot держит всю композицию в безопасной области: на 16:10/21:9
+фон заполняет экран, элементы сохраняют пропорции, поля появляются по краям.
+Порядок строк ниже — порядок соседей в Canvas, от заднего к переднему.
+Размеры включают прозрачные края PNG. Рисунок в Image: preserveAspect=true,
+панели рисуются VectorCutGraphic, а заполнения полос — горизонтальный Filled.
+Поверх основного экрана: затемнение, модальное окно, затем эффект перехода.
+Курсор последним. Эффекты не должны перехватывать клики.
+
+
+TITLE
+Фон меню включён.
+LogoPlate [image]  x=180, y=220, w=1560, h=341 | color=white | path=Brand/logo_plate.png
+Logo [image]  x=250, y=248, w=1420, h=236 | color=white | path=Brand/wordmark_ink.png
+Continue [button]  x=400, y=844, w=1120, h=96 | text=Нажмите любую кнопку, чтобы продолжить | fontSize=36 | color=ivory | target=MainMenu
+
+MAINMENU
+Фон меню включён.
+LogoPlate [image]  x=-12, y=22, w=1300, h=284 | color=white | rotation=2.5 | path=Brand/logo_plate.png
+Logo [image]  x=55, y=50, w=1160, h=194 | color=white | rotation=2.5 | path=Brand/wordmark_ink.png
+Play [button]  x=695, y=352, w=1184, h=168 | text=Играть | fontSize=92 | color=pink | rotation=2.5 | target=TrackSelect
+Settings [button]  x=668, y=540, w=1096, h=146 | text=Настройки | fontSize=92 | color=ivory | rotation=2.5 | target=Settings
+Tutorial [button]  x=638, y=704, w=1034, h=148 | text=Обучение | fontSize=92 | color=ivory | rotation=2.5 | target=Tutorial
+Exit [button]  x=602, y=872, w=948, h=146 | text=Выйти | fontSize=92 | color=ivory | rotation=2.5 | target=ConfirmExit
+
+TRACKSELECT
+Фон меню включён.
+Brand [text]  x=42, y=22, w=300, h=56 | text=NEONFLOW | fontSize=36 | weight=SemiBold | align=left | color=ink
+Header [panel]  x=40, y=98, w=1110, h=140 | color=ivory | cut=0.36
+Heading [text]  x=112, y=105, w=980, h=116 | text=Выбор трека | fontSize=82 | weight=SemiBold | align=left | color=ink
+ResultsPanel [panel]  x=24, y=268, w=650, h=630 | color=ivory | cut=0.1
+SongTitle [text]  x=102, y=294, w=544, h=74 | text=Neon Odyssey | fontSize=54 | weight=SemiBold | align=left | color=ink
+Artist [text]  x=102, y=376, w=500, h=44 | text=Grand_Project | fontSize=30 | weight=Regular | align=left | color=ink
+BPM [text]  x=102, y=438, w=230, h=46 | text=130 BPM | fontSize=36 | weight=SemiBold | align=left | color=ink
+Difficulty [text]  x=436, y=438, w=150, h=46 | text=3,2 | fontSize=36 | weight=SemiBold | align=left | color=ink
+ResultsHeading [panel]  x=70, y=540, w=548, h=62 | color=lilac | cut=0.25
+LocalResults [text]  x=100, y=548, w=490, h=46 | text=Ваши результаты | fontSize=30 | weight=SemiBold | align=left | color=ink
+EmptyResults [text]  x=100, y=689, w=510, h=70 | text=Пока нет результатов | fontSize=30 | weight=Regular | align=center | color=ink
+Search [input]  x=1300, y=94, w=580, h=70 | text=Поиск | fontSize=28 | color=ivory
+SongRow0 [song]  x=760, y=254, w=1120, h=126 | text=On The Road To The Eighties_59sec | fontSize=36 | color=ivory | target=TrackSelect
+SongRow1 [song]  x=680, y=396, w=1200, h=126 | text=Neon Odyssey | fontSize=36 | color=pink | target=TrackSelect
+SongRow2 [song]  x=760, y=538, w=1120, h=126 | text=Synthetic drive. Synth-House version 1 minute | fontSize=36 | color=ivory | target=TrackSelect
+SongRow3 [song]  x=760, y=680, w=1120, h=126 | text=Visibility (Synthwave) | fontSize=36 | color=ivory | target=TrackSelect
+SongRow4 [song]  x=760, y=822, w=1120, h=126 | text=Lady of the 80's | fontSize=36 | color=ivory | target=TrackSelect
+Back [button]  x=40, y=966, w=294, h=82 | text=Назад | fontSize=34 | color=ivory | target=MainMenu
+Practice [button]  x=1060, y=966, w=450, h=82 | text=Practice Mode | fontSize=34 | color=ivory | target=Gameplay
+Start [button]  x=1540, y=958, w=340, h=94 | text=Играть | fontSize=44 | color=pink | target=Gameplay
+DifficultyStar [image]  x=390, y=443, w=36, h=36 | color=ink | path=UI/Icons/star.png
+
+SETTINGS
+Фон меню включён.
+Brand [text]  x=42, y=22, w=300, h=56 | text=NEONFLOW | fontSize=36 | weight=SemiBold | align=left | color=ink
+Header [panel]  x=40, y=98, w=1110, h=140 | color=ivory | cut=0.36
+Heading [text]  x=112, y=105, w=980, h=116 | text=Настройки | fontSize=82 | weight=SemiBold | align=left | color=ink
+Tab0 [button]  x=40, y=362, w=455, h=90 | text=Звук | fontSize=42 | color=pink | target=Settings
+Tab1 [button]  x=40, y=478, w=455, h=90 | text=Камера | fontSize=42 | color=ivory | target=CameraSettings
+Tab2 [button]  x=40, y=594, w=455, h=90 | text=Управление | fontSize=42 | color=ivory | target=ControlSettings
+SettingsPanel [panel]  x=510, y=338, w=1370, h=570 | color=ivory | cut=0.2
+Label0 [text]  x=640, y=396, w=620, h=48 | text=Музыка | fontSize=40 | weight=SemiBold | align=left | color=ink
+Slider0 [slider]  x=640, y=464, w=1000, h=36
+Value0 [text]  x=1660, y=454, w=90, h=56 | text=75% | fontSize=32 | weight=SemiBold | align=right | color=ink
+Label1 [text]  x=640, y=554, w=620, h=48 | text=Звуки интерфейса | fontSize=40 | weight=SemiBold | align=left | color=ink
+Slider1 [slider]  x=640, y=622, w=1000, h=36
+Value1 [text]  x=1660, y=612, w=90, h=56 | text=55% | fontSize=32 | weight=SemiBold | align=right | color=ink
+Label2 [text]  x=640, y=712, w=620, h=48 | text=Эффекты | fontSize=40 | weight=SemiBold | align=left | color=ink
+Slider2 [slider]  x=640, y=780, w=1000, h=36
+Value2 [text]  x=1660, y=770, w=90, h=56 | text=65% | fontSize=32 | weight=SemiBold | align=right | color=ink
+Back [button]  x=40, y=966, w=294, h=82 | text=Назад | fontSize=34 | color=ivory | target=MainMenu
+
+CAMERASETTINGS
+Фон меню включён.
+Brand [text]  x=42, y=22, w=300, h=56 | text=NEONFLOW | fontSize=36 | weight=SemiBold | align=left | color=ink
+Header [panel]  x=40, y=98, w=1110, h=140 | color=ivory | cut=0.36
+Heading [text]  x=112, y=105, w=980, h=116 | text=Настройки | fontSize=82 | weight=SemiBold | align=left | color=ink
+SettingsPanel [panel]  x=510, y=338, w=1370, h=570 | color=ivory | cut=0.2
+Tab0 [button]  x=40, y=362, w=455, h=90 | text=Звук | fontSize=42 | color=ivory | target=Settings
+Tab1 [button]  x=40, y=478, w=455, h=90 | text=Камера | fontSize=42 | color=pink | target=CameraSettings
+Tab2 [button]  x=40, y=594, w=455, h=90 | text=Управление | fontSize=42 | color=ivory | target=ControlSettings
+CameraLabel [text]  x=650, y=394, w=800, h=50 | text=Камера | fontSize=42 | weight=SemiBold | align=left | color=ink
+CameraDevice [input]  x=620, y=466, w=1100, h=82 | text=Выберите камеру | fontSize=32 | color=ivory
+CameraHint [text]  x=650, y=592, w=1030, h=100 | text=В кадре должны быть видны торс и поднятые руки. | fontSize=32 | weight=Regular | align=left | color=ink
+Calibrate [button]  x=640, y=738, w=760, h=92 | text=Калибровка | fontSize=44 | color=pink | target=Calibration
+Back [button]  x=40, y=966, w=294, h=82 | text=Назад | fontSize=34 | color=ivory | target=MainMenu
+
+CONTROLSETTINGS
+Фон меню включён.
+Brand [text]  x=42, y=22, w=300, h=56 | text=NEONFLOW | fontSize=36 | weight=SemiBold | align=left | color=ink
+Header [panel]  x=40, y=98, w=1110, h=140 | color=ivory | cut=0.36
+Heading [text]  x=112, y=105, w=980, h=116 | text=Настройки | fontSize=82 | weight=SemiBold | align=left | color=ink
+SettingsPanel [panel]  x=510, y=338, w=1370, h=570 | color=ivory | cut=0.2
+Tab0 [button]  x=40, y=362, w=455, h=90 | text=Звук | fontSize=42 | color=ivory | target=Settings
+Tab1 [button]  x=40, y=478, w=455, h=90 | text=Камера | fontSize=42 | color=ivory | target=CameraSettings
+Tab2 [button]  x=40, y=594, w=455, h=90 | text=Управление | fontSize=42 | color=pink | target=ControlSettings
+VoiceLabel [text]  x=650, y=394, w=1000, h=56 | text=Голосовое управление | fontSize=42 | weight=SemiBold | align=left | color=ink
+VoiceToggle [toggle]  x=1620, y=396, w=128, h=64
+Commands [text]  x=650, y=488, w=1050, h=100 | text=Пауза · Продолжить · Повторить · Назад · Играть | fontSize=32 | weight=Regular | align=left | color=ink
+Escape [text]  x=650, y=628, w=1000, h=56 | text=Esc — пауза / назад | fontSize=36 | weight=SemiBold | align=left | color=ink
+Reduce [text]  x=650, y=746, w=940, h=56 | text=Уменьшить анимацию | fontSize=36 | weight=SemiBold | align=left | color=ink
+MotionToggle [toggle]  x=1620, y=744, w=128, h=64
+Back [button]  x=40, y=966, w=294, h=82 | text=Назад | fontSize=34 | color=ivory | target=MainMenu
+
+GAMEPLAY
+Прозрачный Canvas поверх мира/предыдущего экрана.
+PlayerHP [bar]  x=124, y=30, w=635, h=50 | color=cyan
+RobotHP [bar]  x=1005, y=30, w=535, h=50 | color=pink
+You [text]  x=164, y=88, w=180, h=40 | text=ВЫ | fontSize=26 | weight=SemiBold | align=left | color=ivory
+Enemy [text]  x=1320, y=88, w=180, h=40 | text=РОБОТ | fontSize=26 | weight=SemiBold | align=right | color=ivory
+TimerPanel [panel]  x=794, y=26, w=170, h=68 | color=ivory | cut=0.36
+Timer [text]  x=800, y=32, w=156, h=54 | text=02:13 | fontSize=38 | weight=SemiBold | align=center | color=ink
+ScoreLabel [text]  x=1598, y=22, w=280, h=40 | text=ОЧКИ | fontSize=28 | weight=SemiBold | align=left | color=ivory
+ScorePanel [panel]  x=1575, y=62, w=320, h=88 | color=pink | cut=0.36
+Score [text]  x=1606, y=68, w=260, h=70 | text=023 450 | fontSize=56 | weight=SemiBold | align=right | color=ivory
+Combo [text]  x=1600, y=160, w=282, h=48 | text=КОМБО 24 | fontSize=34 | weight=SemiBold | align=right | color=ivory
+Webcam [camera]  x=60, y=184, w=595, h=340 | color=cyan
+AccuracyPanel [panel]  x=88, y=542, w=550, h=68 | color=ivory | cut=0.36
+Accuracy [text]  x=110, y=550, w=500, h=50 | text=Совпадение: 73% | fontSize=34 | weight=SemiBold | align=left | color=ink
+LeftHand [pose]  x=700, y=188, w=236, h=190 | text=FIST | fontSize=22 | color=ivory | opacity=1 | path=Movements/Hands/fist.png
+Body [pose]  x=944, y=156, w=280, h=230 | text=ARMS V | fontSize=22 | color=ivory | opacity=1 | path=Movements/Poses/arms_v.png
+RightHand [pose]  x=1228, y=188, w=236, h=190 | text=OPEN PALM | fontSize=22 | color=ivory | opacity=1 | path=Movements/Hands/open.png
+NextLabel [panel]  x=1530, y=330, w=328, h=62 | color=ivory | cut=0.36
+Next [text]  x=1574, y=337, w=230, h=48 | text=ДАЛЕЕ | fontSize=30 | weight=SemiBold | align=left | color=ink
+Next1 [pose]  x=1540, y=414, w=340, h=150 | text=ARMS OUT | fontSize=22 | color=ivory | opacity=1 | path=Movements/Poses/arms_t.png
+Next2 [pose]  x=1540, y=584, w=340, h=150 | text=CROSS ARMS | fontSize=22 | color=ivory | opacity=0.55 | path=Movements/Poses/cross_chest.png
+Next3 [pose]  x=1540, y=754, w=340, h=150 | text=SHRUG UP | fontSize=22 | color=ivory | opacity=0.28 | path=Movements/Poses/shoulders_up.png
+Window [bar]  x=90, y=1008, w=1740, h=46 | color=cyan
+Judgement [text]  x=1370, y=938, w=450, h=62 | text=Great  73% | fontSize=50 | weight=SemiBold | align=right | color=ivory
+
+PAUSE
+Прозрачный Canvas поверх мира/предыдущего экрана.
+Dim [dim]  x=0, y=0, w=1920, h=1080 | color=ink | opacity=0.62
+PausePanel [panel]  x=560, y=180, w=800, h=720 | color=ivory | cut=0.15
+Heading [text]  x=660, y=230, w=620, h=100 | text=Пауза | fontSize=76 | weight=SemiBold | align=left | color=ink
+Action0 [button]  x=640, y=366, w=640, h=94 | text=Продолжить | fontSize=40 | color=pink | target=Gameplay
+Action1 [button]  x=640, y=482, w=640, h=94 | text=Повторить | fontSize=40 | color=ivory | target=Gameplay
+Action2 [button]  x=640, y=598, w=640, h=94 | text=Настройки | fontSize=40 | color=ivory | target=Settings
+Action3 [button]  x=640, y=714, w=640, h=94 | text=К выбору трека | fontSize=40 | color=ivory | target=TrackSelect
+
+RESULTSVICTORY
+Фон меню включён.
+ResultPanel [panel]  x=300, y=280, w=1320, h=600 | color=ivory | cut=0.14
+ResultTitle [panel]  x=480, y=86, w=960, h=150 | color=pink | cut=0.36
+Heading [text]  x=580, y=100, w=760, h=116 | text=Victory | fontSize=90 | weight=SemiBold | align=center | color=ivory
+Song [text]  x=760, y=338, w=740, h=72 | text=Neon Odyssey | fontSize=52 | weight=SemiBold | align=left | color=ink
+Author [text]  x=760, y=412, w=740, h=44 | text=Grand_Project | fontSize=30 | weight=Regular | align=left | color=ink
+Rank [text]  x=410, y=436, w=290, h=290 | text=S | fontSize=220 | weight=SemiBold | align=center | color=pink
+Key0 [text]  x=760, y=520, w=470, h=60 | text=Очки | fontSize=36 | weight=SemiBold | align=left | color=ink
+Value0 [text]  x=1220, y=520, w=280, h=60 | text=234 500 | fontSize=42 | weight=SemiBold | align=right | color=ink
+Key1 [text]  x=760, y=608, w=470, h=60 | text=Точность | fontSize=36 | weight=SemiBold | align=left | color=ink
+Value1 [text]  x=1220, y=608, w=280, h=60 | text=93,7% | fontSize=42 | weight=SemiBold | align=right | color=ink
+Key2 [text]  x=760, y=696, w=470, h=60 | text=Макс. комбо | fontSize=36 | weight=SemiBold | align=left | color=ink
+Value2 [text]  x=1220, y=696, w=280, h=60 | text=64 | fontSize=42 | weight=SemiBold | align=right | color=ink
+Retry [button]  x=340, y=950, w=600, h=92 | text=Повторить | fontSize=42 | color=pink | target=Gameplay
+Select [button]  x=980, y=950, w=600, h=92 | text=К выбору трека | fontSize=42 | color=ivory | target=TrackSelect
+
+RESULTSDEFEAT
+Фон меню включён.
+ResultPanel [panel]  x=300, y=280, w=1320, h=600 | color=ivory | cut=0.14
+ResultTitle [panel]  x=480, y=86, w=960, h=150 | color=ink | cut=0.36
+Heading [text]  x=580, y=100, w=760, h=116 | text=Defeat | fontSize=90 | weight=SemiBold | align=center | color=ivory
+Song [text]  x=760, y=338, w=740, h=72 | text=Neon Odyssey | fontSize=52 | weight=SemiBold | align=left | color=ink
+Author [text]  x=760, y=412, w=740, h=44 | text=Grand_Project | fontSize=30 | weight=Regular | align=left | color=ink
+Rank [text]  x=410, y=436, w=290, h=290 | text=D | fontSize=220 | weight=SemiBold | align=center | color=pink
+Key0 [text]  x=760, y=520, w=470, h=60 | text=Очки | fontSize=36 | weight=SemiBold | align=left | color=ink
+Value0 [text]  x=1220, y=520, w=280, h=60 | text=28 400 | fontSize=42 | weight=SemiBold | align=right | color=ink
+Key1 [text]  x=760, y=608, w=470, h=60 | text=Точность | fontSize=36 | weight=SemiBold | align=left | color=ink
+Value1 [text]  x=1220, y=608, w=280, h=60 | text=42,8% | fontSize=42 | weight=SemiBold | align=right | color=ink
+Key2 [text]  x=760, y=696, w=470, h=60 | text=Макс. комбо | fontSize=36 | weight=SemiBold | align=left | color=ink
+Value2 [text]  x=1220, y=696, w=280, h=60 | text=8 | fontSize=42 | weight=SemiBold | align=right | color=ink
+Retry [button]  x=340, y=950, w=600, h=92 | text=Повторить | fontSize=42 | color=pink | target=Gameplay
+Select [button]  x=980, y=950, w=600, h=92 | text=К выбору трека | fontSize=42 | color=ivory | target=TrackSelect
+
+CALIBRATION
+Фон меню включён.
+Brand [text]  x=42, y=22, w=300, h=56 | text=NEONFLOW | fontSize=36 | weight=SemiBold | align=left | color=ink
+Header [panel]  x=40, y=98, w=1110, h=140 | color=ivory | cut=0.36
+Heading [text]  x=112, y=105, w=980, h=116 | text=Калибровка | fontSize=82 | weight=SemiBold | align=left | color=ink
+Webcam [camera]  x=80, y=290, w=960, h=540 | color=cyan
+InstructionPanel [panel]  x=1120, y=294, w=720, h=536 | color=ivory | cut=0.1
+Instruction [text]  x=1200, y=344, w=550, h=116 | text=Сядьте или встаньте перед камерой. | fontSize=42 | weight=SemiBold | align=left | color=ink
+Framing [text]  x=1200, y=496, w=550, h=154 | text=Торс, плечи и поднятые руки должны быть видны целиком. | fontSize=34 | weight=Regular | align=left | color=ink
+Ready [button]  x=1190, y=702, w=560, h=90 | text=Готово | fontSize=44 | color=pink | target=TrackSelect
+Back [button]  x=40, y=966, w=294, h=82 | text=Назад | fontSize=34 | color=ivory | target=MainMenu
+
+TUTORIAL
+Фон меню включён.
+Brand [text]  x=42, y=22, w=300, h=56 | text=NEONFLOW | fontSize=36 | weight=SemiBold | align=left | color=ink
+Header [panel]  x=40, y=98, w=1110, h=140 | color=ivory | cut=0.36
+Heading [text]  x=112, y=105, w=980, h=116 | text=Обучение | fontSize=82 | weight=SemiBold | align=left | color=ink
+ExplanationPanel [panel]  x=70, y=300, w=1020, h=590 | color=ivory | cut=0.12
+Step [text]  x=160, y=354, w=790, h=110 | text=Покажите позу до удара | fontSize=52 | weight=SemiBold | align=left | color=ink
+Text [text]  x=160, y=494, w=790, h=280 | text=Удерживайте позу до заполнения полосы. Новое задание появляется каждые 8 ударов. /  / Можно играть сидя. Если рука в задании опущена, жест пальцами для неё не нужен. | fontSize=34 | weight=Regular | align=left | color=ink
+Example [pose]  x=1230, y=350, w=480, h=380 | text=ARMS V | fontSize=22 | color=ivory | opacity=1 | path=Movements/Poses/arms_v.png
+Try [button]  x=1140, y=796, w=650, h=100 | text=Попробовать | fontSize=44 | color=pink | target=Calibration
+Back [button]  x=40, y=966, w=294, h=82 | text=Назад | fontSize=34 | color=ivory | target=MainMenu
+
+CONFIRMEXIT
+Прозрачный Canvas поверх мира/предыдущего экрана.
+Dim [dim]  x=0, y=0, w=1920, h=1080 | color=ink | opacity=0.62
+Dialog [panel]  x=430, y=290, w=1060, h=470 | color=ivory | cut=0.14
+Question [text]  x=540, y=360, w=850, h=92 | text=Выйти из игры? | fontSize=64 | weight=SemiBold | align=center | color=ink
+Cancel [button]  x=530, y=566, w=420, h=98 | text=Отмена | fontSize=42 | color=ivory | target=MainMenu
+Confirm [button]  x=980, y=566, w=420, h=98 | text=Выйти | fontSize=42 | color=pink | target=QUIT
+
+LOADING
+Фон меню включён.
+LoadingText [text]  x=660, y=470, w=600, h=100 | text=Загрузка | fontSize=68 | weight=SemiBold | align=center | color=ivory
+LoadingFX [animation]  x=832, y=600, w=256, h=128 | path=loading
+
+ВНУТРЕННЕЕ УСТРОЙСТВО КОМПОНЕНТОВ
+Кнопка: Plate → Label → FX_select_sweep → FX_press_slash. Текст начинается
+на расстоянии h×0,43+10 слева, справа запас h×0,36. Не растягивать текст с PNG.
+Текст на розовом — Ivory, на светлом — Ink. Наклон только крупных надписей.
+SongRow: Title x64,y8,h62; Artist x64,y72,h38; BPM справа, ширина160,
+отступ50 от правой границы; Title оставляет 195 px для BPM. Selected ряд смещён
+влево на80 px, розовый, с бирюзовой входной полосой; список остаётся справа.
+Карточка движения: подпись сверху справа, отступ сверху9 px, зона подписи
+x=14% ширины, w=71% ширины. Пиктограмма по центру ниже подписи, без искажения.
+В следующих позах высота150 px, пиктограмма уменьшается; прозрачность1 / .55 / .28.
+Webcam: внешняя бирюзовая форма → Clip с Mask → Feed RawImage → Unavailable.
+Пиксели камеры не скашивать! Скашивается маска, сама картинка сохраняет пропорции.
+Камера: fit/crop по центру после учёта videoRotationAngle/videoVerticallyMirrored;
+отражение один раз. Перед выключением Unavailable дождаться реального кадра.
+HP и окно: светлая основа → Clip с Mask → внутренний Filled Image; отступ6 px.
+Маска уже повторяет наклонный контур, заливка не выходит за прозрачный угол.
+
+СВОБОДНАЯ ЗОНА HUD
+Робот стоит в мировом пространстве, условная экранная область x650..1500,
+y360..980. Это не UI-панель. Голова, локти и кисти не прячутся за заданиями.
+Камера игрока x60..655, y184..524. Центральные карточки y156..386. Очередь
+справа x1540..1880, y414..904. Нижняя полоса x90..1830, y1008..1054.
+На разных разрешениях менять камеру мира/FOV отдельно от масштаба HUD.
+До начала песни проверить крайние позы робота: ARMS OUT и ARMS UP не должны
+оказываться под окном веб-камеры или верхними заданиями. Подобрать дистанцию
+и рост модели, не раздвигать утверждённый HUD для каждой позы.
+
+СОДЕРЖИМОЕ ПРЕВЬЮ
+Числа счёта, HP, результатов и пример 3,2 звезды — макетные значения.
+Они не задают формулу сложности и не должны сохраняться как реальные рекорды.
+Список использует названия из TrackTiming.json; на экране игры выводить
+настоящие данные выбранного трека. Пустая таблица: «Пока нет результатов».
+При появлении результатов вместо EmptyResults создавать строки в том же
+контейнере: ранг, очки, точность, максимум комбо и дата; прокрутка внутри панели.
+Длинные списки треков помещать в ScrollRect справа; сохранить ширины, высоты
+126 px и шаг142 px, показанные здесь. Префаб даёт пять демонстрационных строк,
+а не полностью реализованный список с базой данных.

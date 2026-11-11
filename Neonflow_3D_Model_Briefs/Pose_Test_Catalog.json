@@ -1,0 +1,104 @@
+{
+  "purpose": "Model and rig pose checks; not gameplay scoring logic.",
+  "countBody": 12,
+  "countHands": 10,
+  "anatomicalSides": "Use anatomical bone names; mirrored presentation is the responsibility of the game controller.",
+  "rules": [
+    "No finger task for a hand lowered in the target body pose.",
+    "Finger shapes must be independent from body pose and from the other hand.",
+    "point_side includes wrist orientation, not only finger shape.",
+    "thumb_up included; ok and pinch excluded."
+  ],
+  "body": [
+    {
+      "id": "arms_up",
+      "label": "ARMS UP"
+    },
+    {
+      "id": "arms_v",
+      "label": "ARMS V"
+    },
+    {
+      "id": "arms_t",
+      "label": "ARMS OUT"
+    },
+    {
+      "id": "elbows_up",
+      "label": "ELBOWS UP"
+    },
+    {
+      "id": "cross_chest",
+      "label": "CROSS ARMS"
+    },
+    {
+      "id": "clap",
+      "label": "CLAP"
+    },
+    {
+      "id": "reach_left",
+      "label": "REACH LEFT"
+    },
+    {
+      "id": "reach_right",
+      "label": "REACH RIGHT"
+    },
+    {
+      "id": "diagonal_left",
+      "label": "DIAGONAL LEFT"
+    },
+    {
+      "id": "diagonal_right",
+      "label": "DIAGONAL RIGHT"
+    },
+    {
+      "id": "shoulders_up",
+      "label": "SHRUG UP"
+    },
+    {
+      "id": "shoulders_down",
+      "label": "SHOULDERS DOWN"
+    }
+  ],
+  "hands": [
+    {
+      "id": "open",
+      "label": "OPEN PALM"
+    },
+    {
+      "id": "fist",
+      "label": "FIST"
+    },
+    {
+      "id": "point",
+      "label": "POINT UP"
+    },
+    {
+      "id": "peace",
+      "label": "TWO FINGERS"
+    },
+    {
+      "id": "three",
+      "label": "THREE FINGERS"
+    },
+    {
+      "id": "four",
+      "label": "FOUR FINGERS"
+    },
+    {
+      "id": "thumb_up",
+      "label": "THUMBS UP"
+    },
+    {
+      "id": "rock",
+      "label": "ROCK"
+    },
+    {
+      "id": "l_shape",
+      "label": "L SIGN"
+    },
+    {
+      "id": "point_side",
+      "label": "POINT"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+2026-11-11 — actual Windows player, Builds/Windows/Neonflow.exe
+Launched the completed Vector build through the computer-use plugin.
+Mouse: title -> main menu -> sound -> camera -> controls -> back -> exit dialog.
+Observed HD User Facing in camera settings; voice-unavailable status was absent
+after initialization. No calibration frame/person screenshot was taken.
+Injected Space and Escape produced no transition, including after a later refresh.
+Physical keyboard operation is unverified; cause is not established by injection.
+The final exit click was blocked because user input was detected. Refreshed the
+window inventory and observed the game window absent. Do not claim this click ran.
+No exceptions found in the copied Player.log. Existing unused URP postprocess
+shader warnings remain. Camera gestures and spoken commands were not tested.

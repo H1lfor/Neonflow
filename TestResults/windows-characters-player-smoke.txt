@@ -1,0 +1,6 @@
+﻿PASS: final Windows player started, remained responsive, and spawned its packaged Python worker.
+Unity 6000.6.6f1 / Direct3D 12 initialized. No managed exceptions or game-code errors in startup log.
+The NVIDIA debug info-queue query warning did not prevent renderer initialization.
+Hidden smoke-test process and its own children were stopped after the check.
+No human gesture or microphone command acceptance, no gameplay screenshot captured.
+Log: Logs/windows-characters-player-smoke.log

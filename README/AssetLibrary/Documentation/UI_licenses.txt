@@ -1,0 +1,24 @@
+﻿NEONFLOW UI v1.0 — provenance
+
+UI geometry, icons, movement pictograms, album placeholders and synthesized
+UI sounds were created for this project. No osu!, Muse Dash or Beat Saber
+artwork, logos, music or proprietary files were extracted or included.
+The attached screenshot was used only as a style reference.
+
+Backgrounds/synthwave_sunset.png is an original AI-generated background
+created with the built-in image generation tool. It is not one of the
+commercial skyboxes shown in the reference screenshot.
+Generation prompt is included in UI_background_prompt.txt.
+
+Exo 2 is from the official Google Fonts repository:
+https://github.com/google/fonts/tree/main/ofl/exo2
+https://fonts.google.com/specimen/Exo+2
+Static Regular (400), SemiBold (600) and ExtraBold (800) instances were produced from the
+official variable font using fontTools for straightforward Unity import.
+See Fonts/Exo2-OFL.txt for the supplied SIL Open Font License.
+Keep these notices with redistributed font files.
+
+This notice describes the visual asset module. The enclosing handoff also includes
+11 user-provided music files; metadata and source links are in MusicReports.
+Historical preview screenshots are not approved final UI copy or actual results.
+Current runtime text requirements are in Requirements and Data/UI_TEXTS_RU.json.

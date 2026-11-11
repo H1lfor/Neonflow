@@ -1,0 +1,4 @@
+PASS 38261 checks
+light: 19920 vertices, 6640 triangles, 53 bones, 4 materials, Humanoid valid, 120 pose/hand combinations finite.
+solid: 21216 vertices, 7072 triangles, 53 bones, 4 materials, Humanoid valid, 120 pose/hand combinations finite.
+No human camera or voice acceptance in this test.

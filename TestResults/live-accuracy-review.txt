@@ -1,0 +1,15 @@
+2026-11-11 — Live percentage under camera, further relaxation
+CoreChecks PASS 1347. Balance.fullAccuracy=0.64 (previous 0.8).
+Fully tracked pose: previous live 60% -> 75%, previous live 80% -> 100%.
+Missing required wrists/fingers keep their weighted penalty; no tracking is 0%.
+Actual Play Mode HUD validation: synthetic ARMS V landmark coordinates produce
+raw 0.64 (previous live 0.80). Injected as Recognition.Latest with fresh timestamps,
+then normal NeonflowGame.Update runs the live evaluation and HUD smoothing.
+The test asserts accuracyText.text == 'Совпадение: 100%' after settling.
+Viewed actual Unity capture TestResults/Visual/hud-live-percent-100.png confirming
+the visible label under the camera. This is a synthetic test, not live human input.
+Log: unity-live-accuracy-checks.log; no exceptions, focused visual pass completed.
+The same EvaluateCue is used for score observations and live HUD; no extra gain
+is applied in the text label. Source checkpoints protect missing required tracking.
+User saves are untouched. Previous layout tests remain in the focused harness.
+Build 2026-11-11 06:24:29 : Succeeded errors=0; exit 0. CoreChecks repeated: 1347. Packaged player/Python/16 model hashes/worker PASS.

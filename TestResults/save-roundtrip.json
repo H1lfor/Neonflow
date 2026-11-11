@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "settings": {
+        "music": 0.3499999940395355,
+        "ui": 0.6499999761581421,
+        "effects": 0.5,
+        "voice": true,
+        "reducedMotion": false,
+        "camera": "",
+        "microphone": -1,
+        "characterId": "light"
+    },
+    "runs": [
+        {
+            "trackId": 1,
+            "seed": 18,
+            "score": 0,
+            "maxCombo": 0,
+            "windows": 0,
+            "accuracy": 0.0,
+            "practice": true,
+            "completed": true,
+            "victory": true,
+            "date": "2026-11-11T06:27:40.9102128Z",
+            "rank": "E",
+            "characterId": "",
+            "judgements": [
+                0,
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

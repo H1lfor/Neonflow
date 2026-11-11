@@ -1,0 +1,1 @@
+PASS: 1347 assertions. Real camera, microphone and listening not covered.

@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image generation",
+  "prompts": [
+    {
+      "id": "vector_clean_background",
+      "ref": "C:/Users/aldik/Documents/Codex/2026-11-10/d/outputs/Neonflow_Menu_Concepts/02_Vector/01_Main_Menu.png",
+      "prompt": "Use case: background-extraction / game background reconstruction. Edit the reference screenshot to produce ONLY the clean full-bleed game BACKGROUND. Remove ALL words, logo, menu, cream panels, cyan accents belonging to UI, buttons and interface. Reconstruct the obscured scenery seamlessly. Keep this exact approved NEONFLOW Vector art direction: clean light violet sky changing to vivid pink near the horizon, one big solid hot-pink sun to the upper right, jagged flat purple mountain silhouettes, dark plum floor with a fine perfectly regular magenta perspective grid. Matte graphic style, solid color geometry, no glow, bloom, fog, stars, particles, noise, vehicles, people or robots. Ground vanishing point slightly right of center. Mountains at around 60% height, foreground grid at lower third. It is a 16:9 PC menu environment plate, high landscape resolution, absolutely no typography or panels. Preserve palette and characteristic mountain/grid visual language of the reference; output a clean reusable background."
+    },
+    {
+      "id": "vector_robot_reference",
+      "ref": "C:/Users/aldik/Documents/Codex/2026-11-10/d/outputs/Neonflow_Menu_Concepts/02_Vector/04_Gameplay.png",
+      "prompt": "Use case: stylized-concept / production character reference. The input is a NEONFLOW game interface containing an approved humanoid robot in the center. Extract its CHARACTER DESIGN as a NEW clean original design reference sheet on pale warm-ivory background. Keep the exact coherent white/pale-lilac shells, graphite joints, slim athletic torso, compact dark horizontal visor, restrained turquoise and magenta accents from that robot. Show THREE full-body orthographic-style views at matching scale: front, side, back, neutral relaxed A-pose; and a smaller inset showing two open five-finger mechanical hands, front and back. Simple polished render, practical clearly separated parts suitable for a future 3D modeller. There are exactly five fingers per hand including a clear thumb; realistic articulated finger joints. No HUD, webcam, gameplay, written text, annotations, arrows, numerals, extra weapons, props, generic armored soldier bulk, exaggerated muscles or glossy chrome. Comfortable dance partner with expressive shoulders and hands, not combat equipment. Keep the image clean, restrained and stylish. Landscape full sheet, high resolution."
+    }
+  ]
+}

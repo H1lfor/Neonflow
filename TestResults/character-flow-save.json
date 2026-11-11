@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "settings": {
+        "music": 0.699999988079071,
+        "ui": 0.6499999761581421,
+        "effects": 0.5,
+        "voice": true,
+        "reducedMotion": false,
+        "camera": "",
+        "microphone": -1,
+        "characterId": "light"
+    },
+    "runs": []
+}

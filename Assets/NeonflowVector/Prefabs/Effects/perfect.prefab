@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2902744947133603974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1512542646884462126}
+  - component: {fileID: 7777839988045864170}
+  - component: {fileID: 6792879680169271788}
+  - component: {fileID: 6552585175858464827}
+  m_Layer: 0
+  m_Name: perfect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1512542646884462126
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902744947133603974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 512, y: 256}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &7777839988045864170
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902744947133603974}
+  m_CullTransparentMesh: 1
+--- !u!114 &6792879680169271788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902744947133603974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4725540d72f8dce4c962d45be4a7f687, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6552585175858464827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2902744947133603974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcf2961a72ccdd4bbfd8cd00e04569d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Neonflow.VectorUI.VectorFlipbook
+  target: {fileID: 6792879680169271788}
+  frames:
+  - {fileID: 21300000, guid: 4725540d72f8dce4c962d45be4a7f687, type: 3}
+  - {fileID: 21300000, guid: cf8d3998a44192541bdf225a37f86624, type: 3}
+  - {fileID: 21300000, guid: ed40c1a1589810040a5a20711a16aa3c, type: 3}
+  - {fileID: 21300000, guid: 2d3f57d6ec8741c43957abe44bb2ef78, type: 3}
+  - {fileID: 21300000, guid: c45b4508e77ccde4789a2bdedfc608e6, type: 3}
+  - {fileID: 21300000, guid: e9e15e681feb0a340a2943306c8580c8, type: 3}
+  - {fileID: 21300000, guid: 9a4597c1dda03294dba9bff420885f87, type: 3}
+  - {fileID: 21300000, guid: f8f598835bc2a4040864d4da198dddc2, type: 3}
+  - {fileID: 21300000, guid: 4b2f61b5b9d51fc4ea24a8781177463a, type: 3}
+  - {fileID: 21300000, guid: bfe5e8ef45cbf1145a2e490d54607376, type: 3}
+  - {fileID: 21300000, guid: b3be42d623ca0cf46ab7d205316d7c30, type: 3}
+  - {fileID: 21300000, guid: 419b27914e4165f4ea279f665ba49fcc, type: 3}
+  - {fileID: 21300000, guid: fa06b0dbf478b5e439f545a3cdae2b24, type: 3}
+  - {fileID: 21300000, guid: e338e9971d98b154486f24222eeb82d5, type: 3}
+  - {fileID: 21300000, guid: 7f59344b7e588fe47a3910d8e6b2bead, type: 3}
+  - {fileID: 21300000, guid: 8e491ee98059d7e47912834c5753399c, type: 3}
+  fps: 40
+  loop: 0
+  playOnEnable: 0
+  externalClock: 1
+  reducedMotion: 0

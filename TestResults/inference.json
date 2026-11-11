@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "poseLandmarks": 33,
+  "leftHandLandmarks": 0,
+  "rightHandLandmarks": 0,
+  "timestampEcho": 12.345,
+  "epochEcho": 7,
+  "fixture": "https://storage.googleapis.com/mediapipe-assets/pose.jpg",
+  "scope": "Public image inference only. Not webcam acceptance."
+}

@@ -1,0 +1,400 @@
+{
+  "assets": [
+    {
+      "path": "Poses/arms_up.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/arms_v.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/arms_t.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/elbows_up.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/cross_chest.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/clap.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/reach_left.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/reach_right.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/diagonal_left.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/diagonal_right.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/shoulders_up.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Poses/shoulders_down.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/open.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/fist.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/point.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/peace.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/three.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/four.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/thumb_up.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/rock.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/l_shape.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Hands/point_side.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "Boxes/box_idle.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_current.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_next.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_success.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_miss.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_disabled.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_hold.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Boxes/box_focus.png",
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "Bars/hold_track.png",
+      "border": [
+        12,
+        0,
+        12,
+        0
+      ],
+      "width": 256,
+      "height": 24
+    },
+    {
+      "path": "Bars/hold_fill.png",
+      "border": [
+        12,
+        0,
+        12,
+        0
+      ],
+      "width": 256,
+      "height": 24
+    },
+    {
+      "path": "Arrows/arrow_up.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "Arrows/arrow_right.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "Arrows/arrow_down.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 192,
+      "height": 192
+    },
+    {
+      "path": "Arrows/arrow_left.png",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "width": 192,
+      "height": 192
+    }
+  ]
+}

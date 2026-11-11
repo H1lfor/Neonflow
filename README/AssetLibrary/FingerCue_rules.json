@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "requiredRule": "Never assign finger gestures to an arm lowered in the target pose. Evaluate sides independently; hiding a required hand never removes the active requirement.",
+  "hideFingerCueWhenArmLowered": true,
+  "scoreFingerGestureWhenArmLowered": false,
+  "handMustBeFullyVisible": true,
+  "handTrackingMustBeStable": true,
+  "trackingLossIsNotEvidenceOfLoweredArm": true,
+  "allowedHandsByPose": {
+    "arms_up": [
+      "left",
+      "right"
+    ],
+    "arms_v": [
+      "left",
+      "right"
+    ],
+    "arms_t": [
+      "left",
+      "right"
+    ],
+    "elbows_up": [
+      "left",
+      "right"
+    ],
+    "cross_chest": [
+      "left",
+      "right"
+    ],
+    "clap": [
+      "left",
+      "right"
+    ],
+    "reach_left": [
+      "left",
+      "right"
+    ],
+    "reach_right": [
+      "left",
+      "right"
+    ],
+    "diagonal_left": [
+      "left"
+    ],
+    "diagonal_right": [
+      "right"
+    ],
+    "shoulders_up": [],
+    "shoulders_down": []
+  },
+  "implementationStatus": "Specification only. Connect to the game tracking and scoring logic.",
+  "loweredArmDefinition": "Arm is lowered in the TARGET pose, not merely in the current camera observation.",
+  "freezeAssignedRequirementsUntilTargetBeat": true,
+  "playerLoweringRequiredHandRemovesRequirement": false,
+  "visibilityAndTrackingFieldsApplyTo": "Feasibility at generation and confidence of observations; never silently remove an assigned scoring component.",
+  "stableTrackingMeaning": "Reliable observation, not an artificial multi-second recognition delay.",
+  "compatibilityNote": "Candidate hands only. Further check simultaneous gesture compatibility, self-occlusion and seated camera framing.",
+  "coordinateConvention": "Screen-right cue means player right arm. Mirror only pictograms, not captions."
+}

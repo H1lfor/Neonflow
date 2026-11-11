@@ -1,0 +1,4607 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "path": "UI/Buttons/primary_normal.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/primary_hover.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/primary_pressed.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/primary_selected.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/primary_focus.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/primary_disabled.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/secondary_normal.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/secondary_hover.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/secondary_pressed.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/secondary_selected.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/secondary_focus.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/secondary_disabled.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/quiet_normal.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/quiet_hover.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/quiet_pressed.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/quiet_selected.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/quiet_focus.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/quiet_disabled.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/danger_normal.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/danger_hover.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/danger_pressed.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/danger_selected.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/danger_focus.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Buttons/danger_disabled.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        72,
+        4,
+        72,
+        4
+      ],
+      "role": "sprite",
+      "notes": "Width stretch at 160px reference height; procedural CutGraphic for arbitrary heights."
+    },
+    {
+      "path": "UI/Panels/window.png",
+      "width": 768,
+      "height": 512,
+      "border": [
+        148,
+        4,
+        148,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/modal.png",
+      "width": 768,
+      "height": 512,
+      "border": [
+        108,
+        4,
+        108,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/header.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        66,
+        4,
+        66,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/header_pink.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        66,
+        4,
+        66,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/label.png",
+      "width": 384,
+      "height": 88,
+      "border": [
+        38,
+        4,
+        38,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/label_pink.png",
+      "width": 384,
+      "height": 88,
+      "border": [
+        38,
+        4,
+        38,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/score.png",
+      "width": 512,
+      "height": 160,
+      "border": [
+        66,
+        4,
+        66,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/tooltip.png",
+      "width": 512,
+      "height": 160,
+      "border": [
+        40,
+        4,
+        40,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/toast.png",
+      "width": 768,
+      "height": 112,
+      "border": [
+        48,
+        4,
+        48,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/result_header.png",
+      "width": 768,
+      "height": 72,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/result_row.png",
+      "width": 768,
+      "height": 96,
+      "border": [
+        38,
+        4,
+        38,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/separator.png",
+      "width": 512,
+      "height": 8,
+      "border": [
+        10,
+        4,
+        10,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Panels/camera_frame.png",
+      "width": 640,
+      "height": 360,
+      "border": [
+        48,
+        16,
+        48,
+        16
+      ],
+      "role": "sprite",
+      "notes": "Transparent center. Use matching shape mask for RawImage; never skew camera pixels."
+    },
+    {
+      "path": "UI/Panels/camera_warning_frame.png",
+      "width": 640,
+      "height": 360,
+      "border": [
+        48,
+        16,
+        48,
+        16
+      ],
+      "role": "sprite",
+      "notes": "Transparent center. Use matching shape mask for RawImage; never skew camera pixels."
+    },
+    {
+      "path": "UI/Panels/camera_lost_frame.png",
+      "width": 640,
+      "height": 360,
+      "border": [
+        48,
+        16,
+        48,
+        16
+      ],
+      "role": "sprite",
+      "notes": "Transparent center. Use matching shape mask for RawImage; never skew camera pixels."
+    },
+    {
+      "path": "UI/SongRows/song_normal.png",
+      "width": 1024,
+      "height": 144,
+      "border": [
+        64,
+        4,
+        64,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/SongRows/song_hover.png",
+      "width": 1024,
+      "height": 144,
+      "border": [
+        64,
+        4,
+        64,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/SongRows/song_pressed.png",
+      "width": 1024,
+      "height": 144,
+      "border": [
+        64,
+        4,
+        64,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/SongRows/song_selected.png",
+      "width": 1024,
+      "height": 144,
+      "border": [
+        64,
+        4,
+        64,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/SongRows/song_focus.png",
+      "width": 1024,
+      "height": 144,
+      "border": [
+        64,
+        4,
+        64,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/SongRows/song_disabled.png",
+      "width": 1024,
+      "height": 144,
+      "border": [
+        64,
+        4,
+        64,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/field_normal.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/field_hover.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/field_pressed.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/field_selected.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/field_focus.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/field_disabled.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/dropdown_normal.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/dropdown_hover.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/dropdown_pressed.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/dropdown_selected.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/dropdown_focus.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/dropdown_disabled.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/tab_normal.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/tab_hover.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/tab_pressed.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/tab_selected.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/tab_focus.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/tab_disabled.png",
+      "width": 640,
+      "height": 96,
+      "border": [
+        44,
+        4,
+        44,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/slider_track.png",
+      "width": 256,
+      "height": 32,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/slider_fill.png",
+      "width": 256,
+      "height": 32,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/scroll_track.png",
+      "width": 256,
+      "height": 32,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/scroll_thumb.png",
+      "width": 256,
+      "height": 32,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/flat_white.png",
+      "width": 256,
+      "height": 32,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/flat_ink.png",
+      "width": 256,
+      "height": 32,
+      "border": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/slider_thumb_normal.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/slider_thumb_hover.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/slider_thumb_pressed.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/slider_thumb_disabled.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/checkbox_off.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/checkbox_on.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/toggle_off.png",
+      "width": 128,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/toggle_on.png",
+      "width": 128,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/radio_off.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Controls/radio_on.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_idle.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_current.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_next.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_success.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_miss.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_disabled.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_focus.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/MovementCards/card_hold.png",
+      "width": 384,
+      "height": 320,
+      "border": [
+        84,
+        8,
+        84,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/hp_player.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/hp_robot.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/hp_damage.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/window_cyan.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/window_pink.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/window_empty.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        32,
+        4,
+        32,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/hp_frame.png",
+      "width": 768,
+      "height": 72,
+      "border": [
+        40,
+        16,
+        40,
+        16
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/HUD/window_frame.png",
+      "width": 1024,
+      "height": 72,
+      "border": [
+        40,
+        8,
+        40,
+        8
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Feedback/perfect.png",
+      "width": 512,
+      "height": 128,
+      "border": [
+        56,
+        4,
+        56,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Feedback/great.png",
+      "width": 512,
+      "height": 128,
+      "border": [
+        56,
+        4,
+        56,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Feedback/good.png",
+      "width": 512,
+      "height": 128,
+      "border": [
+        56,
+        4,
+        56,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Feedback/miss.png",
+      "width": 512,
+      "height": 128,
+      "border": [
+        56,
+        4,
+        56,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Feedback/victory.png",
+      "width": 512,
+      "height": 128,
+      "border": [
+        56,
+        4,
+        56,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Feedback/defeat.png",
+      "width": 512,
+      "height": 128,
+      "border": [
+        56,
+        4,
+        56,
+        4
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "Movements/Poses/arms_up.png",
+      "width": 210,
+      "height": 402,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/arms_v.png",
+      "width": 374,
+      "height": 375,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/arms_t.png",
+      "width": 460,
+      "height": 328,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/elbows_up.png",
+      "width": 280,
+      "height": 335,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/cross_chest.png",
+      "width": 208,
+      "height": 328,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/clap.png",
+      "width": 204,
+      "height": 328,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/reach_left.png",
+      "width": 308,
+      "height": 328,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/reach_right.png",
+      "width": 308,
+      "height": 328,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/diagonal_left.png",
+      "width": 407,
+      "height": 351,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/diagonal_right.png",
+      "width": 407,
+      "height": 351,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/shoulders_up.png",
+      "width": 228,
+      "height": 347,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Poses/shoulders_down.png",
+      "width": 202,
+      "height": 328,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/open.png",
+      "width": 264,
+      "height": 378,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/fist.png",
+      "width": 194,
+      "height": 234,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/point.png",
+      "width": 188,
+      "height": 367,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/peace.png",
+      "width": 198,
+      "height": 368,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/three.png",
+      "width": 188,
+      "height": 378,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/four.png",
+      "width": 201,
+      "height": 378,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/thumb_up.png",
+      "width": 189,
+      "height": 309,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/rock.png",
+      "width": 219,
+      "height": 346,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/l_shape.png",
+      "width": 255,
+      "height": 367,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "Movements/Hands/point_side.png",
+      "width": 367,
+      "height": 188,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Approved original silhouette. White tintable alpha. Do not slice or distort."
+    },
+    {
+      "path": "UI/Icons/play.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/pause.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/back.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/close.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/settings.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/camera.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/camera_off.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/volume.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/check.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/search.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/sort.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/star.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/warning.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/restart.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/up.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/down.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": "Tintable icon."
+    },
+    {
+      "path": "UI/Icons/left.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Icons/right.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Icons/microphone.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Icons/keyboard.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "UI/Icons/speaker_off.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "Cursor/cursor_default_128.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_default_32.png",
+      "width": 32,
+      "height": 32,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_default_64.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_hover_128.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_hover_32.png",
+      "width": 32,
+      "height": 32,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_hover_64.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_pressed_128.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_pressed_32.png",
+      "width": 32,
+      "height": 32,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Cursor/cursor_pressed_64.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "cursor",
+      "notes": "Preserved approved cursor; hotspot in Cursor_hotspots.json."
+    },
+    {
+      "path": "Brand/wordmark_ink.png",
+      "width": 1536,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "Brand/wordmark_ivory.png",
+      "width": 1536,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "Brand/logo_plate.png",
+      "width": 1536,
+      "height": 336,
+      "border": [
+        128,
+        12,
+        128,
+        36
+      ],
+      "role": "sprite",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_000.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_001.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_002.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_003.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_004.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_005.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_006.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_007.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_008.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_009.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_010.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_011.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_012.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_013.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_014.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/select_sweep/select_sweep_015.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_000.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_001.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_002.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_003.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_004.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_005.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_006.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/press_slash/press_slash_007.png",
+      "width": 768,
+      "height": 160,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_000.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_001.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_002.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_003.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_004.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_005.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_006.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_007.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_008.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_009.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_010.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_011.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_012.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_013.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_014.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_015.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_016.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/screen_wipe/screen_wipe_017.png",
+      "width": 960,
+      "height": 540,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_000.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_001.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_002.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_003.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_004.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_005.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_006.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_007.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_008.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_009.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_010.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/beat_pulse/beat_pulse_011.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_000.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_001.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_002.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_003.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_004.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_005.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_006.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_007.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_008.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_009.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_010.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_011.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_012.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_013.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_014.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/perfect/perfect_015.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_000.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_001.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_002.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_003.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_004.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_005.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_006.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_007.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_008.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_009.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_010.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/great/great_011.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_000.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_001.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_002.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_003.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_004.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_005.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_006.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_007.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_008.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/good/good_009.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_000.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_001.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_002.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_003.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_004.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_005.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_006.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_007.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_008.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_009.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_010.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/miss/miss_011.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_000.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_001.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_002.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_003.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_004.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_005.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_006.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_007.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_008.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_009.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_010.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/combo/combo_011.png",
+      "width": 512,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_000.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_001.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_002.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_003.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_004.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_005.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_006.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_007.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_008.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_009.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_010.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_011.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_012.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_013.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_014.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_015.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_016.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_017.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_018.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_019.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_020.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_021.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_022.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/victory/victory_023.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_000.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_001.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_002.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_003.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_004.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_005.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_006.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_007.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_008.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_009.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_010.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_011.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_012.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_013.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_014.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_015.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_016.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/defeat/defeat_017.png",
+      "width": 1024,
+      "height": 384,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_000.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_001.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_002.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_003.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_004.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_005.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_006.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_007.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_008.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_009.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_010.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_011.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_012.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_013.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_014.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_015.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_016.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_017.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_018.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_019.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_020.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_021.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_022.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/loading/loading_023.png",
+      "width": 256,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_000.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_001.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_002.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_003.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_004.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_005.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_006.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_007.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_008.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_009.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_010.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_011.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_012.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_013.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_014.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    },
+    {
+      "path": "Animations/Frames/hold_scan/hold_scan_015.png",
+      "width": 512,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "role": "animation-frame",
+      "notes": ""
+    }
+  ]
+}

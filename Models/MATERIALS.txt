@@ -1,0 +1,1 @@
+Ivory #FFF2E1; Plum #250733; Pink #FF008C; Cyan #00E8F2. Satin plastic: metallic 0.08, smoothness 0.38. Only Cyan emits. Solid-color materials deliberately need no bitmap textures.

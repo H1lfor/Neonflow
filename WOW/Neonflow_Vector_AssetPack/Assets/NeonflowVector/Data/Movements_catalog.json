@@ -1,0 +1,268 @@
+{
+  "coordinateConvention": "Mirrored coach; hands can be mirrored without duplicating files.",
+  "poses": [
+    {
+      "id": "arms_up",
+      "label": "ARMS UP",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/arms_up.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "arms_v",
+      "label": "ARMS V",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/arms_v.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "arms_t",
+      "label": "ARMS OUT",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/arms_t.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "elbows_up",
+      "label": "ELBOWS UP",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/elbows_up.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "cross_chest",
+      "label": "CROSS ARMS",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/cross_chest.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "clap",
+      "label": "CLAP",
+      "category": "Poses",
+      "target": "hands",
+      "path": "Poses/clap.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "reach_left",
+      "label": "REACH LEFT",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/reach_left.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "reach_right",
+      "label": "REACH RIGHT",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/reach_right.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left",
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "diagonal_left",
+      "label": "DIAGONAL LEFT",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/diagonal_left.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "left"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "diagonal_right",
+      "label": "DIAGONAL RIGHT",
+      "category": "Poses",
+      "target": "arms",
+      "path": "Poses/diagonal_right.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [
+        "right"
+      ],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "shoulders_up",
+      "label": "SHRUG UP",
+      "category": "Poses",
+      "target": "shoulders",
+      "path": "Poses/shoulders_up.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "shoulders_down",
+      "label": "SHOULDERS DOWN",
+      "category": "Poses",
+      "target": "shoulders",
+      "path": "Poses/shoulders_down.png",
+      "description": "Зеркальная подсказка: левая сторона картинки соответствует левой стороне игрока. Фигура показана только до талии.",
+      "mirror": false,
+      "fingerCueAllowedHands": [],
+      "fingerCueRequiresFullVisibility": true,
+      "fingerCueRequiresStableTracking": true
+    },
+    {
+      "id": "open",
+      "label": "OPEN PALM",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/open.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "fist",
+      "label": "FIST",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/fist.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "point",
+      "label": "POINT UP",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/point.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "peace",
+      "label": "TWO FINGERS",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/peace.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "three",
+      "label": "THREE FINGERS",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/three.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "four",
+      "label": "FOUR FINGERS",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/four.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "thumb_up",
+      "label": "THUMBS UP",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/thumb_up.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "rock",
+      "label": "ROCK",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/rock.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "l_shape",
+      "label": "L SIGN",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/l_shape.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    },
+    {
+      "id": "point_side",
+      "label": "POINT",
+      "category": "Hands",
+      "target": "fingers",
+      "path": "Hands/point_side.png",
+      "description": "One orientation; mirror only the pictogram for the opposite hand.",
+      "mirror": false
+    }
+  ],
+  "pathBase": "Assets/NeonflowVector/Movements"
+}

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "png": 165,
+    "svg": 152,
+    "prefabs": 12,
+    "materials": 6,
+    "uiSounds": 9,
+    "bodyPoses": 12,
+    "handGestures": 10
+  },
+  "unityVersion": "6000.6.6f1",
+  "validation": "PASS",
+  "screensRendered": 7,
+  "roundSunSaved": true,
+  "allPicturesCatalogued": 165,
+  "uiSoundsCatalogued": 9,
+  "musicTracksIncluded": false,
+  "nativePackageAssetEntries": 246
+}

@@ -1,0 +1,4 @@
+Unity 6000.6.6f1
+40 prefabs; 143 text elements checked.
+14 screens rendered with actual PNGs and Exo 2.
+Built-in renderer validation; URP and macOS not tested in this run.

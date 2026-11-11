@@ -1,0 +1,45 @@
+{
+    "version": 1,
+    "settings": {
+        "music": 0.41999998688697815,
+        "ui": 0.6499999761581421,
+        "effects": 0.5,
+        "voice": true,
+        "reducedMotion": false,
+        "camera": "",
+        "microphone": -1,
+        "characterId": "solid"
+    },
+    "runs": [
+        {
+            "trackId": 1,
+            "seed": 0,
+            "score": 2500,
+            "maxCombo": 0,
+            "windows": 0,
+            "accuracy": 0.0,
+            "practice": false,
+            "completed": true,
+            "victory": false,
+            "date": "",
+            "rank": "",
+            "characterId": "",
+            "judgements": []
+        },
+        {
+            "trackId": 2,
+            "seed": 0,
+            "score": 500,
+            "maxCombo": 0,
+            "windows": 0,
+            "accuracy": 0.0,
+            "practice": false,
+            "completed": false,
+            "victory": false,
+            "date": "",
+            "rank": "",
+            "characterId": "solid",
+            "judgements": []
+        }
+    ]
+}

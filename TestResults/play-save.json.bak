@@ -1,0 +1,70 @@
+{
+    "version": 1,
+    "settings": {
+        "music": 0.699999988079071,
+        "ui": 0.6499999761581421,
+        "effects": 0.5,
+        "voice": true,
+        "camera": "",
+        "microphone": -1
+    },
+    "runs": [
+        {
+            "trackId": 2,
+            "seed": -2059965275,
+            "score": 554,
+            "maxCombo": 1,
+            "windows": 19,
+            "accuracy": 0.036317888647317886,
+            "practice": true,
+            "completed": true,
+            "victory": true,
+            "date": "2026-11-10T21:33:17.2331708Z",
+            "rank": "E",
+            "judgements": [
+                0,
+                1,
+                0,
+                18
+            ]
+        },
+        {
+            "trackId": 2,
+            "seed": -206300028,
+            "score": 132,
+            "maxCombo": 0,
+            "windows": 10,
+            "accuracy": 0.05278162285685539,
+            "practice": false,
+            "completed": false,
+            "victory": false,
+            "date": "2026-11-10T21:34:26.0673969Z",
+            "rank": "E",
+            "judgements": [
+                0,
+                0,
+                1,
+                9
+            ]
+        },
+        {
+            "trackId": 2,
+            "seed": -147106124,
+            "score": 0,
+            "maxCombo": 0,
+            "windows": 19,
+            "accuracy": 0.0,
+            "practice": true,
+            "completed": true,
+            "victory": true,
+            "date": "2026-11-10T22:01:40.4227796Z",
+            "rank": "E",
+            "judgements": [
+                0,
+                0,
+                0,
+                19
+            ]
+        }
+    ]
+}

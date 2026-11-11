@@ -1,0 +1,1 @@
+PASS: 11 original MP3 SHA-256; 22 original and Vector movement resources/rules; 3 Vector Exo 2 fonts with Cyrillic, Ё/ё and numeric glyphs. Timing remains unverified by listening.

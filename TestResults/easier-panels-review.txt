@@ -1,0 +1,22 @@
+2026-11-11 — Easier evaluation, calibration panel and track results
+Latest core tests: PASS 1345 assertions, including real landmark fixtures for
+old 0/40/60/80/100 percent -> new 0/50/75/100/100 percent. A Battle consuming
+the old-80% fixture now receives Perfect and about +10 HP; absent tracking stays 0.
+Frame observations and HUD both use the same EvaluateCue method and Balance.fullAccuracy.
+Latest focused Play Mode log: unity-easier-visual-final.log. Completed with no
+exceptions. The actual Retry rectangle's four corners stay within the slanted
+instruction panel; the old disabled Ready button is hidden. The same 3s timer
+remains connected to automatic completion and the new progress indicator.
+History scroll: transparent raycast surface present; OnScroll moves content.
+Looked at actual Unity renders: songs-long-title.png, songs-results-short.png,
+songs-results-16x10.png, camera-missing.png, camera-panel-16x10.png.
+First render exposed long-title clipping. Corrected font/height margin and
+reviewed the final full two-line title. History fits complete rows at rest.
+Both 1600x900 and 1600x1000 were reviewed; 21:9 remains excluded.
+Run records in these visual captures are in-memory editor fixtures, not real
+player achievements. SaveStore.OverridePath isolates test files. Real user
+saves are neither cleared nor recomputed. No fixture is part of runtime code.
+Recognition is stopped before screenshot capture. No live player pose/voice
+or listening acceptance is claimed. Earlier full VectorChecks (98) are archived;
+this update used focused visual/scroll/geometry checks plus CoreChecks.
+Final Windows build 2026-11-11 05:51:48 : Succeeded errors=0, Unity exit 0. CoreChecks 1345 repeated during build. Package verification PASS (Python, player DLL, 16 model hashes, current worker).

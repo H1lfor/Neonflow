@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3132218986685741826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3183067750643729188}
+  - component: {fileID: 4177094586216661619}
+  - component: {fileID: 6086711829536139169}
+  - component: {fileID: 8647361931086035445}
+  m_Layer: 0
+  m_Name: screen_wipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3183067750643729188
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132218986685741826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 960, y: 540}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &4177094586216661619
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132218986685741826}
+  m_CullTransparentMesh: 1
+--- !u!114 &6086711829536139169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132218986685741826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: eb3ed544b60ded94e8474fc3ce78627f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8647361931086035445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3132218986685741826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcf2961a72ccdd4bbfd8cd00e04569d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Neonflow.VectorUI.VectorFlipbook
+  target: {fileID: 6086711829536139169}
+  frames:
+  - {fileID: 21300000, guid: eb3ed544b60ded94e8474fc3ce78627f, type: 3}
+  - {fileID: 21300000, guid: c39fa467f0dcff643b521e71fff9f069, type: 3}
+  - {fileID: 21300000, guid: 798da5ef290ca234fa316952e5d8db95, type: 3}
+  - {fileID: 21300000, guid: 8906de4ce5654e84686f70014850a6c6, type: 3}
+  - {fileID: 21300000, guid: a6d661a101bd39d46b3aef6c4e23c3f6, type: 3}
+  - {fileID: 21300000, guid: af837f489c3d7fb4a8b047a11208e273, type: 3}
+  - {fileID: 21300000, guid: af8f8545d57c1cf4f9effc934b79c353, type: 3}
+  - {fileID: 21300000, guid: c23f56a9942f7aa44a75c4866a637fe2, type: 3}
+  - {fileID: 21300000, guid: 135c6061723f02444982e219a7e6cff0, type: 3}
+  - {fileID: 21300000, guid: 3361faec8dbc7b04096e6f6f8bfa0da2, type: 3}
+  - {fileID: 21300000, guid: 56c3e9941720176408649566ae841c9c, type: 3}
+  - {fileID: 21300000, guid: f2797d8756bc99a4f978f5c988ed853c, type: 3}
+  - {fileID: 21300000, guid: 2ddc5a41ed7bd6e46aab6219da952f0a, type: 3}
+  - {fileID: 21300000, guid: c4e3c5285870c0a46900d18a64ac8963, type: 3}
+  - {fileID: 21300000, guid: 37649732e45096843b3d899dfec21b0a, type: 3}
+  - {fileID: 21300000, guid: 6d756a2d20554984698bfed980075cca, type: 3}
+  - {fileID: 21300000, guid: 5a823f0a85ba0294a88de6f4269ff29d, type: 3}
+  - {fileID: 21300000, guid: 6f8d6a0bbe0ad6340b55c96e6bc5d043, type: 3}
+  fps: 30
+  loop: 0
+  playOnEnable: 0
+  externalClock: 0
+  reducedMotion: 0

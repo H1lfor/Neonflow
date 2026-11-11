@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f87f6d27df6274a8d0f7950e8b5409, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: Assembly-CSharp::Neonflow.GameAssets
+  links:
+  - key: NeonflowVector/Audio/back
+    value: {fileID: 8300000, guid: 4418e508a2b773944a6cdfa138eef505, type: 3}
+  - key: NeonflowVector/Audio/confirm
+    value: {fileID: 8300000, guid: 487e3e3e9aac0d84ab80166705f2e9ca, type: 3}
+  - key: NeonflowVector/Audio/countdown
+    value: {fileID: 8300000, guid: 0a4847e3d58eb0648a95afe905cae3ef, type: 3}
+  - key: NeonflowVector/Audio/hover
+    value: {fileID: 8300000, guid: 0b3cc4560ed9aaf4387368fd9468e7ee, type: 3}
+  - key: NeonflowVector/Audio/miss
+    value: {fileID: 8300000, guid: f244a52d4b1ab32429c00c3f151f4953, type: 3}
+  - key: NeonflowVector/Audio/pause
+    value: {fileID: 8300000, guid: 557c44f1e848f1641998dc015ba6d006, type: 3}
+  - key: NeonflowVector/Audio/perfect
+    value: {fileID: 8300000, guid: 1aefadfe8fe9b4b46821660ab986ef4c, type: 3}
+  - key: NeonflowVector/Audio/select
+    value: {fileID: 8300000, guid: 17992dcfa09abaf4fa7d6aeafb2d7e5c, type: 3}
+  - key: NeonflowVector/Audio/start
+    value: {fileID: 8300000, guid: 922d2b3c0e6db254486ae70ff6f6915b, type: 3}
+  - key: NeonflowVector/Backgrounds/vector_menu
+    value: {fileID: 2800000, guid: 2e8efc7848950a242be973893da78981, type: 3}
+  - key: NeonflowVector/Brand/logo_plate
+    value: {fileID: 21300000, guid: 5922947279c146d45b7222c41dc0b6d8, type: 3}
+  - key: NeonflowVector/Brand/wordmark_ink
+    value: {fileID: 21300000, guid: 301ddbec3e948f64bbb672bba7591a1b, type: 3}
+  - key: NeonflowVector/Brand/wordmark_ivory
+    value: {fileID: 21300000, guid: bb3f514e238f5984c80a7c1dd3c26502, type: 3}
+  - key: NeonflowVector/Cursor/cursor_default_32
+    value: {fileID: 2800000, guid: ffe9b19945e7df74294d239130002d4c, type: 3}
+  - key: NeonflowVector/Cursor/cursor_default_64
+    value: {fileID: 2800000, guid: 83d4bb00ff4b8284fbef511abbe684d4, type: 3}
+  - key: NeonflowVector/Cursor/cursor_default_128
+    value: {fileID: 2800000, guid: 8982b7332090346499e43bb031a224a5, type: 3}
+  - key: NeonflowVector/Cursor/cursor_hover_32
+    value: {fileID: 2800000, guid: 6dacfaf66b66ea544b3542cdfeb63edb, type: 3}
+  - key: NeonflowVector/Cursor/cursor_hover_64
+    value: {fileID: 2800000, guid: b0a0da4afba0e124bbada91b50262082, type: 3}
+  - key: NeonflowVector/Cursor/cursor_hover_128
+    value: {fileID: 2800000, guid: 445b4eadcdd4587498f6ceffd4836197, type: 3}
+  - key: NeonflowVector/Cursor/cursor_pressed_32
+    value: {fileID: 2800000, guid: d1b5df25b647e2245952c952b5e85f58, type: 3}
+  - key: NeonflowVector/Cursor/cursor_pressed_64
+    value: {fileID: 2800000, guid: 5c550320e7ea61e4b9f46ceb1570153e, type: 3}
+  - key: NeonflowVector/Cursor/cursor_pressed_128
+    value: {fileID: 2800000, guid: b9ba668dd563daf40b20d475397e6dc8, type: 3}
+  - key: NeonflowVector/Fonts/Exo2-ExtraBold
+    value: {fileID: 12800000, guid: 307f7df5e7e3c514eb0f67b96406355b, type: 3}
+  - key: NeonflowVector/Fonts/Exo2-Regular
+    value: {fileID: 12800000, guid: 5ca03e67345d87944b669447cd91d64a, type: 3}
+  - key: NeonflowVector/Fonts/Exo2-SemiBold
+    value: {fileID: 12800000, guid: de5f6c15f0cf9444e84e85662aa28a19, type: 3}
+  - key: NeonflowVector/Materials/01_Vector_Sunset
+    value: {fileID: 2100000, guid: 3fa3625b69345b448aac5c37f52ef464, type: 2}
+  - key: NeonflowVector/Materials/02_Cyan_Horizon
+    value: {fileID: 2100000, guid: fb86e522849638649a2e7e855a1fad05, type: 2}
+  - key: NeonflowVector/Materials/03_Lilac_Dawn
+    value: {fileID: 2100000, guid: 4d0a81bb8a8779b4fbf0742808072e02, type: 2}
+  - key: NeonflowVector/Materials/04_Pink_Arcade
+    value: {fileID: 2100000, guid: 4dbb6576c47166d44af53be5dd58d369, type: 2}
+  - key: NeonflowVector/Materials/05_Violet_Night
+    value: {fileID: 2100000, guid: 6762b6c8f2760b740afd5532b1564e9b, type: 2}
+  - key: NeonflowVector/Materials/06_Peach_Sunset
+    value: {fileID: 2100000, guid: 32f2594111ec45e4a8fa240d54ce7d72, type: 2}
+  - key: NeonflowVector/Movements/Hands/fist
+    value: {fileID: 21300000, guid: 64571e4d449174745a7a068e96087c6e, type: 3}
+  - key: NeonflowVector/Movements/Hands/four
+    value: {fileID: 21300000, guid: 523d3628d1e8294428439dfe9ca72eca, type: 3}
+  - key: NeonflowVector/Movements/Hands/l_shape
+    value: {fileID: 21300000, guid: f831dce9d7517474f97910f7d2d05408, type: 3}
+  - key: NeonflowVector/Movements/Hands/open
+    value: {fileID: 21300000, guid: 763010ae1eef3c04e840f00969669d8d, type: 3}
+  - key: NeonflowVector/Movements/Hands/peace
+    value: {fileID: 21300000, guid: 804cff62b7ddbb942af9363f00b28ce8, type: 3}
+  - key: NeonflowVector/Movements/Hands/point
+    value: {fileID: 21300000, guid: 0fcfbd30a567ca147934e3eab5741916, type: 3}
+  - key: NeonflowVector/Movements/Hands/point_side
+    value: {fileID: 21300000, guid: 677bf9a7f56f6b649925a5b639d9629c, type: 3}
+  - key: NeonflowVector/Movements/Hands/rock
+    value: {fileID: 21300000, guid: c00bd863bf0b811429075514225f6b31, type: 3}
+  - key: NeonflowVector/Movements/Hands/three
+    value: {fileID: 21300000, guid: 08c5c683b5cac7942a38318b89b7cbd9, type: 3}
+  - key: NeonflowVector/Movements/Hands/thumb_up
+    value: {fileID: 21300000, guid: ac96a5efb6434294d87c42137e091496, type: 3}
+  - key: NeonflowVector/Movements/Poses/arms_t
+    value: {fileID: 21300000, guid: 693f9178685a753458dcd19f78c38398, type: 3}
+  - key: NeonflowVector/Movements/Poses/arms_up
+    value: {fileID: 21300000, guid: 4502267c266c10243a97c3047107cd18, type: 3}
+  - key: NeonflowVector/Movements/Poses/arms_v
+    value: {fileID: 21300000, guid: ae58061eef8a7bd4d8c18ec073aa3caa, type: 3}
+  - key: NeonflowVector/Movements/Poses/clap
+    value: {fileID: 21300000, guid: a7c0f0c8418bcc541a459df74b52ab0a, type: 3}
+  - key: NeonflowVector/Movements/Poses/cross_chest
+    value: {fileID: 21300000, guid: fefef47e0ca11b14e847c3eb75d1df03, type: 3}
+  - key: NeonflowVector/Movements/Poses/diagonal_left
+    value: {fileID: 21300000, guid: ddde26bba6352804e93c4d31415158f9, type: 3}
+  - key: NeonflowVector/Movements/Poses/diagonal_right
+    value: {fileID: 21300000, guid: 5f8971da74ec2bd45ab71d5d8a5be7a9, type: 3}
+  - key: NeonflowVector/Movements/Poses/elbows_up
+    value: {fileID: 21300000, guid: 4821647a68427a641be9bfe50f3cdf06, type: 3}
+  - key: NeonflowVector/Movements/Poses/reach_left
+    value: {fileID: 21300000, guid: da6ba1eed614a0446b1848debb572030, type: 3}
+  - key: NeonflowVector/Movements/Poses/reach_right
+    value: {fileID: 21300000, guid: bed372afab8738947955d412e489a33e, type: 3}
+  - key: NeonflowVector/Movements/Poses/shoulders_down
+    value: {fileID: 21300000, guid: 5c5ddf9a3e99b2040a6600185d65f21c, type: 3}
+  - key: NeonflowVector/Movements/Poses/shoulders_up
+    value: {fileID: 21300000, guid: 08b26f5332627ad4f8ab787a5c61b3d5, type: 3}
+  - key: NeonflowVector/Prefabs/Components/BeatWindow
+    value: {fileID: 8047587501261635703, guid: 603057f3762ca784c9de894647be5237, type: 3}
+  - key: NeonflowVector/Prefabs/Components/BodyCard
+    value: {fileID: 8749601342179773580, guid: 991d9b9347067844cbff46d634123092, type: 3}
+  - key: NeonflowVector/Prefabs/Components/ButtonPrimary
+    value: {fileID: 7398480322262147153, guid: 6da2a9aa64b421942a5bfb167c2a473f, type: 3}
+  - key: NeonflowVector/Prefabs/Components/ButtonSecondary
+    value: {fileID: 4426302968889574637, guid: de20f3817a701254e88ee216c3d223d1, type: 3}
+  - key: NeonflowVector/Prefabs/Components/CameraFrame
+    value: {fileID: 382455610235322587, guid: f42b49a11e9f0a64bacdf877cce403cc, type: 3}
+  - key: NeonflowVector/Prefabs/Components/HandCard
+    value: {fileID: 5703641092882734826, guid: 786c4562b807e124d9cf9edc48880c2c, type: 3}
+  - key: NeonflowVector/Prefabs/Components/HealthBar
+    value: {fileID: 517853421018561672, guid: 96845c41f5412994183e1046ac8e42b0, type: 3}
+  - key: NeonflowVector/Prefabs/Components/NextCard
+    value: {fileID: 6936470842060927496, guid: 7b834a37be6bcfb4e900f2b7c7062232, type: 3}
+  - key: NeonflowVector/Prefabs/Components/SearchField
+    value: {fileID: 5777674765304156095, guid: 50d5d5b98ecb8614bac3e313bf94adb4, type: 3}
+  - key: NeonflowVector/Prefabs/Components/SongRow
+    value: {fileID: 227268574173120278, guid: 1775581e3103f834db0af48855fc15c4, type: 3}
+  - key: NeonflowVector/Prefabs/Components/SongRowSelected
+    value: {fileID: 5635640253737860164, guid: 8c2eddef4858d7443961ac0bb9b9da23, type: 3}
+  - key: NeonflowVector/Prefabs/Components/Toggle
+    value: {fileID: 8382514879203921920, guid: 3387a127d7bc5a44ca1ad94339e7acb0, type: 3}
+  - key: NeonflowVector/Prefabs/Components/VolumeSlider
+    value: {fileID: 6196191674895533156, guid: 72ebbe1e16060b44f80c8d5ab34dd142, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/beat_pulse
+    value: {fileID: 4913949045392485335, guid: ff6c0a816213f744a9f546f22369fe88, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/combo
+    value: {fileID: 1756695915118842137, guid: 0db020f55fbbb0347a14b764cb11822e, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/defeat
+    value: {fileID: 7072846284050539752, guid: e77bb157231b69d40868d5e61a8eb33d, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/good
+    value: {fileID: 3249739648902385013, guid: 1caf8a9bf84fae94c8b20bc842dd73f5, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/great
+    value: {fileID: 6987976210690683044, guid: 7fdfe6e01bd1a3542b0c4a93fb52edea, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/hold_scan
+    value: {fileID: 8676952581350886088, guid: 2c5b152cef6e21e48b6921cd1089a3d4, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/loading
+    value: {fileID: 2333116181614451082, guid: 3c2cb869d4fb5984883c622ec0063f71, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/miss
+    value: {fileID: 5798753900636348977, guid: 2d8ca83b6d445a1479376be357f164ee, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/perfect
+    value: {fileID: 2902744947133603974, guid: b99ef89d98b2f404d8d06f1be64c1390, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/press_slash
+    value: {fileID: 4392500057994660032, guid: 98520516d79212b47891f065e4d10518, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/screen_wipe
+    value: {fileID: 3132218986685741826, guid: 33b4be4d72037194da1ac20d97886e0d, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/select_sweep
+    value: {fileID: 2797259695284858619, guid: 73adacc44ca8f9942b2757daab7ee0c8, type: 3}
+  - key: NeonflowVector/Prefabs/Effects/victory
+    value: {fileID: 6421979853760153271, guid: 43270e225dcdc3e4fb4f39c38137e9de, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Calibration
+    value: {fileID: 8790172955402785397, guid: e0dd2e7b55973ce43b5a44cf56a4c7c7, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/CameraSettings
+    value: {fileID: 1538089314314138541, guid: f3d8fc33e1555f041a933bb3fe928145, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/ConfirmExit
+    value: {fileID: 5983465828931131440, guid: f769d597ce3f6b841a80c81bb780dc49, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/ControlSettings
+    value: {fileID: 2455403624345750849, guid: 5075433305e751840a63886b8f4cc749, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Gameplay
+    value: {fileID: 4131215454773601075, guid: c1aae959024d8e4478880d864666d2e9, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Loading
+    value: {fileID: 1657513408391683910, guid: 665ce83c8a64f13418b9fc292e69b795, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/MainMenu
+    value: {fileID: 7923760862813770106, guid: e6cb92ecb13e77b409d3d08395dc2c8c, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Pause
+    value: {fileID: 4288996550249772870, guid: abbd6b3c9ef51fb4dab3753ab6ad408b, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/ResultsDefeat
+    value: {fileID: 8882785066224491903, guid: 1e3785e6196854e438e41cfe8d04c872, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/ResultsVictory
+    value: {fileID: 5476117400471757542, guid: b1366aa20b60dcc4696efd5221c1435f, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Settings
+    value: {fileID: 4079140995431301984, guid: d1cbe1e43d5fbaa46b6a34cb7bccaf19, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Title
+    value: {fileID: 3324486546757533011, guid: a4fc7ebe91bb93f418fb71dce9a90115, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/TrackSelect
+    value: {fileID: 3731463590510943546, guid: a30ceaf82ee9d834ea5e761f17ead3ef, type: 3}
+  - key: NeonflowVector/Prefabs/Screens/Tutorial
+    value: {fileID: 3923575620053178593, guid: bf971fc45e4485842a7db61b57726010, type: 3}
+  - key: NeonflowVector/UI/Buttons/danger_disabled
+    value: {fileID: 21300000, guid: 4feeb161624a8414c90771428e1ef2d2, type: 3}
+  - key: NeonflowVector/UI/Buttons/danger_focus
+    value: {fileID: 21300000, guid: 8785bd7042454774191bbedfa9937d77, type: 3}
+  - key: NeonflowVector/UI/Buttons/danger_hover
+    value: {fileID: 21300000, guid: 3fe77ba419b37c0499037c0ad60e0634, type: 3}
+  - key: NeonflowVector/UI/Buttons/danger_normal
+    value: {fileID: 21300000, guid: 02128af0b2f0a8f45a8795003e0f5332, type: 3}
+  - key: NeonflowVector/UI/Buttons/danger_pressed
+    value: {fileID: 21300000, guid: 539487ac2fc150f4fa9f6a4b1a77456b, type: 3}
+  - key: NeonflowVector/UI/Buttons/danger_selected
+    value: {fileID: 21300000, guid: 8e3a308e866618a41ac76067822387bb, type: 3}
+  - key: NeonflowVector/UI/Buttons/primary_disabled
+    value: {fileID: 21300000, guid: a77a7f7db8a3e91429b8c2c483ad133b, type: 3}
+  - key: NeonflowVector/UI/Buttons/primary_focus
+    value: {fileID: 21300000, guid: aa538dbbb14ea594a8b6a94c2782607f, type: 3}
+  - key: NeonflowVector/UI/Buttons/primary_hover
+    value: {fileID: 21300000, guid: 5a707633efa5f2848bb45dd9930836eb, type: 3}
+  - key: NeonflowVector/UI/Buttons/primary_normal
+    value: {fileID: 21300000, guid: 491a356190722f340a01d062f780adb4, type: 3}
+  - key: NeonflowVector/UI/Buttons/primary_pressed
+    value: {fileID: 21300000, guid: 2bbd75f0c771eb84f8874cbd80fd6a7f, type: 3}
+  - key: NeonflowVector/UI/Buttons/primary_selected
+    value: {fileID: 21300000, guid: fdf4abb215a7e8f4580149bf6cdf1c04, type: 3}
+  - key: NeonflowVector/UI/Buttons/quiet_disabled
+    value: {fileID: 21300000, guid: d5e4831ca118d5a4ca0caefac5ccec2d, type: 3}
+  - key: NeonflowVector/UI/Buttons/quiet_focus
+    value: {fileID: 21300000, guid: c6e726926fbab4740967073f8638f9cd, type: 3}
+  - key: NeonflowVector/UI/Buttons/quiet_hover
+    value: {fileID: 21300000, guid: 0769752df8ff59747bca6491ad8442ed, type: 3}
+  - key: NeonflowVector/UI/Buttons/quiet_normal
+    value: {fileID: 21300000, guid: 78c83b42f38a11a45921928d3f9578df, type: 3}
+  - key: NeonflowVector/UI/Buttons/quiet_pressed
+    value: {fileID: 21300000, guid: 908bc193145dff1438c460db9551a7dd, type: 3}
+  - key: NeonflowVector/UI/Buttons/quiet_selected
+    value: {fileID: 21300000, guid: a5507cfe67198364a9d35bd5d46e1c79, type: 3}
+  - key: NeonflowVector/UI/Buttons/secondary_disabled
+    value: {fileID: 21300000, guid: 060556c983a2b2240a062e514f9b33bc, type: 3}
+  - key: NeonflowVector/UI/Buttons/secondary_focus
+    value: {fileID: 21300000, guid: dd331aba4d88cde4881048ef7a42ecb0, type: 3}
+  - key: NeonflowVector/UI/Buttons/secondary_hover
+    value: {fileID: 21300000, guid: 7b94c0f3ef258884abbe090fc6012f6a, type: 3}
+  - key: NeonflowVector/UI/Buttons/secondary_normal
+    value: {fileID: 21300000, guid: 76bee33f7cf8b7b42856548597596208, type: 3}
+  - key: NeonflowVector/UI/Buttons/secondary_pressed
+    value: {fileID: 21300000, guid: 80ad1cfcb06e95d46ad16923d6cfab43, type: 3}
+  - key: NeonflowVector/UI/Buttons/secondary_selected
+    value: {fileID: 21300000, guid: f5358ed8f7877204b91a7c4b11429548, type: 3}
+  - key: NeonflowVector/UI/Controls/checkbox_off
+    value: {fileID: 21300000, guid: 825927e267a470a46ae1cbd158c3602d, type: 3}
+  - key: NeonflowVector/UI/Controls/checkbox_on
+    value: {fileID: 21300000, guid: 16f90028ab25f8a41bebcc09d23b756e, type: 3}
+  - key: NeonflowVector/UI/Controls/dropdown_disabled
+    value: {fileID: 21300000, guid: d278304e96d7b5a48964aa8cbb0bb219, type: 3}
+  - key: NeonflowVector/UI/Controls/dropdown_focus
+    value: {fileID: 21300000, guid: 1e75ed254b9dd3146bb383d67fd29b99, type: 3}
+  - key: NeonflowVector/UI/Controls/dropdown_hover
+    value: {fileID: 21300000, guid: 6b3df70da32b20d488594e8bdfd11833, type: 3}
+  - key: NeonflowVector/UI/Controls/dropdown_normal
+    value: {fileID: 21300000, guid: b7ca5552f16fe7f4b8f26c74caffe361, type: 3}
+  - key: NeonflowVector/UI/Controls/dropdown_pressed
+    value: {fileID: 21300000, guid: 5feafd6321fabf642940e4fdcfca0890, type: 3}
+  - key: NeonflowVector/UI/Controls/dropdown_selected
+    value: {fileID: 21300000, guid: 466ca4d2d71f1fa48b97212c0e8f0dbd, type: 3}
+  - key: NeonflowVector/UI/Controls/field_disabled
+    value: {fileID: 21300000, guid: 42acdbde5fda0114d87801ab0d79eaa0, type: 3}
+  - key: NeonflowVector/UI/Controls/field_focus
+    value: {fileID: 21300000, guid: 279a931d8bfb5dd4ebe8b60fb13483e8, type: 3}
+  - key: NeonflowVector/UI/Controls/field_hover
+    value: {fileID: 21300000, guid: 1ef50b36c39418c4b99f0756b3cfb7c0, type: 3}
+  - key: NeonflowVector/UI/Controls/field_normal
+    value: {fileID: 21300000, guid: 58fa6b03f85a6b847a362c957ca8d97f, type: 3}
+  - key: NeonflowVector/UI/Controls/field_pressed
+    value: {fileID: 21300000, guid: 62ee0c9debb1f004ca6d414606591f04, type: 3}
+  - key: NeonflowVector/UI/Controls/field_selected
+    value: {fileID: 21300000, guid: 069c5c0ed64bffc4cb7ee81170d51013, type: 3}
+  - key: NeonflowVector/UI/Controls/flat_ink
+    value: {fileID: 21300000, guid: 60b5ccd8e0c009046b200ca02a87d8de, type: 3}
+  - key: NeonflowVector/UI/Controls/flat_white
+    value: {fileID: 21300000, guid: cd4b76ff7cb89c44d8d414555c2ad2ed, type: 3}
+  - key: NeonflowVector/UI/Controls/radio_off
+    value: {fileID: 21300000, guid: 78e459ed4ece2af40a410a071399ab95, type: 3}
+  - key: NeonflowVector/UI/Controls/radio_on
+    value: {fileID: 21300000, guid: 02a57cebb51fbb8408fef42fb9687476, type: 3}
+  - key: NeonflowVector/UI/Controls/scroll_thumb
+    value: {fileID: 21300000, guid: 659b1abd87a920f4a8b205258c0ccce5, type: 3}
+  - key: NeonflowVector/UI/Controls/scroll_track
+    value: {fileID: 21300000, guid: 493ea5ce91d93dc43882515de6bfab96, type: 3}
+  - key: NeonflowVector/UI/Controls/slider_fill
+    value: {fileID: 21300000, guid: e44563d936cbd7c4fa47d601977f90f9, type: 3}
+  - key: NeonflowVector/UI/Controls/slider_thumb_disabled
+    value: {fileID: 21300000, guid: d25c045dd46faa6489a82c8f17cf3192, type: 3}
+  - key: NeonflowVector/UI/Controls/slider_thumb_hover
+    value: {fileID: 21300000, guid: 460281a2d057e5540aa02731332a3dbc, type: 3}
+  - key: NeonflowVector/UI/Controls/slider_thumb_normal
+    value: {fileID: 21300000, guid: 3a3017e5192c5d849a94d098b09156e1, type: 3}
+  - key: NeonflowVector/UI/Controls/slider_thumb_pressed
+    value: {fileID: 21300000, guid: 123290a826f796b46b76be56fa42811a, type: 3}
+  - key: NeonflowVector/UI/Controls/slider_track
+    value: {fileID: 21300000, guid: 08d04aafc13d6334ab79f6f1d9e1e854, type: 3}
+  - key: NeonflowVector/UI/Controls/tab_disabled
+    value: {fileID: 21300000, guid: e67fe969a0ecf8c4d833128cb7fa4fc9, type: 3}
+  - key: NeonflowVector/UI/Controls/tab_focus
+    value: {fileID: 21300000, guid: 86542d324a2c62b478843db1e94d24dc, type: 3}
+  - key: NeonflowVector/UI/Controls/tab_hover
+    value: {fileID: 21300000, guid: 736639ab7482b8c4d82731214bf7bafc, type: 3}
+  - key: NeonflowVector/UI/Controls/tab_normal
+    value: {fileID: 21300000, guid: 667f023e75125f04aaf9472d3d9d20d1, type: 3}
+  - key: NeonflowVector/UI/Controls/tab_pressed
+    value: {fileID: 21300000, guid: de89f9e5488cc3549bef1ba1e67b1d77, type: 3}
+  - key: NeonflowVector/UI/Controls/tab_selected
+    value: {fileID: 21300000, guid: ff429c277f16c4b4bbd2f611ea7d76b6, type: 3}
+  - key: NeonflowVector/UI/Controls/toggle_off
+    value: {fileID: 21300000, guid: b41b17fe6713ec546857c1a23b581a5b, type: 3}
+  - key: NeonflowVector/UI/Controls/toggle_on
+    value: {fileID: 21300000, guid: 6facecc3d777c7c41845f66e89c26781, type: 3}
+  - key: NeonflowVector/UI/Feedback/defeat
+    value: {fileID: 21300000, guid: 532f517f84952ee459a3e4f7cb31137a, type: 3}
+  - key: NeonflowVector/UI/Feedback/good
+    value: {fileID: 21300000, guid: 4294343f5b91f594293c9020eacf4a6b, type: 3}
+  - key: NeonflowVector/UI/Feedback/great
+    value: {fileID: 21300000, guid: e6832b1e833484341be0d4899457ef1e, type: 3}
+  - key: NeonflowVector/UI/Feedback/miss
+    value: {fileID: 21300000, guid: d0bf240f2d3110d45b5085d84319a488, type: 3}
+  - key: NeonflowVector/UI/Feedback/perfect
+    value: {fileID: 21300000, guid: fe897c59f3f74cb4484de79d9105e807, type: 3}
+  - key: NeonflowVector/UI/Feedback/victory
+    value: {fileID: 21300000, guid: f61cf9a46d7b0784bb22fb60add668ad, type: 3}
+  - key: NeonflowVector/UI/HUD/hp_damage
+    value: {fileID: 21300000, guid: dfe55fa5b3a23a046886c0e9571702f2, type: 3}
+  - key: NeonflowVector/UI/HUD/hp_frame
+    value: {fileID: 21300000, guid: 455087fe000bf38488614f835060cdae, type: 3}
+  - key: NeonflowVector/UI/HUD/hp_player
+    value: {fileID: 21300000, guid: 2d0a80512a7b58e47902607753ebb27d, type: 3}
+  - key: NeonflowVector/UI/HUD/hp_robot
+    value: {fileID: 21300000, guid: 0bf290247dd9a324ea270f56b8a9284e, type: 3}
+  - key: NeonflowVector/UI/HUD/window_cyan
+    value: {fileID: 21300000, guid: f13f411399278054a9af74f89d280583, type: 3}
+  - key: NeonflowVector/UI/HUD/window_empty
+    value: {fileID: 21300000, guid: 79ccd20e70fc8ed4a877ce2fecb05fca, type: 3}
+  - key: NeonflowVector/UI/HUD/window_frame
+    value: {fileID: 21300000, guid: 27ec34a0d710bf2429c25ba1114e2add, type: 3}
+  - key: NeonflowVector/UI/HUD/window_pink
+    value: {fileID: 21300000, guid: 30e1ee8395e65794b8b55b37504b012a, type: 3}
+  - key: NeonflowVector/UI/Icons/back
+    value: {fileID: 21300000, guid: 29bf1ac34f67edd41ae108ee39f2a771, type: 3}
+  - key: NeonflowVector/UI/Icons/camera
+    value: {fileID: 21300000, guid: 3b4e51dd90e4449408ff262c0ccb6aca, type: 3}
+  - key: NeonflowVector/UI/Icons/camera_off
+    value: {fileID: 21300000, guid: 9a7f004d064ec5d4a872c20c421636a3, type: 3}
+  - key: NeonflowVector/UI/Icons/check
+    value: {fileID: 21300000, guid: 69b1ec6fe582a3c429f2f356b26486b4, type: 3}
+  - key: NeonflowVector/UI/Icons/close
+    value: {fileID: 21300000, guid: e624cecde81675a4d844debdbb1b650d, type: 3}
+  - key: NeonflowVector/UI/Icons/down
+    value: {fileID: 21300000, guid: e331eecf15c430247a4b9dd69856566a, type: 3}
+  - key: NeonflowVector/UI/Icons/keyboard
+    value: {fileID: 21300000, guid: ea8c2e01c17bf1e458d5a527b59a5bd9, type: 3}
+  - key: NeonflowVector/UI/Icons/left
+    value: {fileID: 21300000, guid: 7cf6cd4331c7aad499a2d008660314ab, type: 3}
+  - key: NeonflowVector/UI/Icons/microphone
+    value: {fileID: 21300000, guid: 95b1faf708a0dd240a21ea4fd2ad483b, type: 3}
+  - key: NeonflowVector/UI/Icons/pause
+    value: {fileID: 21300000, guid: 25b47947ff4d2e24e808e19ee85dcafa, type: 3}
+  - key: NeonflowVector/UI/Icons/play
+    value: {fileID: 21300000, guid: 163114e1050ceb64babc7b0cc93ca2ba, type: 3}
+  - key: NeonflowVector/UI/Icons/restart
+    value: {fileID: 21300000, guid: 586ee1034b2b5574eac4fae3534b1a2e, type: 3}
+  - key: NeonflowVector/UI/Icons/right
+    value: {fileID: 21300000, guid: 4a463b4a6eceb494f8e63cc2bbcdb2d4, type: 3}
+  - key: NeonflowVector/UI/Icons/search
+    value: {fileID: 21300000, guid: 9b058088004647b4ca976ffdb85da235, type: 3}
+  - key: NeonflowVector/UI/Icons/settings
+    value: {fileID: 21300000, guid: 5fc1716b8b801b946a464707653fe60e, type: 3}
+  - key: NeonflowVector/UI/Icons/sort
+    value: {fileID: 21300000, guid: 6c9d967258c878d43bc081efbc6d39e1, type: 3}
+  - key: NeonflowVector/UI/Icons/speaker_off
+    value: {fileID: 21300000, guid: 6767b0c9b7304124d9f4f5a4347c8725, type: 3}
+  - key: NeonflowVector/UI/Icons/star
+    value: {fileID: 21300000, guid: 9b05cf257096a9f4ea517746a544c76c, type: 3}
+  - key: NeonflowVector/UI/Icons/up
+    value: {fileID: 21300000, guid: 41b0ef54a21d3684bb2fa3c1ec8f8c0c, type: 3}
+  - key: NeonflowVector/UI/Icons/volume
+    value: {fileID: 21300000, guid: eae1c67906400ca4590f37f753a9d2a4, type: 3}
+  - key: NeonflowVector/UI/Icons/warning
+    value: {fileID: 21300000, guid: 6d900e8a8b5e61a4fb4ee375513ed597, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_current
+    value: {fileID: 21300000, guid: d448b47054df3e045af1ca5e703f9c72, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_disabled
+    value: {fileID: 21300000, guid: bb7b827b8ab222142bc4e2ad517c4e36, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_focus
+    value: {fileID: 21300000, guid: 6ecbeb2f07697a745aa43ff2fbfddb45, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_hold
+    value: {fileID: 21300000, guid: 43b4eabf45f27984ca07886cf98e8fe7, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_idle
+    value: {fileID: 21300000, guid: 36cd8ab7fbbf071429d4b03f90b0ee83, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_miss
+    value: {fileID: 21300000, guid: 5533985a424c0a240a00a2a636ca6ca7, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_next
+    value: {fileID: 21300000, guid: 82ef882cbaa8e334ba9fb745aa7271b9, type: 3}
+  - key: NeonflowVector/UI/MovementCards/card_success
+    value: {fileID: 21300000, guid: d5bdd9bc0624e4148ab56de0fd27ef98, type: 3}
+  - key: NeonflowVector/UI/Panels/camera_frame
+    value: {fileID: 21300000, guid: c86856419dcc2a54b953f74ab0674eab, type: 3}
+  - key: NeonflowVector/UI/Panels/camera_lost_frame
+    value: {fileID: 21300000, guid: 3a3c8d5bf76d1254994ba64e1db5cdc1, type: 3}
+  - key: NeonflowVector/UI/Panels/camera_warning_frame
+    value: {fileID: 21300000, guid: 2a0c8801e8512a449a3a740fc6211e09, type: 3}
+  - key: NeonflowVector/UI/Panels/header
+    value: {fileID: 21300000, guid: 5fb68ae2b3418614eac378d90a1ab858, type: 3}
+  - key: NeonflowVector/UI/Panels/header_pink
+    value: {fileID: 21300000, guid: 65f481ca338c7274fbd9d118c01b4ffd, type: 3}
+  - key: NeonflowVector/UI/Panels/label
+    value: {fileID: 21300000, guid: 8e2681d61179d7242a5124acb198b31a, type: 3}
+  - key: NeonflowVector/UI/Panels/label_pink
+    value: {fileID: 21300000, guid: 0d4eabada2e654c46b9f487e193155f8, type: 3}
+  - key: NeonflowVector/UI/Panels/modal
+    value: {fileID: 21300000, guid: 6476d30d4d771f045a2179028dc6cd39, type: 3}
+  - key: NeonflowVector/UI/Panels/result_header
+    value: {fileID: 21300000, guid: d3b6441ac2fcb0248ba9b0f3746344e0, type: 3}
+  - key: NeonflowVector/UI/Panels/result_row
+    value: {fileID: 21300000, guid: a014725be2656f64a80920623077cd6c, type: 3}
+  - key: NeonflowVector/UI/Panels/score
+    value: {fileID: 21300000, guid: e25487e41caee304cb48b56f62094e88, type: 3}
+  - key: NeonflowVector/UI/Panels/separator
+    value: {fileID: 21300000, guid: 8a341f4529320ca40bd3455e2c1a1166, type: 3}
+  - key: NeonflowVector/UI/Panels/toast
+    value: {fileID: 21300000, guid: 6d647f6c27972c54ca8f4e6357893f56, type: 3}
+  - key: NeonflowVector/UI/Panels/tooltip
+    value: {fileID: 21300000, guid: 115e42b4cf7da8642b79a539a3ab61a5, type: 3}
+  - key: NeonflowVector/UI/Panels/window
+    value: {fileID: 21300000, guid: 99019f67e46a3a0478ea976e0b7ec25c, type: 3}
+  - key: NeonflowVector/UI/SongRows/song_disabled
+    value: {fileID: 21300000, guid: f145648e951bf0c458f614cb0bfff275, type: 3}
+  - key: NeonflowVector/UI/SongRows/song_focus
+    value: {fileID: 21300000, guid: 8e7f91352bd18c74696b5ee7c0b97ce2, type: 3}
+  - key: NeonflowVector/UI/SongRows/song_hover
+    value: {fileID: 21300000, guid: a9f31bf4b604bce43a9ec5dd780da8dc, type: 3}
+  - key: NeonflowVector/UI/SongRows/song_normal
+    value: {fileID: 21300000, guid: f0c702a34019dc843905fe3120d74647, type: 3}
+  - key: NeonflowVector/UI/SongRows/song_pressed
+    value: {fileID: 21300000, guid: 00a2b616b8e465e4290d4d1f9ef235ee, type: 3}
+  - key: NeonflowVector/UI/SongRows/song_selected
+    value: {fileID: 21300000, guid: 693d2abfdb88c1d4488b73924ced3350, type: 3}
+  durations:
+  - file: Amaksi - Visibility (Synthwave).mp3
+    seconds: 93.144
+  - file: Grand_Project - A Hero of the 80s_v3_60sec.mp3
+    seconds: 60.081635
+  - file: Grand_Project - Lady of the 80's.mp3
+    seconds: 183.77142
+  - file: Grand_Project - Neon Odyssey.mp3
+    seconds: 168.09796
+  - file: Grand_Project - On The Road To The Eighties_59sec.mp3
+    seconds: 59.245716
+  - file: imageaudioteam - 80s Synth.mp3
+    seconds: 166.53061
+  - file: imageaudioteam - 80s Synthwave Chill.mp3
+    seconds: 105.63918
+  - file: imageaudioteam - 80s.mp3
+    seconds: 102.03429
+  - file: Universfield - Futuristic Pulse.mp3
+    seconds: 99.816
+  - file: VasilYatsevich - Brain Implant (Cyberpunk Sci-Fi Trailer Action Intro).mp3
+    seconds: 48.64
+  - file: White_Records - Synthetic drive. Synth-House version 1 minute.mp3
+    seconds: 57.70449

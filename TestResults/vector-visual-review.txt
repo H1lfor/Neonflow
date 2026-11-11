@@ -1,0 +1,29 @@
+2026-11-11 — review of actual Unity render captures (VectorChecks)
+
+Viewed: title, menu, track selection with full long title, selected track,
+empty search, all three settings tabs, calibration without a camera, tutorial,
+gameplay, pause, pause after settings, completed practice results, early defeat,
+confirm-exit. Font Cyrillic and separate track title/artist/BPM remain readable.
+
+Menu/HUD: 1280x720, 1920x1080, 2560x1440, 1920x1200. No 21:9 claim.
+Full source frame tests: 640x480 and 640x360 procedural colored-edge grids in
+calibration and HUD, including 16:10 screen. All four edges remain visible,
+aspect is preserved, skeleton rect exactly equals the displayed frame rect.
+These grids are diagnostic textures only, never a game-input fallback.
+
+ARMS OUT and ARMS UP real robot poses rendered and inspected in 16:9/16:10:
+hands/forearms stay between the camera, top cue cards and right cue queue.
+Left-hand icon reflection stays centered inside its card. Robot fingers visible.
+HUD stays intact behind Pause after returning from settings.
+Source textures, prefab layouts, 198 frame effects and six skyboxes retained.
+Bright and peach skies inspected; dark ink on opaque ivory panels is legible.
+
+Loading state is exercised during actual Resources.LoadAsync; its first capture
+is covered by the transition wipe. No artificial loading delay was added.
+ResultsDefeat was captured after the reveal, during the genuine 1.2-second fade.
+Victory layout was exercised by completed Practice Mode; no human victory claimed.
+
+Camera/voice worker was stopped before every editor screenshot. No user images
+or audio were captured to disk. Human gesture/voice acceptance remains deferred.
+Screenshots record particular frames; full perceptual motion/audio review remains
+part of playtesting. Successful automated behavior is in vector-checks.txt.

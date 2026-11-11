@@ -1,0 +1,1601 @@
+{
+  "version": "final-upper-body",
+  "assets": [
+    {
+      "path": "Buttons/primary_normal.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/primary_hover.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/primary_pressed.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/primary_disabled.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/primary_focus.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/secondary_normal.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/secondary_hover.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/secondary_pressed.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/secondary_disabled.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/secondary_focus.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/quiet_normal.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/quiet_hover.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/quiet_pressed.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/quiet_disabled.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/quiet_focus.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/danger_normal.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/danger_hover.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/danger_pressed.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/danger_disabled.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Buttons/danger_focus.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Panels/window.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "Panels/modal.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "Panels/hud.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "Panels/tooltip.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "Panels/notification.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "Panels/card.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "Panels/camera.png",
+      "width": 512,
+      "height": 320,
+      "border": [
+        56,
+        56,
+        56,
+        56
+      ],
+      "type": "sprite",
+      "minWidth": 114,
+      "minHeight": 114
+    },
+    {
+      "path": "SongSelect/song_row_normal.png",
+      "width": 640,
+      "height": 152,
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "sprite",
+      "minWidth": 130,
+      "minHeight": 130
+    },
+    {
+      "path": "SongSelect/difficulty_normal.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "SongSelect/song_row_hover.png",
+      "width": 640,
+      "height": 152,
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "sprite",
+      "minWidth": 130,
+      "minHeight": 130
+    },
+    {
+      "path": "SongSelect/difficulty_hover.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "SongSelect/song_row_selected.png",
+      "width": 640,
+      "height": 152,
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "sprite",
+      "minWidth": 130,
+      "minHeight": 130
+    },
+    {
+      "path": "SongSelect/difficulty_selected.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "SongSelect/song_row_disabled.png",
+      "width": 640,
+      "height": 152,
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "sprite",
+      "minWidth": 130,
+      "minHeight": 130
+    },
+    {
+      "path": "SongSelect/difficulty_disabled.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "SongSelect/song_row_focus.png",
+      "width": 640,
+      "height": 152,
+      "border": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "sprite",
+      "minWidth": 130,
+      "minHeight": 130
+    },
+    {
+      "path": "SongSelect/difficulty_focus.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "Inputs/field_normal.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Inputs/field_hover.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Inputs/field_focus.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Inputs/field_disabled.png",
+      "width": 384,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Inputs/tab.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "Inputs/tab_selected.png",
+      "width": 224,
+      "height": 96,
+      "border": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "type": "sprite",
+      "minWidth": 82,
+      "minHeight": 82
+    },
+    {
+      "path": "Inputs/checkbox_off.png",
+      "width": 80,
+      "height": 80,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Inputs/checkbox_on.png",
+      "width": 80,
+      "height": 80,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Inputs/radio_off.png",
+      "width": 80,
+      "height": 80,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Inputs/radio_on.png",
+      "width": 80,
+      "height": 80,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Inputs/toggle_off.png",
+      "width": 128,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Inputs/toggle_on.png",
+      "width": 128,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Bars/track.png",
+      "width": 256,
+      "height": 48,
+      "border": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "type": "sprite",
+      "minWidth": 42,
+      "minHeight": 42
+    },
+    {
+      "path": "Bars/fill_cyan.png",
+      "width": 256,
+      "height": 48,
+      "border": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "type": "sprite",
+      "minWidth": 42,
+      "minHeight": 42
+    },
+    {
+      "path": "Bars/fill_pink.png",
+      "width": 256,
+      "height": 48,
+      "border": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "type": "sprite",
+      "minWidth": 42,
+      "minHeight": 42
+    },
+    {
+      "path": "Bars/fill_amber.png",
+      "width": 256,
+      "height": 48,
+      "border": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "type": "sprite",
+      "minWidth": 42,
+      "minHeight": 42
+    },
+    {
+      "path": "Bars/fill_white.png",
+      "width": 256,
+      "height": 48,
+      "border": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "type": "sprite",
+      "minWidth": 42,
+      "minHeight": 42
+    },
+    {
+      "path": "Bars/thumb.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Bars/thumb_hover.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Bars/thumb_disabled.png",
+      "width": 64,
+      "height": 64,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Feedback/perfect_plate.png",
+      "width": 320,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Feedback/great_plate.png",
+      "width": 320,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Feedback/good_plate.png",
+      "width": 320,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Feedback/miss_plate.png",
+      "width": 320,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Feedback/flow_plate.png",
+      "width": 320,
+      "height": 112,
+      "border": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "type": "sprite",
+      "minWidth": 98,
+      "minHeight": 98
+    },
+    {
+      "path": "Icons/play.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/pause.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/stop.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/back.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/next.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/up.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/down.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/close.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/check.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/plus.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/minus.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/search.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/camera.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/camera_off.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/music.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/settings.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/volume.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/mute.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/restart.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/loop.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/home.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/star.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/heart.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/lock.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/trophy.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/bolt.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/filter.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/info.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/warning.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/fullscreen.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/person.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/clock.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/exit.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/calibrate.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/sort.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Icons/link.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Gameplay/hit_ring.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Gameplay/timing_ring.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Gameplay/target_ring.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_00.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_01.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_02.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_03.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_04.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_05.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_06.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "FX/hit_burst_07.png",
+      "width": 256,
+      "height": 256,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "sprite",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "Backgrounds/synthwave_sunset.png",
+      "width": 1672,
+      "height": 941,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "background",
+      "minWidth": 1,
+      "minHeight": 1
+    },
+    {
+      "path": "AlbumArt/midnight_run.png",
+      "width": 512,
+      "height": 512,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "art",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "AlbumArt/pink_horizon.png",
+      "width": 512,
+      "height": 512,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "art",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "AlbumArt/violet_pulse.png",
+      "width": 512,
+      "height": 512,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "art",
+      "minWidth": 2,
+      "minHeight": 2
+    },
+    {
+      "path": "AlbumArt/solar_drive.png",
+      "width": 512,
+      "height": 512,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "type": "art",
+      "minWidth": 2,
+      "minHeight": 2
+    }
+  ]
+}

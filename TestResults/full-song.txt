@@ -1,0 +1,2 @@
+PASS: screens, real 60-second audio, DSP pause freeze, resume, complete practice with zero HP, all targets once, real early defeat/fade/return.
+No camera input simulated. No gesture accuracy verification.

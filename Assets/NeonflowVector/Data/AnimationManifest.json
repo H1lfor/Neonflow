@@ -1,0 +1,2047 @@
+{
+  "schemaVersion": 1,
+  "sequences": [
+    {
+      "id": "select_sweep",
+      "frameCount": 16,
+      "fps": 40,
+      "durationSeconds": 0.4,
+      "loop": false,
+      "trigger": "Pointer enter / keyboard selection, once per change",
+      "clock": "unscaled-ui-time",
+      "width": 768,
+      "height": 160,
+      "frames": [
+        "Animations/Frames/select_sweep/select_sweep_000.png",
+        "Animations/Frames/select_sweep/select_sweep_001.png",
+        "Animations/Frames/select_sweep/select_sweep_002.png",
+        "Animations/Frames/select_sweep/select_sweep_003.png",
+        "Animations/Frames/select_sweep/select_sweep_004.png",
+        "Animations/Frames/select_sweep/select_sweep_005.png",
+        "Animations/Frames/select_sweep/select_sweep_006.png",
+        "Animations/Frames/select_sweep/select_sweep_007.png",
+        "Animations/Frames/select_sweep/select_sweep_008.png",
+        "Animations/Frames/select_sweep/select_sweep_009.png",
+        "Animations/Frames/select_sweep/select_sweep_010.png",
+        "Animations/Frames/select_sweep/select_sweep_011.png",
+        "Animations/Frames/select_sweep/select_sweep_012.png",
+        "Animations/Frames/select_sweep/select_sweep_013.png",
+        "Animations/Frames/select_sweep/select_sweep_014.png",
+        "Animations/Frames/select_sweep/select_sweep_015.png"
+      ],
+      "atlas": "Animations/Atlases/select_sweep.png",
+      "atlasSize": [
+        3088,
+        656
+      ],
+      "rects": [
+        {
+          "name": "select_sweep_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 494,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_001",
+          "x": 774,
+          "yTop": 2,
+          "yUnity": 494,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_002",
+          "x": 1546,
+          "yTop": 2,
+          "yUnity": 494,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_003",
+          "x": 2318,
+          "yTop": 2,
+          "yUnity": 494,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_004",
+          "x": 2,
+          "yTop": 166,
+          "yUnity": 330,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_005",
+          "x": 774,
+          "yTop": 166,
+          "yUnity": 330,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_006",
+          "x": 1546,
+          "yTop": 166,
+          "yUnity": 330,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_007",
+          "x": 2318,
+          "yTop": 166,
+          "yUnity": 330,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_008",
+          "x": 2,
+          "yTop": 330,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_009",
+          "x": 774,
+          "yTop": 330,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_010",
+          "x": 1546,
+          "yTop": 330,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_011",
+          "x": 2318,
+          "yTop": 330,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_012",
+          "x": 2,
+          "yTop": 494,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_013",
+          "x": 774,
+          "yTop": 494,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_014",
+          "x": 1546,
+          "yTop": 494,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "select_sweep_015",
+          "x": 2318,
+          "yTop": 494,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        }
+      ]
+    },
+    {
+      "id": "press_slash",
+      "frameCount": 8,
+      "fps": 40,
+      "durationSeconds": 0.2,
+      "loop": false,
+      "trigger": "Click accepted; independent of game action latency",
+      "clock": "unscaled-ui-time",
+      "width": 768,
+      "height": 160,
+      "frames": [
+        "Animations/Frames/press_slash/press_slash_000.png",
+        "Animations/Frames/press_slash/press_slash_001.png",
+        "Animations/Frames/press_slash/press_slash_002.png",
+        "Animations/Frames/press_slash/press_slash_003.png",
+        "Animations/Frames/press_slash/press_slash_004.png",
+        "Animations/Frames/press_slash/press_slash_005.png",
+        "Animations/Frames/press_slash/press_slash_006.png",
+        "Animations/Frames/press_slash/press_slash_007.png"
+      ],
+      "atlas": "Animations/Atlases/press_slash.png",
+      "atlasSize": [
+        3088,
+        328
+      ],
+      "rects": [
+        {
+          "name": "press_slash_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_001",
+          "x": 774,
+          "yTop": 2,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_002",
+          "x": 1546,
+          "yTop": 2,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_003",
+          "x": 2318,
+          "yTop": 2,
+          "yUnity": 166,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_004",
+          "x": 2,
+          "yTop": 166,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_005",
+          "x": 774,
+          "yTop": 166,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_006",
+          "x": 1546,
+          "yTop": 166,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        },
+        {
+          "name": "press_slash_007",
+          "x": 2318,
+          "yTop": 166,
+          "yUnity": 2,
+          "width": 768,
+          "height": 160
+        }
+      ]
+    },
+    {
+      "id": "screen_wipe",
+      "frameCount": 18,
+      "fps": 30,
+      "durationSeconds": 0.6,
+      "loop": false,
+      "trigger": "Scene/menu transition; switch content at frame 8 while fully covered",
+      "clock": "unscaled-ui-time",
+      "width": 960,
+      "height": 540,
+      "frames": [
+        "Animations/Frames/screen_wipe/screen_wipe_000.png",
+        "Animations/Frames/screen_wipe/screen_wipe_001.png",
+        "Animations/Frames/screen_wipe/screen_wipe_002.png",
+        "Animations/Frames/screen_wipe/screen_wipe_003.png",
+        "Animations/Frames/screen_wipe/screen_wipe_004.png",
+        "Animations/Frames/screen_wipe/screen_wipe_005.png",
+        "Animations/Frames/screen_wipe/screen_wipe_006.png",
+        "Animations/Frames/screen_wipe/screen_wipe_007.png",
+        "Animations/Frames/screen_wipe/screen_wipe_008.png",
+        "Animations/Frames/screen_wipe/screen_wipe_009.png",
+        "Animations/Frames/screen_wipe/screen_wipe_010.png",
+        "Animations/Frames/screen_wipe/screen_wipe_011.png",
+        "Animations/Frames/screen_wipe/screen_wipe_012.png",
+        "Animations/Frames/screen_wipe/screen_wipe_013.png",
+        "Animations/Frames/screen_wipe/screen_wipe_014.png",
+        "Animations/Frames/screen_wipe/screen_wipe_015.png",
+        "Animations/Frames/screen_wipe/screen_wipe_016.png",
+        "Animations/Frames/screen_wipe/screen_wipe_017.png"
+      ],
+      "atlas": "Animations/Atlases/screen_wipe.png",
+      "atlasSize": [
+        3856,
+        2720
+      ],
+      "rects": [
+        {
+          "name": "screen_wipe_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 2178,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_001",
+          "x": 966,
+          "yTop": 2,
+          "yUnity": 2178,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_002",
+          "x": 1930,
+          "yTop": 2,
+          "yUnity": 2178,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_003",
+          "x": 2894,
+          "yTop": 2,
+          "yUnity": 2178,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_004",
+          "x": 2,
+          "yTop": 546,
+          "yUnity": 1634,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_005",
+          "x": 966,
+          "yTop": 546,
+          "yUnity": 1634,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_006",
+          "x": 1930,
+          "yTop": 546,
+          "yUnity": 1634,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_007",
+          "x": 2894,
+          "yTop": 546,
+          "yUnity": 1634,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_008",
+          "x": 2,
+          "yTop": 1090,
+          "yUnity": 1090,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_009",
+          "x": 966,
+          "yTop": 1090,
+          "yUnity": 1090,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_010",
+          "x": 1930,
+          "yTop": 1090,
+          "yUnity": 1090,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_011",
+          "x": 2894,
+          "yTop": 1090,
+          "yUnity": 1090,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_012",
+          "x": 2,
+          "yTop": 1634,
+          "yUnity": 546,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_013",
+          "x": 966,
+          "yTop": 1634,
+          "yUnity": 546,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_014",
+          "x": 1930,
+          "yTop": 1634,
+          "yUnity": 546,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_015",
+          "x": 2894,
+          "yTop": 1634,
+          "yUnity": 546,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_016",
+          "x": 2,
+          "yTop": 2178,
+          "yUnity": 2,
+          "width": 960,
+          "height": 540
+        },
+        {
+          "name": "screen_wipe_017",
+          "x": 966,
+          "yTop": 2178,
+          "yUnity": 2,
+          "width": 960,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "id": "beat_pulse",
+      "frameCount": 12,
+      "fps": 40,
+      "durationSeconds": 0.3,
+      "loop": false,
+      "trigger": "Beat accent; drive phase from DSP song clock",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 256,
+      "frames": [
+        "Animations/Frames/beat_pulse/beat_pulse_000.png",
+        "Animations/Frames/beat_pulse/beat_pulse_001.png",
+        "Animations/Frames/beat_pulse/beat_pulse_002.png",
+        "Animations/Frames/beat_pulse/beat_pulse_003.png",
+        "Animations/Frames/beat_pulse/beat_pulse_004.png",
+        "Animations/Frames/beat_pulse/beat_pulse_005.png",
+        "Animations/Frames/beat_pulse/beat_pulse_006.png",
+        "Animations/Frames/beat_pulse/beat_pulse_007.png",
+        "Animations/Frames/beat_pulse/beat_pulse_008.png",
+        "Animations/Frames/beat_pulse/beat_pulse_009.png",
+        "Animations/Frames/beat_pulse/beat_pulse_010.png",
+        "Animations/Frames/beat_pulse/beat_pulse_011.png"
+      ],
+      "atlas": "Animations/Atlases/beat_pulse.png",
+      "atlasSize": [
+        2064,
+        780
+      ],
+      "rects": [
+        {
+          "name": "beat_pulse_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_004",
+          "x": 2,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_005",
+          "x": 518,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_006",
+          "x": 1034,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_007",
+          "x": 1550,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_008",
+          "x": 2,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_009",
+          "x": 518,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_010",
+          "x": 1034,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "beat_pulse_011",
+          "x": 1550,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "perfect",
+      "frameCount": 16,
+      "fps": 40,
+      "durationSeconds": 0.4,
+      "loop": false,
+      "trigger": "Judgement perfect; layer behind text, no white glow",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 256,
+      "frames": [
+        "Animations/Frames/perfect/perfect_000.png",
+        "Animations/Frames/perfect/perfect_001.png",
+        "Animations/Frames/perfect/perfect_002.png",
+        "Animations/Frames/perfect/perfect_003.png",
+        "Animations/Frames/perfect/perfect_004.png",
+        "Animations/Frames/perfect/perfect_005.png",
+        "Animations/Frames/perfect/perfect_006.png",
+        "Animations/Frames/perfect/perfect_007.png",
+        "Animations/Frames/perfect/perfect_008.png",
+        "Animations/Frames/perfect/perfect_009.png",
+        "Animations/Frames/perfect/perfect_010.png",
+        "Animations/Frames/perfect/perfect_011.png",
+        "Animations/Frames/perfect/perfect_012.png",
+        "Animations/Frames/perfect/perfect_013.png",
+        "Animations/Frames/perfect/perfect_014.png",
+        "Animations/Frames/perfect/perfect_015.png"
+      ],
+      "atlas": "Animations/Atlases/perfect.png",
+      "atlasSize": [
+        2064,
+        1040
+      ],
+      "rects": [
+        {
+          "name": "perfect_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 782,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 782,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 782,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 782,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_004",
+          "x": 2,
+          "yTop": 262,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_005",
+          "x": 518,
+          "yTop": 262,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_006",
+          "x": 1034,
+          "yTop": 262,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_007",
+          "x": 1550,
+          "yTop": 262,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_008",
+          "x": 2,
+          "yTop": 522,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_009",
+          "x": 518,
+          "yTop": 522,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_010",
+          "x": 1034,
+          "yTop": 522,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_011",
+          "x": 1550,
+          "yTop": 522,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_012",
+          "x": 2,
+          "yTop": 782,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_013",
+          "x": 518,
+          "yTop": 782,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_014",
+          "x": 1034,
+          "yTop": 782,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "perfect_015",
+          "x": 1550,
+          "yTop": 782,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "great",
+      "frameCount": 12,
+      "fps": 40,
+      "durationSeconds": 0.3,
+      "loop": false,
+      "trigger": "Judgement great; layer behind text, no white glow",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 256,
+      "frames": [
+        "Animations/Frames/great/great_000.png",
+        "Animations/Frames/great/great_001.png",
+        "Animations/Frames/great/great_002.png",
+        "Animations/Frames/great/great_003.png",
+        "Animations/Frames/great/great_004.png",
+        "Animations/Frames/great/great_005.png",
+        "Animations/Frames/great/great_006.png",
+        "Animations/Frames/great/great_007.png",
+        "Animations/Frames/great/great_008.png",
+        "Animations/Frames/great/great_009.png",
+        "Animations/Frames/great/great_010.png",
+        "Animations/Frames/great/great_011.png"
+      ],
+      "atlas": "Animations/Atlases/great.png",
+      "atlasSize": [
+        2064,
+        780
+      ],
+      "rects": [
+        {
+          "name": "great_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_004",
+          "x": 2,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_005",
+          "x": 518,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_006",
+          "x": 1034,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_007",
+          "x": 1550,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_008",
+          "x": 2,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_009",
+          "x": 518,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_010",
+          "x": 1034,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "great_011",
+          "x": 1550,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "good",
+      "frameCount": 10,
+      "fps": 40,
+      "durationSeconds": 0.25,
+      "loop": false,
+      "trigger": "Judgement good; layer behind text, no white glow",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 256,
+      "frames": [
+        "Animations/Frames/good/good_000.png",
+        "Animations/Frames/good/good_001.png",
+        "Animations/Frames/good/good_002.png",
+        "Animations/Frames/good/good_003.png",
+        "Animations/Frames/good/good_004.png",
+        "Animations/Frames/good/good_005.png",
+        "Animations/Frames/good/good_006.png",
+        "Animations/Frames/good/good_007.png",
+        "Animations/Frames/good/good_008.png",
+        "Animations/Frames/good/good_009.png"
+      ],
+      "atlas": "Animations/Atlases/good.png",
+      "atlasSize": [
+        2064,
+        780
+      ],
+      "rects": [
+        {
+          "name": "good_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_004",
+          "x": 2,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_005",
+          "x": 518,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_006",
+          "x": 1034,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_007",
+          "x": 1550,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_008",
+          "x": 2,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "good_009",
+          "x": 518,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "miss",
+      "frameCount": 12,
+      "fps": 30,
+      "durationSeconds": 0.4,
+      "loop": false,
+      "trigger": "Judgement miss; layer behind text, no white glow",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 256,
+      "frames": [
+        "Animations/Frames/miss/miss_000.png",
+        "Animations/Frames/miss/miss_001.png",
+        "Animations/Frames/miss/miss_002.png",
+        "Animations/Frames/miss/miss_003.png",
+        "Animations/Frames/miss/miss_004.png",
+        "Animations/Frames/miss/miss_005.png",
+        "Animations/Frames/miss/miss_006.png",
+        "Animations/Frames/miss/miss_007.png",
+        "Animations/Frames/miss/miss_008.png",
+        "Animations/Frames/miss/miss_009.png",
+        "Animations/Frames/miss/miss_010.png",
+        "Animations/Frames/miss/miss_011.png"
+      ],
+      "atlas": "Animations/Atlases/miss.png",
+      "atlasSize": [
+        2064,
+        780
+      ],
+      "rects": [
+        {
+          "name": "miss_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_004",
+          "x": 2,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_005",
+          "x": 518,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_006",
+          "x": 1034,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_007",
+          "x": 1550,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_008",
+          "x": 2,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_009",
+          "x": 518,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_010",
+          "x": 1034,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "miss_011",
+          "x": 1550,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "combo",
+      "frameCount": 12,
+      "fps": 40,
+      "durationSeconds": 0.3,
+      "loop": false,
+      "trigger": "Judgement combo; layer behind text, no white glow",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 256,
+      "frames": [
+        "Animations/Frames/combo/combo_000.png",
+        "Animations/Frames/combo/combo_001.png",
+        "Animations/Frames/combo/combo_002.png",
+        "Animations/Frames/combo/combo_003.png",
+        "Animations/Frames/combo/combo_004.png",
+        "Animations/Frames/combo/combo_005.png",
+        "Animations/Frames/combo/combo_006.png",
+        "Animations/Frames/combo/combo_007.png",
+        "Animations/Frames/combo/combo_008.png",
+        "Animations/Frames/combo/combo_009.png",
+        "Animations/Frames/combo/combo_010.png",
+        "Animations/Frames/combo/combo_011.png"
+      ],
+      "atlas": "Animations/Atlases/combo.png",
+      "atlasSize": [
+        2064,
+        780
+      ],
+      "rects": [
+        {
+          "name": "combo_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 522,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_004",
+          "x": 2,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_005",
+          "x": 518,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_006",
+          "x": 1034,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_007",
+          "x": 1550,
+          "yTop": 262,
+          "yUnity": 262,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_008",
+          "x": 2,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_009",
+          "x": 518,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_010",
+          "x": 1034,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "name": "combo_011",
+          "x": 1550,
+          "yTop": 522,
+          "yUnity": 2,
+          "width": 512,
+          "height": 256
+        }
+      ]
+    },
+    {
+      "id": "victory",
+      "frameCount": 24,
+      "fps": 30,
+      "durationSeconds": 0.8,
+      "loop": false,
+      "trigger": "Victory result reveal, once",
+      "clock": "unscaled-ui-time",
+      "width": 1024,
+      "height": 384,
+      "frames": [
+        "Animations/Frames/victory/victory_000.png",
+        "Animations/Frames/victory/victory_001.png",
+        "Animations/Frames/victory/victory_002.png",
+        "Animations/Frames/victory/victory_003.png",
+        "Animations/Frames/victory/victory_004.png",
+        "Animations/Frames/victory/victory_005.png",
+        "Animations/Frames/victory/victory_006.png",
+        "Animations/Frames/victory/victory_007.png",
+        "Animations/Frames/victory/victory_008.png",
+        "Animations/Frames/victory/victory_009.png",
+        "Animations/Frames/victory/victory_010.png",
+        "Animations/Frames/victory/victory_011.png",
+        "Animations/Frames/victory/victory_012.png",
+        "Animations/Frames/victory/victory_013.png",
+        "Animations/Frames/victory/victory_014.png",
+        "Animations/Frames/victory/victory_015.png",
+        "Animations/Frames/victory/victory_016.png",
+        "Animations/Frames/victory/victory_017.png",
+        "Animations/Frames/victory/victory_018.png",
+        "Animations/Frames/victory/victory_019.png",
+        "Animations/Frames/victory/victory_020.png",
+        "Animations/Frames/victory/victory_021.png",
+        "Animations/Frames/victory/victory_022.png",
+        "Animations/Frames/victory/victory_023.png"
+      ],
+      "atlas": "Animations/Atlases/victory.png",
+      "atlasSize": [
+        3084,
+        3104
+      ],
+      "rects": [
+        {
+          "name": "victory_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 2718,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_001",
+          "x": 1030,
+          "yTop": 2,
+          "yUnity": 2718,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_002",
+          "x": 2058,
+          "yTop": 2,
+          "yUnity": 2718,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_003",
+          "x": 2,
+          "yTop": 390,
+          "yUnity": 2330,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_004",
+          "x": 1030,
+          "yTop": 390,
+          "yUnity": 2330,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_005",
+          "x": 2058,
+          "yTop": 390,
+          "yUnity": 2330,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_006",
+          "x": 2,
+          "yTop": 778,
+          "yUnity": 1942,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_007",
+          "x": 1030,
+          "yTop": 778,
+          "yUnity": 1942,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_008",
+          "x": 2058,
+          "yTop": 778,
+          "yUnity": 1942,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_009",
+          "x": 2,
+          "yTop": 1166,
+          "yUnity": 1554,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_010",
+          "x": 1030,
+          "yTop": 1166,
+          "yUnity": 1554,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_011",
+          "x": 2058,
+          "yTop": 1166,
+          "yUnity": 1554,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_012",
+          "x": 2,
+          "yTop": 1554,
+          "yUnity": 1166,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_013",
+          "x": 1030,
+          "yTop": 1554,
+          "yUnity": 1166,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_014",
+          "x": 2058,
+          "yTop": 1554,
+          "yUnity": 1166,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_015",
+          "x": 2,
+          "yTop": 1942,
+          "yUnity": 778,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_016",
+          "x": 1030,
+          "yTop": 1942,
+          "yUnity": 778,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_017",
+          "x": 2058,
+          "yTop": 1942,
+          "yUnity": 778,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_018",
+          "x": 2,
+          "yTop": 2330,
+          "yUnity": 390,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_019",
+          "x": 1030,
+          "yTop": 2330,
+          "yUnity": 390,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_020",
+          "x": 2058,
+          "yTop": 2330,
+          "yUnity": 390,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_021",
+          "x": 2,
+          "yTop": 2718,
+          "yUnity": 2,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_022",
+          "x": 1030,
+          "yTop": 2718,
+          "yUnity": 2,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "victory_023",
+          "x": 2058,
+          "yTop": 2718,
+          "yUnity": 2,
+          "width": 1024,
+          "height": 384
+        }
+      ]
+    },
+    {
+      "id": "defeat",
+      "frameCount": 18,
+      "fps": 30,
+      "durationSeconds": 0.6,
+      "loop": false,
+      "trigger": "Defeat result reveal, once",
+      "clock": "unscaled-ui-time",
+      "width": 1024,
+      "height": 384,
+      "frames": [
+        "Animations/Frames/defeat/defeat_000.png",
+        "Animations/Frames/defeat/defeat_001.png",
+        "Animations/Frames/defeat/defeat_002.png",
+        "Animations/Frames/defeat/defeat_003.png",
+        "Animations/Frames/defeat/defeat_004.png",
+        "Animations/Frames/defeat/defeat_005.png",
+        "Animations/Frames/defeat/defeat_006.png",
+        "Animations/Frames/defeat/defeat_007.png",
+        "Animations/Frames/defeat/defeat_008.png",
+        "Animations/Frames/defeat/defeat_009.png",
+        "Animations/Frames/defeat/defeat_010.png",
+        "Animations/Frames/defeat/defeat_011.png",
+        "Animations/Frames/defeat/defeat_012.png",
+        "Animations/Frames/defeat/defeat_013.png",
+        "Animations/Frames/defeat/defeat_014.png",
+        "Animations/Frames/defeat/defeat_015.png",
+        "Animations/Frames/defeat/defeat_016.png",
+        "Animations/Frames/defeat/defeat_017.png"
+      ],
+      "atlas": "Animations/Atlases/defeat.png",
+      "atlasSize": [
+        3084,
+        2328
+      ],
+      "rects": [
+        {
+          "name": "defeat_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 1942,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_001",
+          "x": 1030,
+          "yTop": 2,
+          "yUnity": 1942,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_002",
+          "x": 2058,
+          "yTop": 2,
+          "yUnity": 1942,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_003",
+          "x": 2,
+          "yTop": 390,
+          "yUnity": 1554,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_004",
+          "x": 1030,
+          "yTop": 390,
+          "yUnity": 1554,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_005",
+          "x": 2058,
+          "yTop": 390,
+          "yUnity": 1554,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_006",
+          "x": 2,
+          "yTop": 778,
+          "yUnity": 1166,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_007",
+          "x": 1030,
+          "yTop": 778,
+          "yUnity": 1166,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_008",
+          "x": 2058,
+          "yTop": 778,
+          "yUnity": 1166,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_009",
+          "x": 2,
+          "yTop": 1166,
+          "yUnity": 778,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_010",
+          "x": 1030,
+          "yTop": 1166,
+          "yUnity": 778,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_011",
+          "x": 2058,
+          "yTop": 1166,
+          "yUnity": 778,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_012",
+          "x": 2,
+          "yTop": 1554,
+          "yUnity": 390,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_013",
+          "x": 1030,
+          "yTop": 1554,
+          "yUnity": 390,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_014",
+          "x": 2058,
+          "yTop": 1554,
+          "yUnity": 390,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_015",
+          "x": 2,
+          "yTop": 1942,
+          "yUnity": 2,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_016",
+          "x": 1030,
+          "yTop": 1942,
+          "yUnity": 2,
+          "width": 1024,
+          "height": 384
+        },
+        {
+          "name": "defeat_017",
+          "x": 2058,
+          "yTop": 1942,
+          "yUnity": 2,
+          "width": 1024,
+          "height": 384
+        }
+      ]
+    },
+    {
+      "id": "loading",
+      "frameCount": 24,
+      "fps": 24,
+      "durationSeconds": 1.0,
+      "loop": true,
+      "trigger": "Only while a real load operation is pending",
+      "clock": "unscaled-ui-time",
+      "width": 256,
+      "height": 128,
+      "frames": [
+        "Animations/Frames/loading/loading_000.png",
+        "Animations/Frames/loading/loading_001.png",
+        "Animations/Frames/loading/loading_002.png",
+        "Animations/Frames/loading/loading_003.png",
+        "Animations/Frames/loading/loading_004.png",
+        "Animations/Frames/loading/loading_005.png",
+        "Animations/Frames/loading/loading_006.png",
+        "Animations/Frames/loading/loading_007.png",
+        "Animations/Frames/loading/loading_008.png",
+        "Animations/Frames/loading/loading_009.png",
+        "Animations/Frames/loading/loading_010.png",
+        "Animations/Frames/loading/loading_011.png",
+        "Animations/Frames/loading/loading_012.png",
+        "Animations/Frames/loading/loading_013.png",
+        "Animations/Frames/loading/loading_014.png",
+        "Animations/Frames/loading/loading_015.png",
+        "Animations/Frames/loading/loading_016.png",
+        "Animations/Frames/loading/loading_017.png",
+        "Animations/Frames/loading/loading_018.png",
+        "Animations/Frames/loading/loading_019.png",
+        "Animations/Frames/loading/loading_020.png",
+        "Animations/Frames/loading/loading_021.png",
+        "Animations/Frames/loading/loading_022.png",
+        "Animations/Frames/loading/loading_023.png"
+      ],
+      "atlas": "Animations/Atlases/loading.png",
+      "atlasSize": [
+        1040,
+        792
+      ],
+      "rects": [
+        {
+          "name": "loading_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 662,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_001",
+          "x": 262,
+          "yTop": 2,
+          "yUnity": 662,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_002",
+          "x": 522,
+          "yTop": 2,
+          "yUnity": 662,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_003",
+          "x": 782,
+          "yTop": 2,
+          "yUnity": 662,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_004",
+          "x": 2,
+          "yTop": 134,
+          "yUnity": 530,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_005",
+          "x": 262,
+          "yTop": 134,
+          "yUnity": 530,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_006",
+          "x": 522,
+          "yTop": 134,
+          "yUnity": 530,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_007",
+          "x": 782,
+          "yTop": 134,
+          "yUnity": 530,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_008",
+          "x": 2,
+          "yTop": 266,
+          "yUnity": 398,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_009",
+          "x": 262,
+          "yTop": 266,
+          "yUnity": 398,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_010",
+          "x": 522,
+          "yTop": 266,
+          "yUnity": 398,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_011",
+          "x": 782,
+          "yTop": 266,
+          "yUnity": 398,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_012",
+          "x": 2,
+          "yTop": 398,
+          "yUnity": 266,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_013",
+          "x": 262,
+          "yTop": 398,
+          "yUnity": 266,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_014",
+          "x": 522,
+          "yTop": 398,
+          "yUnity": 266,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_015",
+          "x": 782,
+          "yTop": 398,
+          "yUnity": 266,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_016",
+          "x": 2,
+          "yTop": 530,
+          "yUnity": 134,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_017",
+          "x": 262,
+          "yTop": 530,
+          "yUnity": 134,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_018",
+          "x": 522,
+          "yTop": 530,
+          "yUnity": 134,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_019",
+          "x": 782,
+          "yTop": 530,
+          "yUnity": 134,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_020",
+          "x": 2,
+          "yTop": 662,
+          "yUnity": 2,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_021",
+          "x": 262,
+          "yTop": 662,
+          "yUnity": 2,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_022",
+          "x": 522,
+          "yTop": 662,
+          "yUnity": 2,
+          "width": 256,
+          "height": 128
+        },
+        {
+          "name": "loading_023",
+          "x": 782,
+          "yTop": 662,
+          "yUnity": 2,
+          "width": 256,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "id": "hold_scan",
+      "frameCount": 16,
+      "fps": 32,
+      "durationSeconds": 0.5,
+      "loop": true,
+      "trigger": "Subtle accent for currently held gesture, external phase only",
+      "clock": "external-song-time",
+      "width": 512,
+      "height": 64,
+      "frames": [
+        "Animations/Frames/hold_scan/hold_scan_000.png",
+        "Animations/Frames/hold_scan/hold_scan_001.png",
+        "Animations/Frames/hold_scan/hold_scan_002.png",
+        "Animations/Frames/hold_scan/hold_scan_003.png",
+        "Animations/Frames/hold_scan/hold_scan_004.png",
+        "Animations/Frames/hold_scan/hold_scan_005.png",
+        "Animations/Frames/hold_scan/hold_scan_006.png",
+        "Animations/Frames/hold_scan/hold_scan_007.png",
+        "Animations/Frames/hold_scan/hold_scan_008.png",
+        "Animations/Frames/hold_scan/hold_scan_009.png",
+        "Animations/Frames/hold_scan/hold_scan_010.png",
+        "Animations/Frames/hold_scan/hold_scan_011.png",
+        "Animations/Frames/hold_scan/hold_scan_012.png",
+        "Animations/Frames/hold_scan/hold_scan_013.png",
+        "Animations/Frames/hold_scan/hold_scan_014.png",
+        "Animations/Frames/hold_scan/hold_scan_015.png"
+      ],
+      "atlas": "Animations/Atlases/hold_scan.png",
+      "atlasSize": [
+        2064,
+        272
+      ],
+      "rects": [
+        {
+          "name": "hold_scan_000",
+          "x": 2,
+          "yTop": 2,
+          "yUnity": 206,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_001",
+          "x": 518,
+          "yTop": 2,
+          "yUnity": 206,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_002",
+          "x": 1034,
+          "yTop": 2,
+          "yUnity": 206,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_003",
+          "x": 1550,
+          "yTop": 2,
+          "yUnity": 206,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_004",
+          "x": 2,
+          "yTop": 70,
+          "yUnity": 138,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_005",
+          "x": 518,
+          "yTop": 70,
+          "yUnity": 138,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_006",
+          "x": 1034,
+          "yTop": 70,
+          "yUnity": 138,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_007",
+          "x": 1550,
+          "yTop": 70,
+          "yUnity": 138,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_008",
+          "x": 2,
+          "yTop": 138,
+          "yUnity": 70,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_009",
+          "x": 518,
+          "yTop": 138,
+          "yUnity": 70,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_010",
+          "x": 1034,
+          "yTop": 138,
+          "yUnity": 70,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_011",
+          "x": 1550,
+          "yTop": 138,
+          "yUnity": 70,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_012",
+          "x": 2,
+          "yTop": 206,
+          "yUnity": 2,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_013",
+          "x": 518,
+          "yTop": 206,
+          "yUnity": 2,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_014",
+          "x": 1034,
+          "yTop": 206,
+          "yUnity": 2,
+          "width": 512,
+          "height": 64
+        },
+        {
+          "name": "hold_scan_015",
+          "x": 1550,
+          "yTop": 206,
+          "yUnity": 2,
+          "width": 512,
+          "height": 64
+        }
+      ]
+    }
+  ]
+}

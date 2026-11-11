@@ -112,3 +112,19 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Reproducible local recognition/build tooling; setup_windows.ps1 restores runtime.
+/Tools/Recognition/python/
+/Tools/Recognition/python.zip
+/Tools/Recognition/vosk.zip
+/Tools/Recognition/get-pip.py
+/Tools/Recognition/mac-env/
+/Tools/Recognition/mac-work/
+/Tools/Recognition/mac-dist/
+/Tools/Recognition/mac-downloads/
+/Tools/Recognition/mac-runtime/
+/Tools/Format/bin/
+/Tools/Format/obj/
+!/Tools/Format/Format.csproj
+/Tools/dotnet-home/
+__pycache__/

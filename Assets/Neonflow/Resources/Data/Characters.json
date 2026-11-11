@@ -1,0 +1,18 @@
+{
+  "characters": [
+    {
+      "id": "light",
+      "nameKey": "character.light.name",
+      "descriptionKey": "character.light.description",
+      "poses": ["arms_up", "arms_v", "reach_left", "reach_right", "diagonal_left", "diagonal_right"],
+      "hands": ["point", "peace", "three", "l_shape", "point_side"]
+    },
+    {
+      "id": "solid",
+      "nameKey": "character.solid.name",
+      "descriptionKey": "character.solid.description",
+      "poses": ["arms_t", "elbows_up", "cross_chest", "clap", "shoulders_up", "shoulders_down"],
+      "hands": ["open", "fist", "four", "thumb_up", "rock"]
+    }
+  ]
+}

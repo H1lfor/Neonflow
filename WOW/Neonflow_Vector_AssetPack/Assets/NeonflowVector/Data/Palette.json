@@ -1,0 +1,25 @@
+{
+  "colors": {
+    "ink": "#250733",
+    "ivory": "#FFF2E1",
+    "pink": "#FF008C",
+    "cyan": "#00E8F2",
+    "violet": "#A256F8",
+    "lilac": "#BA85E5",
+    "muted": "#9874A5",
+    "disabled": "#DEC9E4",
+    "darkPink": "#C90069",
+    "mint": "#37CDA2",
+    "amber": "#FFB447",
+    "red": "#E64069",
+    "white": "#FFFFFF",
+    "ground": "#35104F"
+  },
+  "cutRatio": 0.36,
+  "referenceResolution": [
+    1920,
+    1080
+  ],
+  "font": "Exo 2",
+  "textStyle": "Italic for primary labels; upright Regular for secondary text."
+}

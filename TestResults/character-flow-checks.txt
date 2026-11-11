@@ -1,0 +1,1 @@
+PASS 19 checks: main Play -> character choice, portraits, Solid -> calibration, back, selection persistence, practice pool, restart, switch to Light, normal pool, back navigation. Synthetic/offline checks; no human camera/voice acceptance.

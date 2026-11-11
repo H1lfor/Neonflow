@@ -1,0 +1,3 @@
+﻿АКТУАЛЬНЫЙ ПАКЕТ АССЕТОВ NEONFLOW
+
+Начать с ../README.txt. Использование — ../Requirements/05_ASSET_GUIDE.txt. Все текущие картинки и звуки — Preview.html. Готовой игры, робота и моделей камеры/голоса здесь нет. Старые screen prefab — заготовки, их компоновку нужно переделать по ../References и ../Requirements. Видимые тексты — ../Data/UI_TEXTS_RU.json.

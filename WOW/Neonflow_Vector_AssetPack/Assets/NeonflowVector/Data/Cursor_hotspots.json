@@ -1,0 +1,92 @@
+[
+  {
+    "file": "cursor_default_32.png",
+    "width": 32,
+    "height": 32,
+    "hotspot": [
+      5,
+      4
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_default_64.png",
+    "width": 64,
+    "height": 64,
+    "hotspot": [
+      10,
+      8
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_default_128.png",
+    "width": 128,
+    "height": 128,
+    "hotspot": [
+      20,
+      16
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_hover_32.png",
+    "width": 32,
+    "height": 32,
+    "hotspot": [
+      5,
+      4
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_hover_64.png",
+    "width": 64,
+    "height": 64,
+    "hotspot": [
+      10,
+      8
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_hover_128.png",
+    "width": 128,
+    "height": 128,
+    "hotspot": [
+      20,
+      16
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_pressed_32.png",
+    "width": 32,
+    "height": 32,
+    "hotspot": [
+      5,
+      4
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_pressed_64.png",
+    "width": 64,
+    "height": 64,
+    "hotspot": [
+      10,
+      8
+    ],
+    "hotspotOrigin": "top-left"
+  },
+  {
+    "file": "cursor_pressed_128.png",
+    "width": 128,
+    "height": 128,
+    "hotspot": [
+      20,
+      16
+    ],
+    "hotspotOrigin": "top-left"
+  }
+]

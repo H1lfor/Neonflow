@@ -1,0 +1,956 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
+
+namespace Neonflow
+{
+    public enum ScreenState
+    {
+        Title,
+        Menu,
+        Camera,
+        Songs,
+        Tutorial,
+        Settings,
+        Playing,
+        Pause,
+        Results
+    }
+
+    public class NeonflowGame : MonoBehaviour
+    {
+        GameAssets assets;
+        Tracks library;
+        Movement[] movements;
+        Dictionary<string, string> words = new Dictionary<string, string>();
+        SaveData save;
+        Balance balance;
+        Recognition recognition;
+        RobotView robot;
+        NeonflowCursorController cursor;
+        int lastCount = -1;
+        Canvas canvas;
+        RectTransform root;
+        Font font;
+        AudioSource music, ui, effects;
+        Track selected;
+        AudioClip clip;
+        Battle battle;
+        ScreenState state, settingsReturn;
+        bool calibrated, practice, ending, pendingTutorial;
+        Button cameraContinue;
+        int tutorial, shown = -1, judged = -1;
+        double startDsp;
+        float endTime, lastClick;
+        string notice = "", search = "";
+        Text accuracyText, timerText, scoreText, comboText, warningText, assessmentText, countText;
+        Text voiceStatusText, microphoneText, cameraDeviceText;
+        Image hpPlayer, hpRobot, windowBar;
+        RawImage preview;
+        RectTransform overlayRect;
+        Vector2 previewBounds;
+        RectTransform cueRoot;
+        Camera worldCamera;
+        Material sky, lightUI;
+        readonly CultureInfo ru = CultureInfo.GetCultureInfo("ru-RU");
+        public ScreenState State => state;
+        public Battle CurrentBattle => battle;
+        public double SongTime => AudioSettings.dspTime - startDsp;
+
+        public string T(string key) => words.TryGetValue(key, out var text) ? text : key;
+        void Start()
+        {
+            Application.targetFrameRate = 60;
+            Application.runInBackground = true;
+            assets = Resources.Load<GameAssets>("GameAssets");
+            library = JsonUtility.FromJson<Tracks>(Resources.Load<TextAsset>("Data/TrackTiming").text);
+            movements = JsonUtility.FromJson<MovementCatalogData>(Resources.Load<TextAsset>("Data/Movements_catalog").text).poses;
+            foreach (var w in JsonUtility.FromJson<Words>(Resources.Load<TextAsset>("Data/UI_TEXTS_RU").text).strings)
+                words[w.id] = w.text;
+            var balanceAsset = Resources.Load<TextAsset>("Data/Balance");
+            balance = balanceAsset ? JsonUtility.FromJson<Balance>(balanceAsset.text) : new Balance();
+            save = SaveStore.Load();
+            lightUI = Resources.Load<Material>("LightUI");
+            font = assets.Get<Font>("NeonflowUI/Fonts/Exo2-Regular");
+            selected = library.tracks[0];
+            music = gameObject.AddComponent<AudioSource>();
+            ui = gameObject.AddComponent<AudioSource>();
+            effects = gameObject.AddComponent<AudioSource>();
+            music.playOnAwake = false;
+            ui.ignoreListenerPause = true;
+            music.volume = save.settings.music;
+            SetupWorld();
+            SetupUI();
+            recognition = gameObject.AddComponent<Recognition>();
+            recognition.SongTime = () => state == ScreenState.Playing || state == ScreenState.Pause || state == ScreenState.Settings && settingsReturn == ScreenState.Pause ? SongTime : Time.realtimeSinceStartupAsDouble;
+            recognition.OnVoice = Voice;
+            recognition.OnFrame = Frame;
+            recognition.Launch(save.settings);
+            Show(ScreenState.Title);
+        }
+
+        void SetupWorld()
+        {
+            worldCamera = Camera.main;
+            if (!worldCamera)
+            {
+                worldCamera = new GameObject("World camera", typeof(Camera), typeof(AudioListener)).GetComponent<Camera>();
+            }
+
+            worldCamera.tag = "MainCamera";
+            worldCamera.transform.position = new Vector3(0, 1.9f, -7.6f);
+            worldCamera.transform.rotation = Quaternion.identity;
+            worldCamera.fieldOfView = 43;
+            worldCamera.clearFlags = CameraClearFlags.Skybox;
+            RenderSettings.ambientLight = new Color(.65f, .67f, .8f);
+            var light = new GameObject("Soft key", typeof(Light)).GetComponent<Light>();
+            light.type = LightType.Directional;
+            light.intensity = 2;
+            light.transform.rotation = Quaternion.Euler(35, -35, 0);
+            robot = new GameObject("NEON-01").AddComponent<RobotView>();
+            robot.Build();
+            robot.transform.position = new Vector3(.3f, 0, 0);
+            var floor = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            floor.name = "Duel stage";
+            floor.transform.position = new Vector3(0, -.09f, 0);
+            floor.transform.localScale = new Vector3(4, .08f, 3);
+            var mat = new Material(Resources.Load<Material>("RobotSurface"));
+            mat.color = new Color(.10f, .09f, .18f);
+            mat.SetColor("_EmissionColor", Color.black);
+            mat.SetFloat("_Smoothness", .85f);
+            floor.GetComponent<Renderer>().sharedMaterial = mat;
+            for (int i = 0; i < 20; i++)
+            {
+                var g = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                g.name = "Stage light";
+                g.transform.position = new Vector3(Mathf.Sin(i * Mathf.PI / 10) * 2, .01f, Mathf.Cos(i * Mathf.PI / 10) * 1.45f);
+                g.transform.localScale = new Vector3(.12f, .025f, .12f);
+                var m = new Material(mat);
+                m.color = i % 2 == 0 ? new Color(.1f, .8f, .9f) : new Color(.9f, .15f, .6f);
+                m.EnableKeyword("_EMISSION");
+                m.SetColor("_EmissionColor", m.color);
+                g.GetComponent<Renderer>().sharedMaterial = m;
+                var pulse = g.AddComponent<StagePulse>();
+                pulse.robot = robot;
+                pulse.material = m;
+                pulse.accent = m.color;
+            }
+
+            SetSky(0);
+        }
+
+        void SetSky(int i)
+        {
+            string[] names =
+            {
+                "01_Retro_Sunset",
+                "02_Cyan_Midnight",
+                "03_Magenta_Nebula",
+                "04_Neon_Rain_City",
+                "05_Pastel_Dawn",
+                "06_Twin_Moon_Night"
+            };
+            if (sky)
+                Destroy(sky);
+            sky = new Material(assets.Get<Material>("NeonflowSkies/Materials/" + names[i]));
+            sky.SetFloat("_Exposure", .7f);
+            RenderSettings.skybox = sky;
+        }
+
+        void SetupUI()
+        {
+            canvas = new GameObject("Neonflow UI", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster)).GetComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            var scaler = canvas.GetComponent<CanvasScaler>();
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1600, 900);
+            scaler.matchWidthOrHeight = 0f;
+            if (!FindAnyObjectByType<EventSystem>())
+                new GameObject("UI input", typeof(EventSystem), typeof(InputSystemUIInputModule));
+            cursor = gameObject.AddComponent<NeonflowCursorController>();
+            cursor.defaultTexture = assets.Get<Texture2D>("NeonflowCursor/cursor_default_32");
+            cursor.hoverTexture = assets.Get<Texture2D>("NeonflowCursor/cursor_hover_32");
+            cursor.pressedTexture = assets.Get<Texture2D>("NeonflowCursor/cursor_pressed_32");
+            cursor.hotspot = new Vector2(5, 4);
+            cursor.SetDefault();
+        }
+
+        RectTransform Rect(string name, Transform parent, float x, float y, float w, float h)
+        {
+            var r = new GameObject(name, typeof(RectTransform)).GetComponent<RectTransform>();
+            r.SetParent(parent, false);
+            r.anchorMin = r.anchorMax = new Vector2(0, 1);
+            r.pivot = new Vector2(0, 1);
+            r.anchoredPosition = new Vector2(x, -y);
+            r.sizeDelta = new Vector2(w, h);
+            return r;
+        }
+
+        Image Panel(Transform parent, float x, float y, float w, float h, string sprite = "Panels/window")
+        {
+            var r = Rect("Panel", parent, x, y, w, h);
+            var im = r.gameObject.AddComponent<Image>();
+            im.sprite = assets.Get<Sprite>("NeonflowUI/" + sprite);
+            im.type = Image.Type.Sliced;
+            im.color = new Color(1, 1, 1, .98f);
+            return im;
+        }
+
+        Text Label(Transform parent, string text, float x, float y, float w, float h, int size = 26, TextAnchor align = TextAnchor.MiddleLeft)
+        {
+            var r = Rect("Text", parent, x, y, w, h);
+            var t = r.gameObject.AddComponent<Text>();
+            t.font = size >= 40 ? assets.Get<Font>("NeonflowUI/Fonts/Exo2-ExtraBold") : font;
+            t.text = text;
+            t.fontSize = size;
+            t.color = new Color(.93f, .95f, 1);
+            t.alignment = align;
+            t.horizontalOverflow = HorizontalWrapMode.Wrap;
+            t.verticalOverflow = VerticalWrapMode.Truncate;
+            t.raycastTarget = false;
+            return t;
+        }
+
+        Button Button(Transform parent, string text, float x, float y, float w, float h, Action action)
+        {
+            var im = Panel(parent, x, y, w, h, "Buttons/primary_normal");
+            im.color = Color.white;
+            var b = im.gameObject.AddComponent<Button>();
+            b.targetGraphic = im;
+            var pointer = b.gameObject.AddComponent<CursorButton>();
+            pointer.controller = cursor;
+            pointer.Hover = () => Sound("hover");
+            var colors = b.colors;
+            colors.normalColor = Color.white;
+            colors.highlightedColor = new Color(.8f, 1, 1);
+            colors.pressedColor = new Color(.8f, .7f, 1);
+            b.colors = colors;
+            var label = Label(im.transform, text, 12, 0, w - 24, h, 24, TextAnchor.MiddleCenter);
+            label.font = assets.Get<Font>("NeonflowUI/Fonts/Exo2-SemiBold");
+            label.color = new Color(.96f, .95f, 1);
+            b.onClick.AddListener(() =>
+            {
+                if (Time.unscaledTime - lastClick < .15f)
+                    return;
+                lastClick = Time.unscaledTime;
+                Sound("select");
+                action();
+            });
+            return b;
+        }
+
+        Image Bar(Transform parent, float x, float y, float w, float h, Color color)
+        {
+            var back = Panel(parent, x, y, w, h, "Bars/track");
+            var fill = Rect("Fill", back.transform, 3, 3, w - 6, h - 6).gameObject.AddComponent<Image>();
+            fill.sprite = assets.Get<Sprite>("NeonflowUI/Bars/fill_white");
+            fill.type = Image.Type.Filled;
+            fill.fillMethod = Image.FillMethod.Horizontal;
+            fill.color = color;
+            return fill;
+        }
+
+        void Sound(string id, bool effect = false)
+        {
+            var source = effect ? effects : ui;
+            source.volume = effect ? save.settings.effects : save.settings.ui;
+            var sound = assets.Get<AudioClip>("NeonflowUI/Audio/" + id);
+            if (sound)
+                source.PlayOneShot(sound);
+        }
+
+        void Header(string text)
+        {
+            var panel = Panel(root, 40, 32, 1520, 88);
+            Label(panel.transform, text, 24, 4, 1400, 76, 34);
+        }
+
+        void Show(ScreenState next)
+        {
+            state = next;
+            if (root)
+                Destroy(root.gameObject);
+            root = Rect(next.ToString(), canvas.transform, 0, 0, 1600, 900);
+            preview = null;
+            cueRoot = null;
+            robot.gameObject.SetActive(next != ScreenState.Songs && next != ScreenState.Settings && next != ScreenState.Camera);
+            robot.transform.position = new Vector3(next == ScreenState.Tutorial ? 1.25f : .3f, 0, 0);
+            shown = -1;
+            switch (next)
+            {
+                case ScreenState.Title:
+                    Label(root, T("title.logo"), 160, 220, 1280, 140, 100, TextAnchor.MiddleCenter).color = Color.white;
+                    Button(root, T("title.continue"), 360, 740, 880, 64, () => Show(ScreenState.Menu));
+                    break;
+                case ScreenState.Menu:
+                    var menu = Panel(root, 90, 100, 550, 650);
+                    Label(menu.transform, T("title.logo"), 35, 35, 480, 90, 55);
+                    Button(menu.transform, T("common.play"), 40, 190, 470, 70, Play);
+                    Button(menu.transform, T("common.settings"), 40, 280, 470, 70, () => OpenSettings(ScreenState.Menu));
+                    Button(menu.transform, T("common.tutorial"), 40, 370, 470, 70, () =>
+                    {
+                        tutorial = 0;
+                        Show(ScreenState.Tutorial);
+                    });
+                    Button(menu.transform, T("common.exit"), 40, 460, 470, 70, () => Application.Quit());
+                    break;
+                case ScreenState.Camera:
+                    Header(T("camera.title"));
+                    CameraPanel(100, 170, 720, 540);
+                    var cp = Panel(root, 900, 200, 580, 500);
+                    Label(cp.transform, T("camera.position") + "\n\n" + T("camera.framing"), 35, 20, 510, 180, 28);
+                    warningText = Label(cp.transform, "", 35, 215, 510, 90);
+                    Button(cp.transform, T("common.retry"), 35, 325, 510, 64, () => recognition.Restart(save.settings));
+                    cameraContinue = Button(cp.transform, T("common.continue"), 35, 410, 510, 64, () =>
+                    {
+                        if (recognition.CanCalibrate)
+                        {
+                            recognition.Calibrate();
+                            calibrated = true;
+                            if (pendingTutorial)
+                            {
+                                pendingTutorial = false;
+                                StartSong(true);
+                            }
+                            else
+                                Show(ScreenState.Songs);
+                        }
+                    });
+                    Button(root, T("common.back"), 80, 800, 260, 60, Back);
+                    break;
+                case ScreenState.Songs:
+                    Songs();
+                    break;
+                case ScreenState.Tutorial:
+                    Header(T("tutorial.title"));
+                    string[] steps =
+                    {
+                        "camera.framing",
+                        "tutorial.window",
+                        "tutorial.hold",
+                        "tutorial.score",
+                        "tutorial.sides",
+                        "tutorial.lowered",
+                        "tutorial.survive",
+                        "tutorial.voice"
+                    };
+                    var tp = Panel(root, 70, 230, 620, 360);
+                    Label(tp.transform, T(steps[tutorial]), 40, 40, 540, 220, 34);
+                    Button(tp.transform, T(tutorial == steps.Length - 1 ? "common.done" : "common.next"), 40, 270, 540, 64, () =>
+                    {
+                        if (tutorial == steps.Length - 1)
+                        {
+                            selected = library.tracks[1];
+                            if (calibrated)
+                                StartSong(true);
+                            else
+                            {
+                                pendingTutorial = true;
+                                Show(ScreenState.Camera);
+                            }
+                        }
+                        else
+                        {
+                            tutorial++;
+                            Show(ScreenState.Tutorial);
+                        }
+                    });
+                    robot.SetCue(new Cue { pose = tutorial == 5 ? "diagonal_right" : "arms_v", left = tutorial == 5 ? null : "peace", right = "open", robotAccuracy = 1 }, 100);
+                    Button(root, T("common.back"), 70, 800, 260, 60, () =>
+                    {
+                        if (tutorial > 0)
+                        {
+                            tutorial--;
+                            Show(ScreenState.Tutorial);
+                        }
+                        else
+                            Back();
+                    });
+                    break;
+                case ScreenState.Settings:
+                    SettingsUI();
+                    break;
+                case ScreenState.Playing:
+                    HUD();
+                    break;
+                case ScreenState.Pause:
+                    Header(T("pause.title"));
+                    var pp = Panel(root, 500, 180, 600, 600);
+                    Button(pp.transform, T("pause.resume"), 60, 60, 480, 70, Resume);
+                    Button(pp.transform, T("pause.retry"), 60, 160, 480, 70, () => StartSong(practice));
+                    Button(pp.transform, T("pause.songs"), 60, 260, 480, 70, Leave);
+                    Button(pp.transform, T("common.settings"), 60, 360, 480, 70, () => OpenSettings(ScreenState.Pause));
+                    break;
+                case ScreenState.Results:
+                    ResultsUI();
+                    break;
+            }
+
+            if (!string.IsNullOrEmpty(notice))
+                Label(Panel(root, 380, 830, 840, 58).transform, notice, 16, 0, 808, 58, 20, TextAnchor.MiddleCenter);
+        }
+
+        void Play()
+        {
+            if (state == ScreenState.Title)
+            {
+                Show(ScreenState.Menu);
+                return;
+            }
+
+            if (state == ScreenState.Menu)
+                Show(calibrated ? ScreenState.Songs : ScreenState.Camera);
+            else if (state == ScreenState.Songs)
+                StartSong(false);
+        }
+
+        void Back()
+        {
+            switch (state)
+            {
+                case ScreenState.Playing:
+                    Pause();
+                    break;
+                case ScreenState.Pause:
+                    Leave();
+                    break;
+                case ScreenState.Settings:
+                    Show(settingsReturn);
+                    break;
+                case ScreenState.Results:
+                    Leave();
+                    break;
+                case ScreenState.Tutorial:
+                    if (tutorial > 0)
+                    {
+                        tutorial--;
+                        Show(ScreenState.Tutorial);
+                    }
+                    else
+                        Show(ScreenState.Menu);
+                    break;
+                case ScreenState.Title:
+                    break;
+                default:
+                    pendingTutorial = false;
+                    Show(ScreenState.Menu);
+                    break;
+            }
+        }
+
+        void Voice(string command)
+        {
+            switch (command)
+            {
+                case "пауза":
+                    if (state == ScreenState.Playing)
+                        Pause();
+                    break;
+                case "продолжить":
+                    if (state == ScreenState.Pause)
+                        Resume();
+                    break;
+                case "повторить":
+                    if (state == ScreenState.Pause || state == ScreenState.Results)
+                        StartSong(practice);
+                    break;
+                case "назад":
+                    if (state != ScreenState.Playing && state != ScreenState.Menu && state != ScreenState.Title)
+                        Back();
+                    break;
+                case "играть":
+                    if (state == ScreenState.Menu || state == ScreenState.Songs)
+                        Play();
+                    break;
+            }
+        }
+
+        void OpenSettings(ScreenState from)
+        {
+            settingsReturn = from;
+            Show(ScreenState.Settings);
+        }
+
+        void Persist()
+        {
+            try
+            {
+                SaveStore.Write(save);
+            }
+            catch (Exception e)
+            {
+                notice = T("error.result_save");
+                Debug.LogWarning(e);
+            }
+        }
+
+        void Songs()
+        {
+            Header(T("songs.title"));
+            var left = Panel(root, 55, 145, 670, 620);
+            Label(left.transform, selected.title, 25, 18, 620, 110, 30);
+            Label(left.transform, selected.artist, 25, 125, 620, 42, 22);
+            Label(left.transform, T("songs.results"), 25, 185, 620, 55, 28);
+            var records = save.runs.FindAll(r => r.trackId == selected.id && !r.practice && r.completed);
+            records.Sort((a, b) => b.score.CompareTo(a.score));
+            if (records.Count == 0)
+                Label(left.transform, T("songs.no_results"), 25, 260, 620, 60);
+            else
+                for (int i = 0; i < Math.Min(6, records.Count); i++)
+                {
+                    var r = records[i];
+                    Label(left.transform, $"{r.rank}     {Number(r.score)}     {Percent(r.accuracy)}     {r.maxCombo}\n{r.date.Substring(0, 10)}", 25, 250 + i * 55, 620, 55, 21);
+                }
+
+            var inputPanel = Panel(root, 760, 142, 785, 60, "Inputs/field_normal");
+            var input = inputPanel.gameObject.AddComponent<InputField>();
+            var text = Label(inputPanel.transform, search, 18, 0, 745, 60, 23);
+            input.textComponent = text;
+            var placeholder = Label(inputPanel.transform, T("songs.search"), 18, 0, 745, 60, 23);
+            placeholder.color = new Color(.64f, .66f, .76f);
+            input.placeholder = placeholder;
+            input.text = search;
+            var viewport = Rect("Song viewport", root, 760, 220, 785, 545);
+            viewport.gameObject.AddComponent<RectMask2D>();
+            var scroll = viewport.gameObject.AddComponent<ScrollRect>();
+            var content = Rect("Songs", viewport, 0, 0, 785, library.tracks.Length * 92);
+            scroll.content = content;
+            scroll.viewport = viewport;
+            scroll.horizontal = false;
+            Action<string> fill = q =>
+            {
+                search = q;
+                foreach (Transform child in content)
+                    Destroy(child.gameObject);
+                int row = 0;
+                foreach (var track in library.tracks)
+                {
+                    if (!(track.title + track.artist).ToLowerInvariant().Contains(q.ToLowerInvariant()))
+                        continue;
+                    var tr = track;
+                    var button = Button(content, tr.title + "\n" + tr.artist + "  ·  " + tr.bpm.ToString("0.##", ru) + " BPM  ·  " + Timer(assets.Duration(tr.fileName)), 0, row * 92, 785, 84, () =>
+                    {
+                        selected = tr;
+                        Show(ScreenState.Songs);
+                    });
+                    button.GetComponentInChildren<Text>().fontSize = 20;
+                    button.GetComponentInChildren<Text>().alignment = TextAnchor.MiddleLeft;
+                    button.GetComponent<Image>().sprite = assets.Get<Sprite>("NeonflowUI/SongSelect/song_row_" + (tr.id == selected.id ? "selected" : "normal"));
+                    button.GetComponentInChildren<Text>().rectTransform.anchoredPosition = new Vector2(32, 0);
+                    button.GetComponentInChildren<Text>().rectTransform.sizeDelta = new Vector2(540, 84);
+                    if (tr.id == selected.id)
+                        button.GetComponent<Image>().color = new Color(.85f, 1, 1);
+                    Stars(button.transform, Mathf.Clamp(1 + ((float)tr.bpm - 100) * 4 / 50, 1, 5), 590, 18);
+                    row++;
+                }
+
+                content.sizeDelta = new Vector2(785, Math.Max(545, row * 92));
+                if (row == 0)
+                    Label(content, T("songs.no_matches"), 20, 20, 700, 60);
+            };
+            input.onValueChanged.AddListener(q => fill(q));
+            fill(search);
+            Button(root, T("common.back"), 55, 795, 270, 65, Back);
+            Button(root, T("songs.practice"), 760, 795, 370, 65, () => StartSong(true));
+            Button(root, T("common.play"), 1170, 795, 375, 65, () => StartSong(false));
+        }
+
+        void Stars(Transform parent, float value, float x, float y)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                var r = Rect("Star", parent, x + i * 30, y, 27, 27);
+                var back = r.gameObject.AddComponent<Image>();
+                back.sprite = assets.Get<Sprite>("NeonflowUI/Icons/star");
+                back.color = new Color(.5f, .45f, .65f);
+                var fill = Rect("Fraction", r, 0, 0, 27, 27).gameObject.AddComponent<Image>();
+                fill.sprite = back.sprite;
+                fill.type = Image.Type.Filled;
+                fill.fillMethod = Image.FillMethod.Horizontal;
+                fill.fillAmount = Mathf.Clamp01(value - i);
+                fill.color = new Color(1, .65f, .15f);
+            }
+
+            Label(parent, value.ToString("0.0", ru), x, y + 25, 160, 24, 19).color = Color.white;
+        }
+
+        void SettingsUI()
+        {
+            Header(T("settings.title"));
+            var p = Panel(root, 330, 145, 940, 640);
+            Volume(p.transform, "settings.music", 40, save.settings.music, v =>
+            {
+                save.settings.music = v;
+                music.volume = v;
+            });
+            Volume(p.transform, "settings.interface", 140, save.settings.ui, v => save.settings.ui = v);
+            Volume(p.transform, "settings.effects", 240, save.settings.effects, v => save.settings.effects = v);
+            Button(p.transform, T("settings.voice") + "  " + T(save.settings.voice ? "settings.on" : "settings.off"), 40, 345, 860, 60, () =>
+            {
+                save.settings.voice = !save.settings.voice;
+                Persist();
+                recognition.Restart(save.settings);
+                Show(ScreenState.Settings);
+            });
+            voiceStatusText = Label(p.transform, T(recognition.VoiceStatus), 40, 410, 860, 45, 21);
+            cameraDeviceText = Button(p.transform, "", 40, 465, 860, 60, () =>
+            {
+                var d = WebCamTexture.devices;
+                if (d.Length > 0)
+                {
+                    int i = Array.FindIndex(d, x => x.name == save.settings.camera);
+                    save.settings.camera = d[(i + 1) % d.Length].name;
+                    calibrated = false;
+                    Persist();
+                    recognition.Restart(save.settings);
+                    Show(ScreenState.Settings);
+                }
+            }).GetComponentInChildren<Text>();
+            microphoneText = Button(p.transform, "", 40, 540, 860, 60, () =>
+            {
+                var d = recognition.Microphones;
+                if (d.Length > 0)
+                {
+                    int i = Array.FindIndex(d, v => v.id == save.settings.microphone);
+                    save.settings.microphone = d[(i + 1) % d.Length].id;
+                    Persist();
+                    recognition.Restart(save.settings);
+                    Show(ScreenState.Settings);
+                }
+            }).GetComponentInChildren<Text>();
+            Button(root, T("common.back"), 330, 805, 940, 65, () =>
+            {
+                Persist();
+                Back();
+            });
+        }
+
+        void Volume(Transform parent, string key, float y, float value, Action<float> change)
+        {
+            Label(parent, T(key), 40, y, 280, 55);
+            var r = Rect("Volume", parent, 340, y + 10, 510, 36);
+            var s = r.gameObject.AddComponent<Slider>();
+            s.minValue = 0;
+            s.maxValue = 1;
+            var background = Panel(r, 0, 0, 510, 36, "Bars/track");
+            var fill = Panel(r, 0, 0, 510, 36, "Bars/fill_cyan");
+            fill.rectTransform.anchorMin = Vector2.zero;
+            fill.rectTransform.anchorMax = Vector2.one;
+            fill.rectTransform.pivot = new Vector2(.5f, .5f);
+            fill.rectTransform.sizeDelta = Vector2.zero;
+            fill.rectTransform.anchoredPosition = Vector2.zero;
+            s.fillRect = fill.rectTransform;
+            var handle = Panel(r, 0, 0, 30, 36, "Bars/thumb");
+            handle.rectTransform.anchorMin = Vector2.zero;
+            handle.rectTransform.anchorMax = Vector2.up;
+            handle.rectTransform.pivot = new Vector2(.5f, .5f);
+            handle.rectTransform.sizeDelta = new Vector2(24, 0);
+            handle.rectTransform.anchoredPosition = Vector2.zero;
+            s.handleRect = handle.rectTransform;
+            s.targetGraphic = handle;
+            s.value = value;
+            s.onValueChanged.AddListener(v =>
+            {
+                change(v);
+                Persist();
+            });
+        }
+
+        void CameraPanel(float x, float y, float w, float h)
+        {
+            var panel = Panel(root, x, y, w, h);
+            preview = Rect("Live camera", panel.transform, 12, 12, w - 24, h - 24).gameObject.AddComponent<RawImage>();
+            preview.color = new Color(.035f, .035f, .07f);
+            preview.raycastTarget = false;
+            previewBounds = new Vector2(w - 24, h - 24);
+            overlayRect = Rect("Skeleton", panel.transform, 12, 12, w - 24, h - 24);
+            var overlay = overlayRect.gameObject.AddComponent<TrackingOverlay>();
+            overlay.Source = recognition;
+        }
+
+        void HUD()
+        {
+            var top = Panel(root, 35, 28, 1530, 105);
+            Label(top.transform, T("hud.player"), 25, 15, 400, 28, 22);
+            Label(top.transform, T("hud.robot"), 990, 15, 400, 28, 22, TextAnchor.MiddleRight);
+            hpPlayer = Bar(top.transform, 25, 48, 570, 30, new Color(.05f, .75f, .83f));
+            hpRobot = Bar(top.transform, 935, 48, 570, 30, new Color(.93f, .2f, .55f));
+            timerText = Label(top.transform, "", 620, 10, 290, 75, 42, TextAnchor.MiddleCenter);
+            CameraPanel(40, 240, 455, 340);
+            accuracyText = Label(Panel(root, 40, 590, 455, 70).transform, "", 20, 0, 415, 70, 40, TextAnchor.MiddleCenter);
+            warningText = Label(Panel(root, 40, 675, 455, 80).transform, "", 15, 0, 425, 80, 22, TextAnchor.MiddleCenter);
+            var stats = Panel(root, 1260, 150, 300, 150);
+            scoreText = Label(stats.transform, "", 20, 14, 260, 76, 26, TextAnchor.MiddleRight);
+            comboText = Label(stats.transform, "", 20, 94, 260, 38, 23, TextAnchor.MiddleRight);
+            cueRoot = Rect("Cues", root, 0, 0, 1600, 900);
+            windowBar = Bar(root, 45, 820, 1260, 35, new Color(.08f, .75f, .84f));
+            assessmentText = Label(Panel(root, 1330, 790, 235, 85).transform, "", 8, 0, 219, 85, 26, TextAnchor.MiddleCenter);
+            countText = Label(root, "", 650, 380, 400, 150, 80, TextAnchor.MiddleCenter);
+            countText.color = Color.white;
+            Button(root, T("pause.title"), 1320, 330, 240, 55, Pause);
+        }
+
+        void CueCard(Transform parent, string id, float x, float y, float w, float h, bool hand = false, bool mirror = false)
+        {
+            if (string.IsNullOrEmpty(id))
+                return;
+            var panel = Panel(parent, x, y, w, h, "Panels/card");
+            var pict = Rect("Pictogram", panel.transform, 12, 48, w - 24, h - 60).gameObject.AddComponent<Image>();
+            pict.sprite = assets.Get<Sprite>("NeonflowMovementUICompact/" + (hand ? "Hands/" : "Poses/") + id);
+            pict.preserveAspect = true;
+            pict.raycastTarget = false;
+            pict.rectTransform.pivot = new Vector2(.5f, .5f);
+            pict.rectTransform.anchoredPosition = new Vector2(w / 2, -(h + 36) / 2);
+            if (mirror)
+                pict.rectTransform.localScale = new Vector3(-1, 1, 1);
+            Label(panel.transform, T("movement." + id), 15, 17, w - 30, 32, Mathf.Clamp((int)(w / 10), 10, 18), TextAnchor.UpperRight).color = new Color(.93f, .95f, 1);
+        }
+
+        void UpdateCues(int i)
+        {
+            if (!cueRoot || i == shown)
+                return;
+            shown = i;
+            foreach (Transform c in cueRoot)
+                Destroy(c.gameObject);
+            if (i >= battle.cues.Count)
+                return;
+            var c0 = battle.cues[i];
+            CueCard(cueRoot, c0.pose, 725, 145, 240, 190);
+            CueCard(cueRoot, c0.left, 550, 175, 155, 155, true, true);
+            CueCard(cueRoot, c0.right, 985, 175, 155, 155, true);
+            for (int j = 1; j <= 3 && i + j < battle.cues.Count; j++)
+            {
+                var c = battle.cues[i + j];
+                CueCard(cueRoot, c.pose, 1310, 400 + (j - 1) * 120, 165, 110);
+                CueCard(cueRoot, c.left, 1200, 410 + (j - 1) * 120, 105, 100, true, true);
+                CueCard(cueRoot, c.right, 1480, 410 + (j - 1) * 120, 105, 100, true);
+            }
+
+            robot.SetCue(c0, battle.robotHP);
+        }
+
+        public void StartSong(bool training)
+        {
+            if (ending)
+                return;
+            AudioListener.pause = false;
+            music.Stop();
+            practice = training;
+            clip = Resources.Load<AudioClip>("Music/" + Path.GetFileNameWithoutExtension(selected.fileName));
+            if (!clip)
+            {
+                notice = T("error.song_load");
+                Show(ScreenState.Songs);
+                return;
+            }
+
+            clip.LoadAudioData();
+            StartCoroutine(BeginLoaded());
+        }
+
+        IEnumerator BeginLoaded()
+        {
+            notice = "";
+            while (clip.loadState == AudioDataLoadState.Loading)
+                yield return null;
+            if (clip.loadState == AudioDataLoadState.Failed)
+            {
+                notice = T("error.song_load");
+                Show(ScreenState.Songs);
+                yield break;
+            }
+
+            int seed = Guid.NewGuid().GetHashCode();
+            battle = new Battle(selected, clip.length, movements, seed, practice, balance);
+            startDsp = AudioSettings.dspTime + .4 + selected.Window - selected.firstBeatOffsetSeconds;
+            music.clip = clip;
+            music.timeSamples = 0;
+            music.volume = save.settings.music;
+            music.PlayScheduled(startDsp);
+            recognition.NewEpoch();
+            judged = -1;
+            lastCount = -1;
+            SetSky(UnityEngine.Random.Range(0, 6));
+            Show(ScreenState.Playing);
+        }
+
+        void Frame(TrackingFrame f)
+        {
+            if (state == ScreenState.Playing && !ending)
+                battle?.Observe(f.time, c => PoseEvaluator.Evaluate(c, f, recognition.Neutral));
+        }
+
+        void Pause()
+        {
+            if (state != ScreenState.Playing || ending)
+                return;
+            AudioListener.pause = true;
+            recognition.NewEpoch();
+            Sound("pause");
+            Show(ScreenState.Pause);
+        }
+
+        void Resume()
+        {
+            if (state != ScreenState.Pause)
+                return;
+            recognition.NewEpoch();
+            AudioListener.pause = false;
+            Show(ScreenState.Playing);
+        }
+
+        void Leave()
+        {
+            music.Stop();
+            AudioListener.pause = false;
+            recognition.NewEpoch();
+            Show(ScreenState.Songs);
+        }
+
+        IEnumerator Finish(bool complete)
+        {
+            ending = true;
+            battle.Complete(complete);
+            save.runs.Add(battle.record);
+            Persist();
+            if (!complete)
+            {
+                float volume = music.volume;
+                for (float t = 0; t < 1.2f; t += Time.unscaledDeltaTime)
+                {
+                    music.volume = volume * (1 - t / 1.2f);
+                    countText.text = T("results.defeat");
+                    countText.fontSize = 60;
+                    yield return null;
+                }
+
+                music.Stop();
+                ending = false;
+                Show(ScreenState.Songs);
+            }
+            else
+            {
+                music.Stop();
+                countText.text = T(practice ? "results.practice" : "results.victory");
+                countText.fontSize = 60;
+                yield return new WaitForSecondsRealtime(1.1f);
+                ending = false;
+                Show(ScreenState.Results);
+            }
+        }
+
+        void ResultsUI()
+        {
+            Header(T(practice ? "results.practice" : battle.record.victory ? "results.victory" : "results.defeat"));
+            var p = Panel(root, 350, 170, 900, 580);
+            var r = battle.record;
+            Label(p.transform, r.rank, 45, 30, 250, 160, 100, TextAnchor.MiddleCenter);
+            Label(p.transform, T("stats.score") + "  " + Number(r.score) + "\n" + T("stats.accuracy") + "  " + Percent(r.accuracy) + "\n" + T("stats.max_combo") + "  " + r.maxCombo, 340, 35, 500, 180, 30);
+            Label(p.transform, $"Perfect  {r.judgements[0]}     Great  {r.judgements[1]}\nGood  {r.judgements[2]}     Miss  {r.judgements[3]}", 50, 275, 800, 100, 28, TextAnchor.MiddleCenter);
+            Button(p.transform, T("results.retry"), 50, 450, 370, 70, () => StartSong(practice));
+            Button(p.transform, T("results.songs"), 480, 450, 370, 70, Leave);
+        }
+
+        void Update()
+        {
+            if (assets == null)
+                return;
+            var kb = Keyboard.current;
+            if (state == ScreenState.Title && (kb?.anyKey.wasPressedThisFrame == true || Mouse.current?.leftButton.wasPressedThisFrame == true))
+            {
+                Show(ScreenState.Menu);
+                return;
+            }
+
+            if (kb?.escapeKey.wasPressedThisFrame == true)
+                Back();
+            if (sky && state == ScreenState.Title)
+                sky.SetFloat("_Rotation", Time.unscaledTime * .7f);
+            if (preview && recognition.PreviewTexture)
+            {
+                preview.color = Color.white;
+                preview.texture = recognition.PreviewTexture;
+                preview.uvRect = new Rect(0, 0, 1, 1);
+                float ratio = (float)preview.texture.width / preview.texture.height;
+                float w = Mathf.Min(previewBounds.x, previewBounds.y * ratio);
+                var size = new Vector2(w, w / ratio);
+                preview.rectTransform.sizeDelta = size;
+                preview.rectTransform.anchoredPosition = new Vector2(12 + (previewBounds.x - size.x) / 2, -12 - (previewBounds.y - size.y) / 2);
+                overlayRect.sizeDelta = size;
+                overlayRect.anchoredPosition = preview.rectTransform.anchoredPosition;
+            }
+
+            if (state == ScreenState.Settings)
+            {
+                voiceStatusText.text = T(recognition.VoiceStatus);
+                cameraDeviceText.text = recognition.CameraTexture ? T("settings.camera") + ": " + recognition.CameraTexture.deviceName : T(recognition.Status);
+                microphoneText.text = T("settings.microphone") + ": " + (save.settings.microphone < 0 ? T("settings.default_device") : Array.Find(recognition.Microphones, d => d.id == save.settings.microphone)?.name ?? "—");
+            }
+
+            if (state == ScreenState.Camera && warningText)
+            {
+                warningText.text = T(recognition.Tracked && !recognition.CanCalibrate ? "status.hand_missing" : recognition.Status);
+                if (cameraContinue)
+                    cameraContinue.interactable = recognition.CanCalibrate;
+            }
+
+            if (state != ScreenState.Playing || battle == null || ending)
+                return;
+            double time = SongTime;
+            int visual = Math.Max(0, (int)Math.Floor((time - selected.firstBeatOffsetSeconds) / selected.Window) + 1);
+            UpdateCues(visual);
+            battle.Advance(time);
+            robot.Beat = (time - selected.firstBeatOffsetSeconds) * selected.bpm / 60;
+            robot.SetCue(visual < battle.cues.Count ? battle.cues[visual] : null, battle.robotHP);
+            hpPlayer.fillAmount = battle.playerHP / balance.hp;
+            hpRobot.fillAmount = battle.robotHP / balance.hp;
+            timerText.text = Timer(Math.Max(0, clip.length - Math.Max(0, time)));
+            scoreText.text = T("stats.score") + "\n" + Number(battle.record.score);
+            comboText.text = T("stats.combo") + "  " + battle.combo;
+            float a = recognition.Tracked && visual < battle.cues.Count ? PoseEvaluator.Evaluate(battle.cues[visual], recognition.Latest, recognition.Neutral) : 0;
+            accuracyText.text = Percent(a);
+            warningText.text = T(recognition.Status);
+            int count = time < selected.firstBeatOffsetSeconds ? Math.Min(8, (int)Math.Ceiling((selected.firstBeatOffsetSeconds - time) / (60 / selected.bpm))) : 0;
+            countText.text = count > 0 ? count.ToString() : "";
+            if (count != lastCount)
+            {
+                if (count > 0)
+                    Sound("countdown", true);
+                lastCount = count;
+            }
+
+            windowBar.fillAmount = visual < battle.cues.Count ? (float)Math.Max(0, (battle.cues[visual].target - time) / selected.Window) : 0;
+            if (battle.index != judged)
+            {
+                if (judged >= 0)
+                {
+                    assessmentText.text = battle.LastJudgement + "\n" + Percent(battle.LastAccuracy);
+                    Sound(battle.LastAccuracy >= balance.perfect ? "perfect" : "miss", true);
+                }
+
+                judged = battle.index;
+            }
+
+            if (battle.Defeated)
+                StartCoroutine(Finish(false));
+            else if (time >= clip.length + balance.inferenceWait)
+                StartCoroutine(Finish(true));
+        }
+
+        string Number(int n) => n.ToString("N0", ru).Replace('\u00a0', ' ');
+        string Percent(float n) => (n * 100).ToString("0.#", ru) + "%";
+        static string Timer(double t) => ((int)t / 60) + ":" + ((int)t % 60).ToString("00");
+        void OnDestroy()
+        {
+            AudioListener.pause = false;
+        }
+    }
+}

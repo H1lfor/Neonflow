@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Neonflow
   productName: Neonflow
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -41,8 +41,8 @@ PlayerSettings:
     height: 1
   m_SplashScreenLogos: []
   m_VirtualRealitySplashScreen: {fileID: 0}
-  defaultScreenWidth: 1024
-  defaultScreenHeight: 768
+  defaultScreenWidth: 1600
+  defaultScreenHeight: 900
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
@@ -87,7 +87,7 @@ PlayerSettings:
   androidApplicationEntry: 2
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   callOnDisableOnAssetBundleUnload: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -101,7 +101,7 @@ PlayerSettings:
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
-  resizableWindow: 0
+  resizableWindow: 1
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
   gpuSkinning: 1
@@ -113,7 +113,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 3
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -535,11 +535,11 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
+  cameraUsageDescription: "\u041A\u0430\u043C\u0435\u0440\u0430 \u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u0451\u0442 \u043F\u043E\u0437\u044B \u0438 \u0436\u0435\u0441\u0442\u044B \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u0438\u0433\u0440\u044B."
   locationUsageDescription: 
-  microphoneUsageDescription: 
+  microphoneUsageDescription: "\u041C\u0438\u043A\u0440\u043E\u0444\u043E\u043D \u0440\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u0451\u0442 \u043F\u044F\u0442\u044C \u0433\u043E\u043B\u043E\u0441\u043E\u0432\u044B\u0445 \u043A\u043E\u043C\u0430\u043D\u0434 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E."
   bluetoothUsageDescription: 
-  macOSTargetOSVersion: 12.0
+  macOSTargetOSVersion: 14.6
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
@@ -798,9 +798,11 @@ PlayerSettings:
   webProgressiveAssetLoading: 0
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
-  platformArchitecture: {}
+  platformArchitecture:
+    Standalone: 2
   scriptingBackend:
     Android: 1
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   il2cppLTOMode: {}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "unityVersion": "6000.6.6f1",
+  "pngAssets": 368,
+  "manifestSprites": 354,
+  "frameSequences": 13,
+  "frames": 198,
+  "atlases": 13,
+  "poseIcons": 12,
+  "handIcons": 10,
+  "screenPrefabs": 14,
+  "componentPrefabs": 13,
+  "effectPrefabs": 13,
+  "animationClips": 13,
+  "skyboxMaterials": 6,
+  "screensRendered": 14,
+  "unitypackageEntries": 506,
+  "textFit": "PASS",
+  "gallery": "195 images loaded; animation playback, pause and frame scrub checked in Chrome",
+  "renderPipelineTested": "Built-in",
+  "macOSTested": false,
+  "URPTested": false,
+  "notes": [
+    "AssetDatabase.ExportPackage has an obsolete-API warning in Unity 6000.6; export succeeded.",
+    "Gameplay preview contains UI only, no robot mesh and no live webcam."
+  ],
+  "errors": []
+}
